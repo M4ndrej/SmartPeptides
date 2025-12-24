@@ -1,0 +1,12 @@
+.hide-default-scroll {
+  -ms-overflow-style: none !important;
+  /* IE and Edge */
+  scrollbar-width: none !important;
+  /* Firefox */
+}
+
+.hide-default-scroll::-webkit-scrollbar {
+  display: none !important;
+  width: 0px !important;
+  -webkit-appearance: none !important;
+}
