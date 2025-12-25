@@ -68,13 +68,13 @@ const nextConfig = {
       //check this additionaly
       {
         protocol: "https",
-        hostname: "api.peptide.shop",
+        hostname: "api.valuepeptide.com",
         port: "",
         pathname: "**",
       },
       {
         protocol: "https",
-        hostname: "cdn.peptide.shop",
+        hostname: "cdnvalue.pepapi.dev",
         port: "",
         pathname: "**",
       },

@@ -74,7 +74,7 @@ export async function fetchStaticParams(): Promise<StaticData> {
     "uncategorized",
     "peptide-market",
     "peptide-cc",
-    "value-peptide",
+    "peptides",
     "peptide-shop",
     "is-research",
     "bactwater",
@@ -87,7 +87,7 @@ export async function fetchStaticParams(): Promise<StaticData> {
       "peptide-blends",
       "cosmetic-peptides",
       "peptide-supplies",
-      "value-peptide",
+      "peptides",
     ]
   );
   const blogCatsP = getStaticBlogCategoriesData([
@@ -95,7 +95,7 @@ export async function fetchStaticParams(): Promise<StaticData> {
     "peptide-science",
     "peptide-shop",
     "peptide-cc",
-    "value-peptide",
+    "peptides",
     "skin-care",
     "general",
     "fertility",
@@ -104,7 +104,7 @@ export async function fetchStaticParams(): Promise<StaticData> {
   ]);
   const blogListP = getStaticBlogs(
     ["peptide-market", "peptide-shop", "peptide-cc", "is-research"],
-    ["value-peptide"]
+    ["peptides"]
   );
 
   const [prodCats, prodList, blogCats, blogList] = await Promise.all([

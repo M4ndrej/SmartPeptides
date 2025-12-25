@@ -5,7 +5,7 @@ import "server-only";
 
 export async function getBlogsList(category?: string) {
   const excludedCategories = ["peptide-market", "peptide-shop", "peptide-cc"];
-  const includedCategories = category ? [category] : ["value-peptide"];
+  const includedCategories = category ? [category] : ["peptides"];
 
   const excludedString = excludedCategories.join(",");
   const includedString = includedCategories.join(",");

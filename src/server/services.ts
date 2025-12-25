@@ -172,7 +172,7 @@ export const getRelatedProducts = async (mainProduct: ProductNew) => {
     (r) =>
       r?.categories?.[0]?.slug !== "customs" &&
       r?.id !== 56914 &&
-      r?.categories?.some((c) => c.slug === "value-peptide")
+      r?.categories?.some((c) => c.slug === "peptides")
   );
 
   return relatedProducts;

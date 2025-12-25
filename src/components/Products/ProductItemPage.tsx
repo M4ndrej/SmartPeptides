@@ -73,7 +73,7 @@ const ProductItemPage: FC<ProductItemPageProps> = async ({ slug }) => {
   const paramString = generateFilterParamString({
     include: relatedIds.join(","),
     exclude: `${product.id},11557,56914`,
-    category: "value-peptide",
+    category: "peptides",
     per_page: 12,
   });
 

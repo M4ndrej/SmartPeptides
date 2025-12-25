@@ -9,7 +9,7 @@ type InitialProductListParams = Required<
 > &
   ProductListParams;
 
-const mainCategory = "value-peptide";
+const mainCategory = "peptides";
 
 export const generateFilterParamString = (clientFilters: {
   home_filter?: ClientProductHomeFilter;
