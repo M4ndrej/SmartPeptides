@@ -68,7 +68,7 @@ const PeptidesCategoriesAccoridon: FC<PeptidesCategoriesAccoridonProps> = ({
       <div
         onClick={(e) => showPeptides()}
         aria-expanded={height !== 0}
-        aria-controls="peptide-blends"
+        aria-controls="blends"
         className={classNames({
           "font-D18px-M14px peptides-accordion-btn group flex max-h-[38px] w-full max-w-full  cursor-pointer select-none items-center justify-between whitespace-nowrap rounded-[5px] py-[8px] pl-[12px] pr-[15px] font-bold transition duration-300 hover:bg-borderColor  sm:!max-w-[calc(100%-10px)]":
             true,

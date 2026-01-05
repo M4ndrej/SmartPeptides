@@ -1,40 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // output: 'export',
-  // async redirects() {
-  //   return [
-  //     {
-  //       source: "/product/:path",
-  //       destination: "/:path",
-  //       permanent: true,
-  //       statusCode: 301,
-  //     },
-  //   ];
-  // },
-  async redirects() {
-    return [
-      {
-        source: "/product/semaglutide",
-        destination: "/product/glp-1sg/",
-        permanent: true,
-      },
-      {
-        source: "/product/semaglutide/",
-        destination: "/product/glp-1sg/",
-        permanent: true,
-      },
-      {
-        source: "/product/retatrutide",
-        destination: "/product/glp-3rt/",
-        permanent: true,
-      },
-      {
-        source: "/product/retatrutide/",
-        destination: "/product/glp-3rt/",
-        permanent: true,
-      },
-    ];
-  },
   async headers() {
     return [
       {

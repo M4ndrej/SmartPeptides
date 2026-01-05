@@ -22,10 +22,10 @@ const PeptidesCategories: FC<PeptidesCategoriesProps> = ({ closePopover }) => {
     return categoryList?.toSorted((a, b) => {
       if (a.slug === "peptides") return -1;
       if (b.slug === "peptides") return 1;
-      if (a.slug === "peptide-blends") return -1;
-      if (b.slug === "peptide-blends") return 1;
-      if (a.slug === "cosmetic-peptides") return -1;
-      if (b.slug === "cosmetic-peptides") return 1;
+      if (a.slug === "blends") return -1;
+      if (b.slug === "blends") return 1;
+      if (a.slug === "cosmetic") return -1;
+      if (b.slug === "cosmetic") return 1;
       if (a.slug === "merch") return 1;
       if (b.slug === "merch") return -1;
       return 0;

@@ -9,7 +9,7 @@ export async function GET(request: Request) {
   const params = generateFilterParamString({
     search: searchTerm ?? "",
     per_page: 10,
-    category: "peptides,peptide-supplies,cosmetic-peptides,peptide-blends",
+    category: "peptides,supplies,cosmetic,blends",
   });
 
   let products = await fetchProducts(params);

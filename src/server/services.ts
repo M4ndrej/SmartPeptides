@@ -52,9 +52,10 @@ export async function fetchCategories() {
     [
       //"cosmetic-peptides",
       // "merch",
-      "peptide-blends",
-      "peptide-supplies",
+      "blends",
+      "supplies",
       "peptides",
+      "cosmetic"
     ].includes(c.slug)
   );
 }

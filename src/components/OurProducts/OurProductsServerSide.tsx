@@ -14,7 +14,7 @@ const OurProductsServerSide = async () => {
   // All products
   const allProductsParams = generateFilterParamString({
     category:
-      "peptides,peptide-blends,cosmetic-peptides,merch,peptide-supplies",
+      "peptides,blends,cosmetic,merch,supplies",
   });
   const allProductsP = fetchProducts(allProductsParams);
   // Categories

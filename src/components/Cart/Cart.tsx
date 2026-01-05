@@ -34,10 +34,9 @@ const Cart: FC<ICartProps> = ({ closePopover, itemsCount }) => {
   );
 
   const [cartType, setCartType] = useState<CartType>("US");
-
   const {
     cart: { items, total, fees, subtotal },
-  } = data || {
+  } = data?.cart ? data : {
     cart: {
       items: [],
       fees: [],

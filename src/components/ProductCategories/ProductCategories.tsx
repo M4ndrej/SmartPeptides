@@ -8,28 +8,6 @@ import AnimateHeight, { Height } from "react-animate-height";
 import useSWR from "swr";
 import DropdownIcon from "../Icons/DropdownIcon";
 
-// const renderCategories = (
-//   categoryList: Pick<Category, "name" | "parent" | "slug">[] | undefined
-// ) => {
-//   let newList = categoryList?.toSorted((a, b) => {
-//     if (a.slug === "peptides") return -1;
-//     if (b.slug === "peptides") return 1;
-//     if (a.slug === "peptide-blends") return -1;
-//     if (b.slug === "peptide-blends") return 1;
-//     if (a.slug === "cosmetic-peptides") return -1;
-//     if (b.slug === "cosmetic-peptides") return 1;
-//     if (a.slug === "merch") return 1;
-//     if (b.slug === "merch") return -1;
-//     return 0;
-//   });
-//   newList?.unshift({
-//     name: "All Products",
-//     slug: "shop",
-//     parent: 0,
-//   });
-//   return newList;
-// };
-
 const renderCategories = (
   categoryList: Pick<Category, "name" | "parent" | "slug">[] | undefined
 ) => {
@@ -37,10 +15,10 @@ const renderCategories = (
     ? [...categoryList].sort((a, b) => {
         if (a.slug === "peptides") return -1;
         if (b.slug === "peptides") return 1;
-        if (a.slug === "peptide-blends") return -1;
-        if (b.slug === "peptide-blends") return 1;
-        if (a.slug === "cosmetic-peptides") return -1;
-        if (b.slug === "cosmetic-peptides") return 1;
+        if (a.slug === "blends") return -1;
+        if (b.slug === "blends") return 1;
+        if (a.slug === "cosmetic") return -1;
+        if (b.slug === "cosmetic") return 1;
         if (a.slug === "merch") return 1;
         if (b.slug === "merch") return -1;
         return 0;

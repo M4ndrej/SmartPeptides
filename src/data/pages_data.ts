@@ -32,9 +32,9 @@ export const pages: IPagesProps[] = [
       links: [
         "/shop",
         "/peptides",
-        "/peptide-blends",
-        "/cosmetic-peptides",
-        "/peptide-supplies",
+        "/blends",
+        "/cosmetic",
+        "/supplies",
       ],
     },
   },
@@ -53,7 +53,7 @@ export const pages: IPagesProps[] = [
     showInNav: false,
   },
   {
-    link: "/peptide-blends",
+    link: "/blends",
     title: "Peptide Blends",
     headerTitle: "Peptide Blends",
     showInNav: false,

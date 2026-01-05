@@ -25,9 +25,9 @@ const GridView: FC<GridViewProps> = ({
   const shopPage = [
     "shop",
     "peptides",
-    "peptide-blends",
-    "cosmetic-peptides",
-    "peptide-supplies",
+    "blends",
+    "cosmetic",
+    "supplies",
   ].includes(activePath);
 
   const activeViewMode = fixedMode ? fixedMode : shopPage ? viewMode : "5x5";

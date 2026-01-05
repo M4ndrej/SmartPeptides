@@ -35,7 +35,7 @@ export const productCategories = [
 export const shopPagePaths = [
   {
     path: "/shop/",
-    category: "peptides,peptide-blends,cosmetic-peptides",
+    category: "peptides,blends,cosmetic",
     dropdown: "All Products",
     header: "Research Peptides",
     seoHeading: "Research Peptides Supplier",
@@ -64,8 +64,8 @@ export const shopPagePaths = [
       "Looking to buy cosmetic peptides with 99% purity? Value Peptide is the best place to do so and score an awesome discount!",
   },
   {
-    path: "/peptide-blends/",
-    category: "peptide-blends",
+    path: "/blends/",
+    category: "blends",
     dropdown: "Peptide Blends",
     header: "Research Peptide Blends",
     seoHeading: "Research Peptide Blends",
@@ -95,9 +95,9 @@ export const shopPagePaths = [
 ];
 
 export const categoriesReduced = [
-  "peptide-blends",
-  "cosmetic-peptides",
-  "peptide-supplies",
+  "blends",
+  "cosmetic",
+  "supplies",
 ];
 
-export const categoriesWeight = ["peptide-blends", "peptide-supplies"];
+export const categoriesWeight = ["blends", "supplies"];

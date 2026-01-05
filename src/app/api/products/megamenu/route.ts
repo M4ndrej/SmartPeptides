@@ -28,10 +28,11 @@ export async function GET() {
 
   const blendParams = generateFilterParamString({
     include: menuBlendIds.join(","),
+    category: 'blends'
   });
-
   const cosmeticParams = generateFilterParamString({
     include: menuCosmeticIds.join(","),
+    category: 'cosmetic'
   });
 
   const [peptides, supplies, blends, cosmetics] = await Promise.all([

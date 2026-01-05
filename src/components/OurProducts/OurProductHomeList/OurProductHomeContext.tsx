@@ -45,7 +45,7 @@ export const OurProductHomeProvider: FC<OurProductHomeProviderProps> = ({
         value={{
           fallback: {
             "/api/products/all?home_filter=all": homePeptides,
-            "/api/products/all?category=peptides,peptide-blends,cosmetic-peptides,merch,peptide-supplies":
+            "/api/products/all?category=peptides,blends,cosmetic,merch,supplies":
               allProducts,
             "/api/products/categories": categories,
           },

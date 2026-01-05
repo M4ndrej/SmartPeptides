@@ -34,13 +34,6 @@ export const generateFilterParamString = (clientFilters: {
       operator: "IN",
     });
   } else if (clientFilters?.category) {
-    (taxQuery as any).relation = "AND";
-    taxQuery.push({
-      taxonomy: "product_cat",
-      field: "slug",
-      terms: mainCategory,
-      operator: "IN",
-    });
     taxQuery.push({
       taxonomy: "product_cat",
       field: "slug",
@@ -101,6 +94,7 @@ export const generateFilterParamString = (clientFilters: {
   if (clientFilters?.exclude) {
     handleExclude(clientFilters.exclude, query);
   }
+
   return qs.stringify(query, { encode: false });
 };
 
@@ -109,17 +103,10 @@ const handleHomeFilters = (
   query: InitialProductListParams
 ): void => {
   let taxQuery: any[] = [];
-  (taxQuery as any).relation = "AND";
   taxQuery.push({
     taxonomy: "product_cat",
     field: "slug",
-    terms: mainCategory,
-    operator: "IN",
-  });
-  taxQuery.push({
-    taxonomy: "product_cat",
-    field: "slug",
-    terms: ["peptides", "peptide-blends", "cosmetic-peptides"],
+    terms: ["peptides", "blends", "cosmetic"],
     operator: "IN",
   });
   query.filter.tax_query = taxQuery;

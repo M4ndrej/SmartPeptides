@@ -43,11 +43,11 @@ const PeptideMegaMenu: FC<MegaMenuProps> = ({ closePopover }) => {
                 activeLink={activeCat}
                 title="Peptide Blends"
               />
-              {/*  <MegaMenuNavLink
+              <MegaMenuNavLink
                 onHoverFn={() => setActiveCat("Cosmetic Peptides")}
                 activeLink={activeCat}
                 title="Cosmetic Peptides"
-              /> */}
+              />
               {/*  <MegaMenuNavLink
                 onHoverFn={() => setActiveCat("Peptide Supplies")}
                 activeLink={activeCat}

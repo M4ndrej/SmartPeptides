@@ -84,9 +84,9 @@ export async function fetchStaticParams(): Promise<StaticData> {
     ["peptide-market", "peptide-shop", "peptide-cc", "merch", "is-research"],
     [
       "peptides",
-      "peptide-blends",
-      "cosmetic-peptides",
-      "peptide-supplies",
+      "blends",
+      "cosmetic",
+      "supplies",
       "peptides",
     ]
   );

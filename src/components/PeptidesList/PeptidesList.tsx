@@ -34,9 +34,9 @@ const PeptidesList: FC = () => {
           "opacity-0 delay-100": popoverOpened,
           "sm:!top-[113px] md:!top-[46px] lg:!top-[8px] xl:!top-[12px]":
             pathname === "/peptides/" ||
-            pathname === "/peptide-blends/" ||
-            pathname === "/cosmetic-peptides/" ||
-            pathname === "/peptide-supplies/",
+            pathname === "/blends/" ||
+            pathname === "/cosmetic/" ||
+            pathname === "/supplies/",
         })}
         onClick={() => handlePopoverAction(true, "peptidescategories")}
       >
