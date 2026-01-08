@@ -5,13 +5,13 @@ const GoogleProvider = () => {
     <>
       <Script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=G-LQREW54V73"
+        src="https://www.googletagmanager.com/gtag/js?id=G-WK32SCKJGN"
       />
       <Script id="google-data-layer">
         {`window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag("js", new Date());
-          gtag("config", "G-LQREW54V73");`}
+          gtag("config", "G-WK32SCKJGN");`}
       </Script>
 
       {/* GTM Data */}
