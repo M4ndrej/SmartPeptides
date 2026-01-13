@@ -7,7 +7,7 @@ export const peptidesDropMenuLinks = [
   {
     id: 2,
     title: "Peptide Blends",
-    link: "/peptide-blends",
+    link: "/blends",
   },
   /* ,
   {

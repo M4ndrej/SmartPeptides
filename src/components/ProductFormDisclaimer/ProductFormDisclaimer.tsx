@@ -14,7 +14,7 @@ const ProductFormDisclaimer: FC<ProductFormDisclaimerProps> = ({
   isMobile,
 }) => {
   const isPowderForm = mainProduct?.categories?.find(
-    (c) => c.slug === "peptides" || c.slug === "peptide-blends"
+    (c) => c.slug === "peptides" || c.slug === "blends"
   );
 
   const isSupply = mainProduct?.categories?.find(

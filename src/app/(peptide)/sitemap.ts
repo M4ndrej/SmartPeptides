@@ -34,13 +34,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 1,
     },
     {
-      url: `https://valuepeptide.com//peptide-blends/`,
+      url: `https://valuepeptide.com/blends/`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: `https://valuepeptide.com//cosmetic-peptides/`,
+      url: `https://valuepeptide.com/peptides/`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,

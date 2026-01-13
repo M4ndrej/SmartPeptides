@@ -17,9 +17,9 @@ interface DropdownProductsContentProps {
 
 const categoryPaths: Record<string, string> = {
   Peptides: "/shop",
-  "Peptide Blends": "/peptide-blends",
-  "Cosmetic Peptides": "/cosmetic-peptides",
-  "Peptide Supplies": "/peptide-supplies",
+  "Peptide Blends": "/blends",
+  "Cosmetic Peptides": "/cosmetic",
+  "Peptide Supplies": "/supplies",
   Merch: "/merch",
 };
 

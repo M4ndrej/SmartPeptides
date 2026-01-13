@@ -16,7 +16,7 @@ export async function fetchProductNavigation(
     const specProdUser = await isSpecificProductsUser();
 
     const paramObject: any = {
-      category: "peptides,peptide-blends,cosmetic-peptides,peptide-supplies",
+      category: "peptides,blends,cosmetic,supplies",
     };
 
     if (!specProdUser?.is_tirz_user) {

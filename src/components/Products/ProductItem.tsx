@@ -106,7 +106,7 @@ const ProductPage: FC<ProductPageProps> = ({
     if (selectedAttributes.length === 0) return undefined;
     return mainProduct.variations.find((variation) => {
       return variation.attributes.every((varAttr) => {
-        const selAttr = selectedAttributes.find((a) => a.name === varAttr.name);
+        const selAttr = selectedAttributes.find((a) => a.name.toLowerCase() === varAttr.name.toLowerCase());
         return varAttr.option === selAttr?.option;
       });
     });
@@ -231,7 +231,7 @@ const ProductPage: FC<ProductPageProps> = ({
       },
     ]);
 
-    if (!addToCartResult.success) return;
+    if (!addToCartResult.success || !addToCartResult.success.cart) return;
     await mutate("/api/cart/get_cart", {
       cart: addToCartResult.success.cart.data,
       loggedUser: "success",
