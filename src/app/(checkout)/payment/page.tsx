@@ -39,9 +39,12 @@ import { redirectMethods } from "@/data/payment_methods";
 import { useCheckoutContext } from "@/hooks/useCheckoutContext";
 import { SpecificUser } from "@/types/user";
 import { createPeptenCardRedirect } from "@/helpers/checkout_helpers";
+import SelectPaymentMethod from "@/components/SelectPaymentMethod/SelectPaymentMethod";
 
 const Checkout: FC = ({}) => {
-  const { isUpdateShipping } = useCheckoutContext();
+  const { isUpdateShipping, selectedPaymentMethod } = useCheckoutContext();
+  const [selectPaymentMethodModalOpen, setSelectPaymentMethodModalOpen] =
+    useState(false);
 
   const { dispatch } = useThemeContext();
 
@@ -103,6 +106,10 @@ const Checkout: FC = ({}) => {
   };
 
   const handlePlaceOrderAction = async (formData: FormData) => {
+    if (!selectedPaymentMethod) {
+      setSelectPaymentMethodModalOpen(true);
+      return;
+    }
     const placeOrder = await placeOrderAction(formData);
 
     setFieldsError({});
@@ -280,6 +287,10 @@ const Checkout: FC = ({}) => {
         paymentFailedModalOpen={paymentFailedModalOpen}
         handleClosePaymentFailed={handleClosePaymentFailed}
         paymentFailedMessage={paymentFailedMessage}
+      />
+      <SelectPaymentMethod
+        isOpen={selectPaymentMethodModalOpen}
+        setIsOpen={setSelectPaymentMethodModalOpen}
       />
     </>
   );
