@@ -1,6 +1,5 @@
 import "./globals.css";
 
-import { BigSaleBanner } from "@/components/BigSaleBanner/BigSaleBanner";
 import { getThemeInitScript } from "@/utils/getThemeInitScript";
 import classNames from "classnames";
 import type { Metadata } from "next";
@@ -87,7 +86,7 @@ export default async function RootLayout({
           <MainScroll>{children}</MainScroll>
           {/* </MainScroll> */}
           {/* <PreLanderContent /> */}
-          <BigSaleBanner />
+          {/* <BigSaleBanner /> */}
         </Providers>
         <LiveChatWidget />
       </body>
