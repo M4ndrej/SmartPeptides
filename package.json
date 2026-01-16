@@ -8,7 +8,8 @@
     "start": "set NODE_ENV=production & next start -p 4090",
     "lint": "next lint",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc.json",
-    "prepare": "husky"
+    "prepare": "husky",
+    "server-build": "rm -rf __MACOSX && rm -rf src && rm -rf .next/ && unzip src.zip && npm run build && pm2 restart all"
   },
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": [
