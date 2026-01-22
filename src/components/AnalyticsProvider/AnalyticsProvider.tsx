@@ -21,7 +21,7 @@ const AnalyticsProvider: FC<AnalyticsProviderProps> = ({ children }) => {
       <GoogleProvider />
 
       <Suspense fallback={null}>
-        <MetaPixel pixelIds={["655698189788473", "722913893882386","1382197523120022","852106210603645","871774755547955"]} />
+        <MetaPixel pixelIds={["655698189788473", "722913893882386", "1382197523120022", "852106210603645", "871774755547955", "907953948484699", "1761366668152424"]} />
       </Suspense>
 
       {children}
