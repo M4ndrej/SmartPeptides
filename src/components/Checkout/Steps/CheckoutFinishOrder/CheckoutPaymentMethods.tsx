@@ -8,7 +8,6 @@ import { AvailablePayments } from "@/types/payments";
 import classNames from "classnames";
 import { FC, useState } from "react";
 import { mutate } from "swr";
-import CheckoutPaymentOverlay from "./CheckoutPaymentOverlay";
 import CreditCardPaymentMethods from "./CreditCardPaymentMethods";
 import NonCreditCardPaymentMethods from "./NonCreditPaymentMethods";
 
@@ -70,7 +69,7 @@ const CheckoutPaymentMethods: FC<CheckoutPaymentMethodsProps> = ({
         paymentMethodUpdating && "pointer-events-none"
       )}
     >
-      <CheckoutPaymentOverlay />
+      {/* <CheckoutPaymentOverlay /> */}
       {billingCountry !== "US" && !isBannedEmail && (
         <CreditCardPaymentMethods
           selectedPaymentMethod={selectedPaymentMethod}
