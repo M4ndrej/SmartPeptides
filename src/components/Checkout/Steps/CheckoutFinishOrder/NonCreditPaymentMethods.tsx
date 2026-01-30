@@ -1,13 +1,6 @@
 import { PaymentMethods } from "@/types/payment";
 import { AvailablePayments } from "@/types/payments";
 import { FC } from "react";
-import BacsPayment from "../../PaymentOptions/BacsPayment";
-import CashAppPayment from "../../PaymentOptions/CashAppPayment";
-import CryptoPayment from "../../PaymentOptions/CryptoPayment";
-import PayPalPayment from "../../PaymentOptions/PayPalPayment";
-import RevolutPayment from "../../PaymentOptions/RevolutPayment";
-import VenmoPayment from "../../PaymentOptions/VenmoPayment";
-import ZellePayment from "../../PaymentOptions/ZellePayment";
 import StripePayment from "../../PaymentOptions/StripePayment";
 
 interface NonCreditCardPaymentsPropMethods {
@@ -59,21 +52,21 @@ const NonCreditCardPaymentMethods: FC<NonCreditCardPaymentsPropMethods> = ({
         />
       )} */}
       {/* ZELLE */}
-      {checkPaymentMethod("zelle") && (
+      {/* {checkPaymentMethod("zelle") && (
         <ZellePayment
           updatePaymentMethod={handleUpdatePaymentMethod}
           selectedPaymentMethod={selectedPaymentMethod}
           isUpdating={paymentMethodUpdating === "zelle"}
         />
-      )}
+      )} */}
       {/* CRYPTO */}
-      {checkPaymentMethod("nowpayments_gateway") && (
+      {/* {checkPaymentMethod("nowpayments_gateway") && (
         <CryptoPayment
           updatePaymentMethod={handleUpdatePaymentMethod}
           selectedPaymentMethod={selectedPaymentMethod}
           isUpdating={paymentMethodUpdating === "nowpayments_gateway"}
         />
-      )}
+      )} */}
       {/* PAYPAL */}
       {/* {checkPaymentMethod("peptide-paypal") && (
         <PayPalPayment
