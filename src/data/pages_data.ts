@@ -89,12 +89,12 @@ export const pages: IPagesProps[] = [
   //   showInNav: true,
   // },
   { link: "/faq", title: "FAQ", headerTitle: "FAQ", showInNav: false },
-  {
+  /* {
     link: "/affiliate",
     title: "Affiliate",
     headerTitle: "Affiliate",
     showInNav: false,
-  },
+  }, */
   {
     link: "/profile",
     title: "Profile",
@@ -126,7 +126,7 @@ export const pages: IPagesProps[] = [
     headerTitle: "Profile Details",
     showInNav: false,
   },
-  {
+ /*  {
     link: "/profile/affiliate",
     title: "My Affiliate",
     headerTitle: "My Affiliate",
@@ -161,7 +161,7 @@ export const pages: IPagesProps[] = [
     title: "Edit Affiliate Profile",
     headerTitle: "Edit Affiliate Profile",
     showInNav: false,
-  },
+  }, */
   {
     link: "/cart",
     title: "Cart",
