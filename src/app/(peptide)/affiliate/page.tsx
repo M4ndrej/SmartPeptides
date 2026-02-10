@@ -1,4 +1,4 @@
-export const metadata = {
+/* export const metadata = {
   title: "Affiliate",
   description: "Affiliate",
   ...(process.env.ENVIRONMENT === "production" && {
@@ -10,13 +10,14 @@ export const metadata = {
     index: false,
     follow: false,
   },
-};
+}; */
 
-import Affiliate from "@/components/Affiliate/Affiliate";
+import { notFound } from "next/navigation";
+//import Affiliate from "@/components/Affiliate/Affiliate";
 import { WithContext } from "schema-dts";
 
 export default async function AffiliatePage() {
-  // return redirect("/404");
+   return notFound();
 
   const jsonLd: WithContext<any> = {
     "@context": "https://schema.org",
@@ -58,7 +59,7 @@ export default async function AffiliatePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <Affiliate />
+      {/* <Affiliate /> */}
     </>
   );
 }
