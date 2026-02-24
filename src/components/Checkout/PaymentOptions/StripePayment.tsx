@@ -15,7 +15,7 @@ const StripePayment: FC<StripePaymentProps> = ({
 }) => {
   return (
     <PaymentOption
-      paymentMethod="pepten_card"
+      paymentMethod="peptide_card"
       title="Credit Card"
       image="/images/bxs_credit-card.svg"
       updatePaymentMethod={updatePaymentMethod}
