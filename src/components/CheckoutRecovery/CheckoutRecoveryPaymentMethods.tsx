@@ -52,7 +52,7 @@ const CheckoutRecoveryPaymentMethods: FC<
   const checkPaymentMethod = (method: PaymentMethods) => {
     const isEnabled = availablePayments?.[method]?.enabled === "yes";
     const isCountryAllowed = checkPaymentForCountry(method, billingCountry);
-    if (method === "peptide_card" && !isStripeUser) {
+    if (method === "petide_card" && !isStripeUser) {
       return false;
     }
     if (method === "peptide-paypal" && !isPayPalUser) {
