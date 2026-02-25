@@ -133,8 +133,8 @@ const Checkout: FC = ({}) => {
       return router.push(result.payment_result.redirect_url);
     }
 
-    // Handle pepten_card payment with server-side encryption
-    if (result?.payment_method === "pepten_card") {
+    // Handle petide_card payment with server-side encryption
+    if (result?.payment_method === "petide_card") {
       const redirectResult = await createPeptenCardRedirect(
         cartData?.cart?.billing_address?.email || "",
         result.order_id,
