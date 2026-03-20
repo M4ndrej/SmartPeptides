@@ -48,7 +48,7 @@ export type PaymentMethods =
   | "peptide-paypal"
   | "peptide-revolut"
   | "vidamagica"
-  | "petide_card";
+  | "ppsliving_card";
 
 export interface Ga4Data {
   client_id: string;

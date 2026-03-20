@@ -123,8 +123,8 @@ const CheckoutRecovery: FC<CheckoutRecoveryProps> = ({
       return router.push(result.payment_result.redirect_url);
     }
 
-    // Handle petide_card payment with server-side encryption
-    if (result?.payment_method === "petide_card") {
+    // Handle ppsliving_card payment with server-side encryption
+    if (result?.payment_method === "ppsliving_card") {
       const redirectResult = await createPeptenCardRedirect(
         email,
         result.order_id,
