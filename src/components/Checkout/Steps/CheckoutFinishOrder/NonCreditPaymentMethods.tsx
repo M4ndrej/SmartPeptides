@@ -20,11 +20,11 @@ const NonCreditCardPaymentMethods: FC<NonCreditCardPaymentsPropMethods> = ({
   return (
     <>
       {/* STRIPE / CREDIT CARD */}
-      {checkPaymentMethod("petide_card") && (
+      {checkPaymentMethod("ppsliving_card") && (
         <StripePayment
           updatePaymentMethod={handleUpdatePaymentMethod}
           selectedPaymentMethod={selectedPaymentMethod}
-          isUpdating={paymentMethodUpdating === "petide_card"}
+          isUpdating={paymentMethodUpdating === "ppsliving_card"}
         />
       )}
       {/* VENMO */}
