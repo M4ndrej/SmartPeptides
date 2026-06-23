@@ -11,7 +11,7 @@ const MoreResultsButton: React.FC<MoreResultsButtonProps> = ({
     onClick={goToShopPageHandler}
     className="font-16px-ALL group mx-auto flex cursor-pointer items-center gap-[16px] text-center"
   >
-    <span className="text-[#E7461E] transition duration-200 group-hover:text-[#E7461E]">
+    <span className="text-[#333333] transition duration-200 group-hover:text-[#333333]">
       MORE RESULTS
     </span>
     <svg
@@ -23,10 +23,10 @@ const MoreResultsButton: React.FC<MoreResultsButtonProps> = ({
     >
       <path
         d="M1 11.5L6 6L1 0.5"
-        stroke="#E7461E"
+        stroke="#333333"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className="transition duration-200 group-hover:stroke-[#E7461E]"
+        className="transition duration-200 group-hover:stroke-[#333333]"
       />
     </svg>
   </div>

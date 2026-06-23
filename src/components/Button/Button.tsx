@@ -63,15 +63,15 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         onClick={handleButtonPress}
         className={classNames(
           {
-            "inline-flex select-none items-center justify-center overflow-hidden text-ellipsis whitespace-nowrap rounded-[5px] border border-[#E7461E] px-[32px] py-[12px] font-medium text-[#E7461E] !transition-all !duration-300 sm:w-full":
+            "inline-flex select-none items-center justify-center overflow-hidden text-ellipsis whitespace-nowrap rounded-[5px] border border-[#333333] px-[32px] py-[12px] font-medium text-[#333333] !transition-all !duration-300 sm:w-full":
               true,
             "transition-all duration-300 ":
               !disabled &&
               !spiner &&
               !showSpinerOutside &&
               !customHighlightedHover,
-            "bg-[#E7461E] text-textWhite hover:text-textWhite": highlighted,
-            "hover:bg-[#FFE9E3] hover:text-[#E7461E] dark:hover:bg-transparent":
+            "bg-[#333333] text-textWhite hover:text-textWhite": highlighted,
+            "hover:bg-[#f0f0f0] hover:text-[#333333] dark:hover:bg-transparent":
               !highlighted,
             "h-[48px]": !smallerButton,
             "h-[44px]": smallerButton,

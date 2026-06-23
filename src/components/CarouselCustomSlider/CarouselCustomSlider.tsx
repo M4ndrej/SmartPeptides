@@ -37,7 +37,7 @@ const CarouselCustomSlider = ({ ...props }) => {
       }`}
     >
       <div
-        className={`t-0 absolute h-[5px] rounded-[5px] bg-[#E7461E] transition-all duration-300 ${widthPercent} ${leftPercent}`}
+        className={`t-0 absolute h-[5px] rounded-[5px] bg-[#333333] transition-all duration-300 ${widthPercent} ${leftPercent}`}
       ></div>
     </div>
   );

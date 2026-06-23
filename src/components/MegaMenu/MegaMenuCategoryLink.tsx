@@ -15,7 +15,7 @@ const MegaMenuCategoryLink: FC<MegaMenuCategoryLinkProps> = ({
   return (
     <Link
       href={link}
-      className="font-16px-ALL mega-menu-category-link group line-clamp-1 flex items-center justify-between text-gray2 transition duration-200 hover:text-[#E7461E]"
+      className="font-16px-ALL mega-menu-category-link group line-clamp-1 flex items-center justify-between text-gray2 transition duration-200 hover:text-[#333333]"
     >
       <div className="flex items-center gap-[8px]">
         <span className="h-[8px] w-[8px] rounded-[8px] !bg-[#D9D9D9] transition duration-200 group-hover:!bg-[#D9D9D9]"></span>

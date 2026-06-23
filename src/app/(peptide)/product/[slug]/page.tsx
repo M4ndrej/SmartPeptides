@@ -46,7 +46,7 @@ export async function generateMetadata({
         description: product.meta.description,
         images: [product.meta.image.src],
         type: "website",
-        siteName: "VALUE PEPTIDE",
+        siteName: "SMART PEPTIDES",
       },
     };
   }

@@ -127,7 +127,7 @@ const LoginCode: FC<LoginCodeProps> = ({
             <button
               onClick={handleEditEmail}
               type="button"
-              className="font-D16px-M13px text-gray2 transition duration-300 hover:text-[#E7461E]"
+              className="font-D16px-M13px text-gray2 transition duration-300 hover:text-[#333333]"
               tabIndex={tabIndex}
             >
               Edit email

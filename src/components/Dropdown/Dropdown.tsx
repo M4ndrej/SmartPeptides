@@ -45,16 +45,16 @@ const Dropdown: FC<DropdownProps> = ({
       <div
         onClick={() => setIsOpen(!isOpen)}
         className={classNames(
-          "font-D16px-M13px flex w-full cursor-pointer items-center justify-between bg-lightgray p-4 font-bold text-[#E7461E] transition-all ease-in-out hover:bg-lightgray hover:text-[#E7461E] sm:py-[10px]",
+          "font-D16px-M13px flex w-full cursor-pointer items-center justify-between bg-lightgray p-4 font-bold text-[#333333] transition-all ease-in-out hover:bg-lightgray hover:text-[#333333] sm:py-[10px]",
           isOpen ? "rounded-t-[5px]" : "rounded-[5px]"
         )}
       >
-        <span className="text-[#E7461E]">
+        <span className="text-[#333333]">
           {items.find((item) => item.id == selectedId)?.name}
         </span>
         <DropdownIcon
           className={classNames(
-            "!stroke-[#E7461E] transition duration-200",
+            "!stroke-[#333333] transition duration-200",
             !isOpen && "rotate-[180deg]"
           )}
         />
@@ -75,9 +75,9 @@ const Dropdown: FC<DropdownProps> = ({
             <div
               key={item.id}
               className={classNames(
-                "font-D16px-M13px w-full cursor-pointer p-[16px] transition-all ease-in-out hover:bg-lightgray hover:font-bold hover:text-[#E7461E] sm:py-[10px]",
+                "font-D16px-M13px w-full cursor-pointer p-[16px] transition-all ease-in-out hover:bg-lightgray hover:font-bold hover:text-[#333333] sm:py-[10px]",
                 item.id === selectedId &&
-                  "bg-lightgray font-bold text-[#E7461E]"
+                  "bg-lightgray font-bold text-[#333333]"
               )}
               onClick={() => handleItemClick(item.id)}
             >

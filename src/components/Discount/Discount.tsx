@@ -56,7 +56,7 @@ const Discount: FC<DiscountProps> = ({ email, setEmail, setModalType }) => {
     <>
       <div className="relative z-10 mx-auto flex w-full max-w-[480px] flex-col items-center justify-center rounded-[5px] p-[32px] text-center sm:px-[16px] sm:py-[24px]">
         <form>
-          {/* <div className="text-[48px] font-medium leading-[58px] text-[#E7461E]">
+          {/* <div className="text-[48px] font-medium leading-[58px] text-[#333333]">
             15% OFF
           </div>
           <div className="mt-[16px]">

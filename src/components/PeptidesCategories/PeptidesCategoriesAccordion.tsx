@@ -82,7 +82,7 @@ const PeptidesCategoriesAccoridon: FC<PeptidesCategoriesAccoridonProps> = ({
       >
         <div
           className={classNames({
-            "transition duration-200 group-hover:text-[#E7461E]": homePage,
+            "transition duration-200 group-hover:text-[#333333]": homePage,
           })}
         >
           {title} {hasCount && !homePage && <span>({productCount})</span>}
@@ -118,7 +118,7 @@ const PeptidesCategoriesAccoridon: FC<PeptidesCategoriesAccoridonProps> = ({
                   key={`product-${index}`}
                   href={`/${getComProductSlug(product)}`}
                   className={classNames({
-                    "font-D16px-M13px cursor-pointer transition duration-300 hover:text-[#E7461E]":
+                    "font-D16px-M13px cursor-pointer transition duration-300 hover:text-[#333333]":
                       true,
                     "max-w-[175px] overflow-hidden text-ellipsis whitespace-nowrap":
                       textElipsis,

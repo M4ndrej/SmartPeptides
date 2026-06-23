@@ -381,7 +381,7 @@ const ProductPage: FC<ProductPageProps> = ({
                   )}
 
                   {isMerch ? (
-                    <p className="font-D14px-M13px mb-6 mt-2 font-bold text-[#E7461E]">
+                    <p className="font-D14px-M13px mb-6 mt-2 font-bold text-[#333333]">
                       *PURCHASING MERCH PRODUCTS MAY DELAY ENTIRE ORDER BY
                       ADDITIONAL 24H*
                     </p>

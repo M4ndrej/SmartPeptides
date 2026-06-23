@@ -10,7 +10,7 @@ const ResetSuccess: FC = () => {
           width={60}
           height={60}
           strokeWidth={1.2}
-          className="!stroke-[#E7461E]"
+          className="!stroke-[#333333]"
         />
         <div className="font-D20px-M18px text-center sm:font-medium">
           A reset link has been sent to your email.

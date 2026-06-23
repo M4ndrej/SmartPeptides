@@ -21,7 +21,7 @@ const ArrowLeft: FC<IconProps> = ({
       strokeWidth={strokeWidth}
       viewBox="0 0 40 40"
       xmlns="http://www.w3.org/2000/svg"
-      className={classNames("fill-none stroke-[#E7461E]", className)}
+      className={classNames("fill-none stroke-[#333333]", className)}
       {...props}
     >
       {withCircle && (

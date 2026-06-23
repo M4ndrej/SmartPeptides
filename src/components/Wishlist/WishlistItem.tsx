@@ -63,11 +63,11 @@ const WishlistItem: FC<WishlistItemProps> = ({ product, handleItemOpen }) => {
           </div>
           <div className="flex flex-col justify-center gap-[8px]">
             <div className="font-D16px-M13px font-bold">{product.name}</div>
-            <div className="font-D16px-M13px font-bold text-[#E7461E]">
+            <div className="font-D16px-M13px font-bold text-[#333333]">
               {formatCurrency(+product.price!, true)}
             </div>
             <div
-              className="font-D16px-M13px cursor-pointer select-none text-gray2 transition duration-300 hover:text-[#E7461E]"
+              className="font-D16px-M13px cursor-pointer select-none text-gray2 transition duration-300 hover:text-[#333333]"
               onClick={() => {
                 selectOptionsHandler(product);
               }}
@@ -80,7 +80,7 @@ const WishlistItem: FC<WishlistItemProps> = ({ product, handleItemOpen }) => {
           className={`group h-[16px] w-[16px] select-none ${
             wishlistItemLoading
               ? "cursor-wait"
-              : "cursor-pointer [&_circle]:transition [&_circle]:duration-300 [&_circle]:hover:fill-[#E7461E]"
+              : "cursor-pointer [&_circle]:transition [&_circle]:duration-300 [&_circle]:hover:fill-[#333333]"
           }`}
           onClick={() =>
             !wishlistItemLoading ? handleRemoveFromWishlist() : {}
@@ -98,7 +98,7 @@ const WishlistItem: FC<WishlistItemProps> = ({ product, handleItemOpen }) => {
               clipRule="evenodd"
               d="M8.70568 8.00094L15.9995 0.707107L15.2924 0L7.99857 7.29383L0.707107 0.00236523L0 0.709472L7.29146 8.00094L0 15.2924L0.707107 15.9995L7.99857 8.70805L15.2924 16.0019L15.9995 15.2948L8.70568 8.00094Z"
               fill="#999999"
-              className="transition duration-200 group-hover:fill-[#E7461E]"
+              className="transition duration-200 group-hover:fill-[#333333]"
             />
           </svg>
         </div>

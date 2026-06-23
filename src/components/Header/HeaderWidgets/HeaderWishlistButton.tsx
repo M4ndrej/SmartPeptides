@@ -27,7 +27,7 @@ const HeaderWishlistButton: FC<HeaderWishlistButtonProps> = ({ isSmaller }) => {
       {!!wishlistItemIds.length && (
         <div
           className={classNames(
-            "font-D13px-M11px absolute right-[-5px] top-0 flex h-[20px] w-[20px] cursor-pointer select-none items-center justify-center rounded-full bg-[#E7461E] text-white sm:right-[-3px] sm:top-[-3px] sm:h-[14px] sm:w-[14px] sm:pt-[1px]",
+            "font-D13px-M11px absolute right-[-5px] top-0 flex h-[20px] w-[20px] cursor-pointer select-none items-center justify-center rounded-full bg-[#333333] text-white sm:right-[-3px] sm:top-[-3px] sm:h-[14px] sm:w-[14px] sm:pt-[1px]",
             wishlistItemIds.length > 9 &&
               "right-[-4px] !h-[23px] !w-[23px] pt-[1px] text-[12px] leading-[15px] sm:right-[-8px] sm:top-[-4px] sm:!h-[20px] sm:!w-[20px] sm:pt-0"
           )}
@@ -37,7 +37,7 @@ const HeaderWishlistButton: FC<HeaderWishlistButtonProps> = ({ isSmaller }) => {
       )}
       <HeartIcon
         className={classNames(
-          "transition-colors duration-300 group-hover/wishlist:!fill-[#E7461E]",
+          "transition-colors duration-300 group-hover/wishlist:!fill-[#333333]",
           isSmaller ? "!h-6 !w-6 sm:!h-5 sm:!w-5" : "sm:!h-6 sm:!w-6"
         )}
       />

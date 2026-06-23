@@ -86,7 +86,7 @@ const CheckoutRightSide: FC<CheckoutRightSideProps> = ({
             <p>Subtotal</p>
             <p
               className={classNames({
-                " overflow-hidden text-[#E7461E] ": true,
+                " overflow-hidden text-[#333333] ": true,
                 "text-darkgray": recalculation || cartUpdate,
               })}
             >
@@ -146,7 +146,7 @@ const CheckoutRightSide: FC<CheckoutRightSideProps> = ({
                     "UPS® Ground (3 working days) [Free Shipping]" && ": "}
                   <span
                     className={classNames({
-                      " text-[#E7461E] ": true,
+                      " text-[#333333] ": true,
                       flex:
                         shippment.label ===
                         "UPS® Ground (3 working days) [Free Shipping]",
@@ -190,7 +190,7 @@ const CheckoutRightSide: FC<CheckoutRightSideProps> = ({
                 {" "}
                 <span
                   className={classNames({
-                    " text-[#E7461E] ": true,
+                    " text-[#333333] ": true,
                     "animate-pulse":
                       recalculation || cartUpdate || isCartUpdating,
                   })}
@@ -212,7 +212,7 @@ const CheckoutRightSide: FC<CheckoutRightSideProps> = ({
             <p className="uppercase">Total</p>
             <p
               className={classNames({
-                " overflow-hidden text-[#E7461E] ": true,
+                " overflow-hidden text-[#333333] ": true,
                 "text-darkgray": recalculation || cartUpdate || isCartUpdating,
               })}
             >

@@ -55,7 +55,7 @@ const ChatImageModal: FC<ChatImageModalProps> = ({
         <div className={`mt-[8px] flex gap-[8px]`}>
           <button
             onClick={() => imageURL && handleDownload(imageURL)}
-            className={`download flex items-center gap-[8px] text-white hover:text-[#E7461E]`}
+            className={`download flex items-center gap-[8px] text-white hover:text-[#333333]`}
           >
             <svg
               width="24"
@@ -63,7 +63,7 @@ const ChatImageModal: FC<ChatImageModalProps> = ({
               viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="text-white hover:text-[#E7461E]"
+              className="text-white hover:text-[#333333]"
             >
               <path
                 d="M4 16.004V17C4 17.7956 4.33583 18.5587 4.9336 19.1213C5.53137 19.6839 6.34212 20 7.1875 20H17.8125C18.6579 20 19.4686 19.6839 20.0664 19.1213C20.6642 18.5587 21 17.7956 21 17V16M12.5 4.5V15.5M12.5 15.5L16.2188 12M12.5 15.5L8.78125 12"

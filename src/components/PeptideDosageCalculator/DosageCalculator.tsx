@@ -29,7 +29,7 @@ const DosageCalculator: FC = ({}) => {
             <h1 className="font-D32px-M24px pb-[16px] font-bold">
               Peptide Dosage Calculator
             </h1>
-            <div className="mb-[4px] h-[2px] w-[48px] bg-[#E7461E]"></div>
+            <div className="mb-[4px] h-[2px] w-[48px] bg-[#333333]"></div>
             <div className="font-D16px-M13px mt-5">
               We already talked about the best way of storing and transporting
               peptides is when they’re in lyophilized (powder) form. But, this
@@ -141,7 +141,7 @@ const DosageCalculator: FC = ({}) => {
                     <br />
                     <br />
                     You can also{" "}
-                    <a href="https://valuepeptide.com//product/bacteriostatic-water-30ml/">
+                    <a href="https://smartpeptides.com//product/bacteriostatic-water-30ml/">
                       buy bacteriostatic water
                     </a>{" "}
                     directly from our website.

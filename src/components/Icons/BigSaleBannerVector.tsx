@@ -17,7 +17,7 @@ export const BigSaleBannerVector: FC<BigSaleBannerVectorProps> = ({
       xmlns="http://www.w3.org/2000/svg"
       className={classNames("", className)}
     >
-      <path d="M17 139L59 0H42L0 139H17Z" fill="#E7461E" />
+      <path d="M17 139L59 0H42L0 139H17Z" fill="#333333" />
     </svg>
   );
 };

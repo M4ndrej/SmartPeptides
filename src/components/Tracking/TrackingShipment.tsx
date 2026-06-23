@@ -24,7 +24,7 @@ const TrackingShipment: FC<TrackingShipmentProps> = ({
           <h1 className="font-D32px-M24px pb-[16px] text-center font-bold">
             Shipment Tracking
           </h1>
-          <div className="mx-auto mb-[24px] h-[2px] w-[48px] bg-[#E7461E]" />
+          <div className="mx-auto mb-[24px] h-[2px] w-[48px] bg-[#333333]" />
         </>
       )}
 

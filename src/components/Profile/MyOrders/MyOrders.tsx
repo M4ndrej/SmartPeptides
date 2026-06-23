@@ -136,8 +136,8 @@ const MyOrders: FC = () => {
                 className={classNames({
                   "flex cursor-pointer items-center justify-center rounded-[5px] px-[9px] text-center":
                     true,
-                  "bg-[#E7461E] text-white": pageIndex == i,
-                  "text-gray2 hover:text-[#E7461E]": pageIndex != i,
+                  "bg-[#333333] text-white": pageIndex == i,
+                  "text-gray2 hover:text-[#333333]": pageIndex != i,
                 })}
                 onClick={() => setPageIndex(i)}
               >

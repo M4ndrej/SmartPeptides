@@ -31,7 +31,7 @@ const SingleMerchVersion: FC<SingleMerchVersionProps> = ({
       <div
         className={classNames(
           "relative h-16 w-16 overflow-hidden rounded-[5px] border-2",
-          selectedVersion === version ? "border-[#E7461E]" : "border-lightgray"
+          selectedVersion === version ? "border-[#333333]" : "border-lightgray"
         )}
       >
         {!!versionImage && (

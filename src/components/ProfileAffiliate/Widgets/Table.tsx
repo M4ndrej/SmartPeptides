@@ -70,7 +70,7 @@ const Table = <T extends TableData>({
                 column?.isSortable !== false && "cursor-pointer",
                 column?.isSortable !== false &&
                   sort?.key === column.key &&
-                  "bg-[#FFE9E3] dark:bg-transparent"
+                  "bg-[#f0f0f0] dark:bg-transparent"
               )}
               style={{ width: column?.width ? `${column.width}%` : "auto" }}
             >

@@ -61,31 +61,17 @@ const SubscribeContent: FC = () => {
   return (
     <div
       id="subscribe-content"
-      className="h-[223px] w-full rounded-[10px] bg-white shadow-globalShadow sm:h-auto sm:w-full md:w-full lg:mx-auto lg:max-w-[800px] xl:max-w-[998px]"
+      className="flex flex-col items-start gap-3"
     >
-      <div className="flex flex-col items-center pb-[48px] pt-[40px] sm:w-full sm:px-[32px] sm:py-[32px]">
-        <div className="font-D32px-M24px pb-[16px] font-bold">
-          Subscribe to get updates and exclusive offers
-        </div>
-        <div className="mb-[30px] h-[2px] w-[48px] rounded-[2px] bg-[#E7461E]"></div>
-        {subscribeToMailpoet ? (
+        <div className="font-D32px-M24px font-bold text-textWhite">
+          Subscribe to our newsletter
+        </div>        {subscribeToMailpoet ? (
           <div>
             Check your inbox or spam folder to confirm your subscription.
           </div>
         ) : (
           <form action={handleSubscribeAction} noValidate className="sm:w-full">
             <div className="flex items-start justify-center sm:w-full sm:flex-col">
-              <div className="personal_inputs">
-                <MyInput
-                  label="Username"
-                  name="username"
-                  required={true}
-                  value={fields.username}
-                  type="text"
-                  containerClassName="!w-[360px] !mr-[16px] sm:!w-[100%] sm:!mr-0 sm:!mb-[16px] !font-D16px-M14px !px-[16px] !py-[12px] select-none"
-                  onChange={handleInput}
-                />
-              </div>
               <MyInput
                 label="Email Address"
                 name="email"
@@ -101,16 +87,16 @@ const SubscribeContent: FC = () => {
                 }
               />
               <SubmitButton
-                text="SUBSCRIBE"
+                text="SUBMIT"
                 showSpiner
                 reverseColors
                 highlighted={true}
-                customClass="sm:w-full sm:max-w-full sm:mt-[6px] !bg-[#E7461E] border-[#E7461E]"
+                customClass="sm:w-full sm:max-w-full sm:mt-[6px] !bg-[#9A9A9F] border-[#9A9A9F]"
               />
             </div>
           </form>
         )}
-      </div>
+        <p>Lorem ipsum dolor sit amet consectetur.llam lacus nec facilisi bibendum amet. Velit urna scelerisque enim eu nunc viverra.</p>
     </div>
   );
 };

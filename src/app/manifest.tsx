@@ -2,10 +2,10 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "VALUE PEPTIDE",
-    short_name: "VALUE PEPTIDE",
+    name: "SMART PEPTIDES",
+    short_name: "SMART PEPTIDES",
     description:
-      "If you are looking to buy high-quality research peptides, stop by Value Peptide! We offer highly purified, safe, and effective peptides you can buy online today!",
+      "If you are looking to buy high-quality research peptides, stop by Smart Peptides! We offer highly purified, safe, and effective peptides you can buy online today!",
     start_url: "/",
     display: "standalone",
     background_color: "#fffff",

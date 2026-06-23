@@ -37,13 +37,13 @@
   --color-backdrop: #333333cc;
   --color-scrollColor: #33333399;
   --color-whiteBackdrop: #ffffffcc;
-  --color-yellow: #ffc439;
+  --color-yellow: #333333;
   --color-light-sky-blue: #f4faff;
   --color-green: #00d632;
   --color-blue2: #2b6da3;
   --color-gray4: #e3e3e3;
   --color-successGreen: #b9f8c5;
-  --color-yellow2: #fff857;
+  --color-yellow2: #f0f0f0;
   --color-red2: #ff4848;
   --color-borderGray: #ededed;
   --color-cardBtnBg: #f0f0f0;
@@ -52,7 +52,7 @@
   --color-green2: #5cb531;
   --color-gray5: #f2f2f2;
   --color-inputColor: #fff;
-  --color-gray-scroll: #e3e3e3;
+  --color-gray-scroll: #c9c9c9;
   --color-selection: #3d9be933;
 }
 
@@ -73,6 +73,7 @@
   --color-gray2: #e3e3e3;
   --color-borderGray: #434343;
   --color-gray-scroll: #222222;
+  --color-darkgray: #f1f1f1;
 }
 
 ::selection {
@@ -242,7 +243,7 @@ html {
 .long-desc p a {
   text-decoration: underline;
   transition: all 0.2s ease;
-  color: #E7461E !important;
+  color: #333333 !important;
 }
 
 .long-desc ul {
@@ -490,11 +491,11 @@ html {
 }
 
 .swiper-pagination-bullet-active {
-  background: #E7461E !important;
+  background: #333333 !important;
 }
 
 .dark .swiper-pagination-bullet-active {
-  background: #E7461E !important;
+  background: #333333 !important;
 }
 
 #prev-btn[disabled],
@@ -520,7 +521,7 @@ html {
   }
 
   .hover-dropdown-link {
-    @apply transition duration-200 hover:text-[#E7461E];
+    @apply transition duration-200 hover:text-darkgray;
   }
 
   .grid-cols-3-custom {
@@ -587,7 +588,7 @@ html {
   }
 
   .blue-color-hover {
-    @apply transition duration-200 hover:text-[#E7461E];
+    @apply transition duration-200 hover:text-darkgray;
   }
 
   /* .nav .nav-link:nth-child(7) .nav-link-affiliate {
@@ -598,7 +599,7 @@ html {
   .nav .nav-link:nth-child(7) .nav-link-affiliate .underline {
     width: 100%;
     height: 2px;
-    background: #E7461E;
+    background: #333333;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -615,7 +616,7 @@ html {
     transition: transform 0.2s;
 
     @media only screen and (min-width: 1200px) {
-      border-bottom: solid 3px #E7461E;
+      border-bottom: solid 3px var(--color-darkgray);
     }
   }
 
@@ -635,7 +636,7 @@ html {
     transition: transform 0.2s;
 
     @media only screen and (min-width: 1200px) {
-      border-bottom: solid 3px #E7461E;
+      border-bottom: solid 3px #333333;
     }
   }
 
@@ -813,11 +814,11 @@ html {
   }
 
   .banner-option {
-    @apply flex cursor-pointer select-none items-center justify-center rounded-[4px] border-[1px] border-gray2 px-[8px] py-[4px] text-[14px] leading-[22px] text-gray2 transition duration-200 hover:border-[#E7461E] hover:bg-transparent hover:text-[#E7461E];
+    @apply flex cursor-pointer select-none items-center justify-center rounded-[4px] border-[1px] border-gray2 px-[8px] py-[4px] text-[14px] leading-[22px] text-gray2 transition duration-200 hover:border-[#333333] hover:bg-transparent hover:text-darkgray;
   }
 
   .banner-option--active {
-    @apply border-[#E7461E] bg-[#E7461E] text-white hover:bg-[#E7461E] hover:text-white;
+    @apply border-[#333333] bg-[#333333] text-white hover:bg-[#333333] hover:text-white;
   }
 
   /* Main page heading */
@@ -1011,22 +1012,22 @@ html {
 
   /* With full blue bg */
   .link-btn--full {
-    @apply bg-[#E7461E] text-white hover:bg-[#E7461E];
+    @apply bg-[#333333] text-white hover:bg-[#333333];
   }
 
   /* With transparent bg */
   .link-btn--transparent {
-    @apply border border-[#E7461E] bg-transparent text-[#E7461E] hover:bg-[#E7461E] hover:text-white;
+    @apply border border-[#333333] bg-transparent text-darkgray hover:bg-[#333333] hover:text-white;
   }
 
   /* ///////////////////////////////////////////////////////////////////////////////////// */
   /* ///////////////////////////////////////////////////////////////////////////////////// */
   /* Cart css styles */
   .product-tab {
-    @apply font-14px-ALL cursor-pointer uppercase transition duration-300 hover:text-[#E7461E] md:py-[8px] lg:py-[8px] xl:px-0;
+    @apply font-14px-ALL cursor-pointer uppercase transition duration-300 hover:text-darkgray md:py-[8px] lg:py-[8px] xl:px-0;
   }
   .product-tab-active {
-    @apply relative rounded-[5px] font-bold  text-[#E7461E] after:absolute after:bottom-[8px] after:left-0 after:h-[2px] after:w-full after:bg-[#E7461E] hover:text-[#E7461E] lg:hover:bg-transparent xl:bg-transparent;
+    @apply relative rounded-[5px] font-bold  text-darkgray after:absolute after:bottom-[8px] after:left-0 after:h-[2px] after:w-full after:bg-[#333333] text-darkgray lg:hover:bg-transparent xl:bg-transparent;
   }
   .cart-step-num {
     @apply text-[48px] font-bold uppercase leading-[58px] text-light-gray-v2 dark:text-darkgray;
@@ -1062,7 +1063,7 @@ html {
   }
 
   .product-btn--active {
-    @apply z-[2] font-bold text-gray2 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-gray2 after:content-[''] dark:text-[#E7461E] dark:after:bg-[#E7461E];
+    @apply z-[2] font-bold text-gray2 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-gray2 after:content-[''] dark:text-darkgray dark:after:bg-[#333333];
   }
 
   .overview-table-cell-right-text-align {
@@ -1109,10 +1110,10 @@ html {
 @keyframes fontWeightAnimation {
   from {
     font-weight: 400;
-    color: #E7461E;
+    color: #333333;
   }
   to {
-    color: #E7461E;
+    color: #333333;
     font-weight: 700;
   }
 }
@@ -1137,14 +1138,14 @@ html {
   }
 
   .scrollbar::-webkit-scrollbar-thumb {
-    background: #FFE9E3;
+    background: #f0f0f0;
     border-radius: 100vh;
     /* border: 3px solid #afd6f6; */
   }
 
   .scrollbar::-webkit-scrollbar-thumb:hover {
-    background: #E7461E;
-    /* border: 3px solid #E7461E; */
+    background: #333333;
+    /* border: 3px solid #333333; */
   }
 }
 
@@ -1285,7 +1286,7 @@ a {
 .test_scroll_holder .bar {
   width: 30px;
   height: 100px;
-  background-color: #E7461E;
+  background-color: #333333;
 }
 
 .peptide-scroll {
@@ -1317,7 +1318,7 @@ a {
   right: 10px;
   width: 6px;
   height: 0px;
-  background-color: #E7461E;
+  background-color: #333333;
   z-index: 99999;
 }
 
@@ -1385,7 +1386,7 @@ a {
 }
 
 .peptide-scroll-holder.on-right-side > .peptide-scroll-bar {
-  background-color: #E7461E;
+  background-color: #333333;
   width: 12px;
   right: 1px;
 

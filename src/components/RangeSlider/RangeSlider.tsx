@@ -41,7 +41,7 @@ const RangeSlider: FC<RangeSliderProps> = ({
         {showHintText ? (
           <p className="font-D16px-M13px sm:leading-[16px]">
             Spend{" "}
-            <strong className="text-[#E7461E] sm:font-normal">{price}</strong>{" "}
+            <strong className="text-[#333333] sm:font-normal">{price}</strong>{" "}
             more for{" "}
             <strong className="uppercase">
               FREE{" "}

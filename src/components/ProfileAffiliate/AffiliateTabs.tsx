@@ -32,8 +32,8 @@ const AffiliateTabs: FC = () => {
               href={item.link}
               key={`tab-item-${index}`}
               className={classNames(
-                "font-D16px-M13px flex cursor-pointer items-center justify-center px-2 py-3 text-gray2 hover:text-[#E7461E]",
-                activeTab === item.id && "!font-bold !text-[#E7461E]"
+                "font-D16px-M13px flex cursor-pointer items-center justify-center px-2 py-3 text-gray2 hover:text-[#333333]",
+                activeTab === item.id && "!font-bold !text-[#333333]"
               )}
             >
               {item.name}

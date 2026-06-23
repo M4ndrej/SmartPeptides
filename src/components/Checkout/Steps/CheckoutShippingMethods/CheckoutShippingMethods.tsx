@@ -92,7 +92,7 @@ export const CheckoutShippingMethods: FC<CheckoutShippingMethodsProps> = ({
           </div>
           <button
             onClick={async () => changeStep(1)}
-            className="font-D16px-M13px flex cursor-pointer self-start text-gray2 transition duration-300 hover:text-[#E7461E]"
+            className="font-D16px-M13px flex cursor-pointer self-start text-gray2 transition duration-300 hover:text-[#333333]"
           >
             Change
           </button>
@@ -107,7 +107,7 @@ export const CheckoutShippingMethods: FC<CheckoutShippingMethodsProps> = ({
           </div>
           <button
             onClick={async () => changeStep(1)}
-            className="font-D16px-M13px flex cursor-pointer self-start text-gray2 transition duration-300 hover:text-[#E7461E]"
+            className="font-D16px-M13px flex cursor-pointer self-start text-gray2 transition duration-300 hover:text-[#333333]"
           >
             Change
           </button>
@@ -160,7 +160,7 @@ export const CheckoutShippingMethods: FC<CheckoutShippingMethodsProps> = ({
           Order notes (optional)
         </span>
         <textarea
-          className="font-D16px-M13px scrollbar h-[128px] w-full rounded-md border-[1px] border-borderColor bg-inputColor p-[16px] shadow-none outline-none transition-all ease-linear hover:border-gray hover:bg-lightgray focus:border-[1px]  focus:border-[#E7461E] focus:bg-[#FFE9E3] sm:!text-[13px] sm:!leading-[21px] dark:border-none dark:text-[#E7461E] dark:focus:bg-transparent"
+          className="font-D16px-M13px scrollbar h-[128px] w-full rounded-md border-[1px] border-borderColor bg-inputColor p-[16px] shadow-none outline-none transition-all ease-linear hover:border-gray hover:bg-lightgray focus:border-[1px]  focus:border-[#333333] focus:bg-[#f0f0f0] sm:!text-[13px] sm:!leading-[21px] dark:border-none dark:text-[#333333] dark:focus:bg-transparent"
           placeholder="Notes about your order, e.g. special notes for delivery."
           value={customer_note}
           onChange={(e) => updateCustomerNote?.(e.target.value)}
@@ -169,7 +169,7 @@ export const CheckoutShippingMethods: FC<CheckoutShippingMethodsProps> = ({
       </div>
       <div className="shipping-custom-breakpoint flex justify-between gap-[16px] sm:flex-col-reverse sm:items-center md:flex-col-reverse md:items-center lg:flex-row">
         <button
-          className="group/link flex items-center gap-[16px] transition duration-200 hover:text-[#E7461E]"
+          className="group/link flex items-center gap-[16px] transition duration-200 hover:text-[#333333]"
           onClick={() => changeStep(1)}
         >
           <svg
@@ -184,10 +184,10 @@ export const CheckoutShippingMethods: FC<CheckoutShippingMethodsProps> = ({
               // stroke="#333333"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="stroke-black transition duration-200 group-hover/link:stroke-[#E7461E]"
+              className="stroke-black transition duration-200 group-hover/link:stroke-[#333333]"
             />
           </svg>
-          <p className="font-16px-ALL text-center transition duration-200 group-hover/link:text-[#E7461E]">
+          <p className="font-16px-ALL text-center transition duration-200 group-hover/link:text-[#333333]">
             RETURN TO INFORMATION
           </p>
         </button>

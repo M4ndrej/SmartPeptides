@@ -21,11 +21,11 @@ const ProfilePictureButton: FC<ProfilePictureButtonProps> = ({ className }) => {
         onClick={() => setIsModalOpen(true)}
         type="button"
         className={classNames(
-          "font-D12px-M11px group flex items-center gap-2 text-gray2 transition duration-300 hover:text-[#E7461E]",
+          "font-D12px-M11px group flex items-center gap-2 text-gray2 transition duration-300 hover:text-[#333333]",
           className
         )}
       >
-        <UploadIcon className="transition duration-300 group-hover:fill-[#E7461E]" />
+        <UploadIcon className="transition duration-300 group-hover:fill-[#333333]" />
         Upload picture
       </button>
       {isClient &&

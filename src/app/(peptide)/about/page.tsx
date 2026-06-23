@@ -17,17 +17,17 @@ export default async function AboutPage() {
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://valuepeptide.com//#organization",
-        name: "Value Peptide",
-        url: "https://valuepeptide.com/",
-        logo: "https://valuepeptide.com//images/logo.svg",
+        "@id": "https://smartpeptides.com//#organization",
+        name: "Smart Peptides",
+        url: "https://smartpeptides.com/",
+        logo: "https://smartpeptides.com//images/logo.svg",
         description:
           "Leading provider of high-quality research peptides and peptide blends for scientific research and development.",
         address: { "@type": "PostalAddress", addressCountry: "US" },
         contactPoint: {
           "@type": "ContactPoint",
           contactType: "customer service",
-          url: "https://valuepeptide.com//contact",
+          url: "https://smartpeptides.com//contact",
         },
         sameAs: [
           "https://www.facebook.com/profile.php?id=61577011570165",
@@ -36,11 +36,11 @@ export default async function AboutPage() {
       },
       {
         "@type": "WebSite",
-        "@id": "https://valuepeptide.com//#website",
-        url: "https://valuepeptide.com/",
-        name: "Value Peptide",
+        "@id": "https://smartpeptides.com//#website",
+        url: "https://smartpeptides.com/",
+        name: "Smart Peptides",
         publisher: {
-          "@id": "https://valuepeptide.com//#organization",
+          "@id": "https://smartpeptides.com//#organization",
         },
         inLanguage: "en-US",
       },
@@ -54,54 +54,54 @@ export default async function AboutPage() {
       },
       {
         "@type": "WebPage",
-        "@id": "https://valuepeptide.com//about/#webpage",
-        url: "https://valuepeptide.com//about/",
-        name: "About Us - Value Peptide",
+        "@id": "https://smartpeptides.com//about/#webpage",
+        url: "https://smartpeptides.com//about/",
+        name: "About Us - Smart Peptides",
         description:
-          "Read everything about valuepeptide.com and find out why are we the best in the business.",
+          "Read everything about smartpeptides.com and find out why are we the best in the business.",
         datePublished: "2019-10-21T07:35:49-05:00",
         dateModified: "2023-11-06T16:23:30-06:00",
         isPartOf: {
-          "@id": "https://valuepeptide.com//#website",
+          "@id": "https://smartpeptides.com//#website",
         },
         primaryImageOfPage: {
           "@id": "/images/aboutImg.svg",
         },
         inLanguage: "en-US",
         about: {
-          "@id": "https://valuepeptide.com//#organization",
+          "@id": "https://smartpeptides.com//#organization",
         },
       },
       {
         "@type": "AboutPage",
-        "@id": "https://valuepeptide.com//about/#aboutpage",
-        url: "https://valuepeptide.com//about/",
-        name: "About Us - Value Peptide",
+        "@id": "https://smartpeptides.com//about/#aboutpage",
+        url: "https://smartpeptides.com//about/",
+        name: "About Us - Smart Peptides",
         description:
-          "Read everything about valuepeptide.com and find out why are we the best in the business.",
+          "Read everything about smartpeptides.com and find out why are we the best in the business.",
         mainEntity: {
-          "@id": "https://valuepeptide.com//#organization",
+          "@id": "https://smartpeptides.com//#organization",
         },
         isPartOf: {
-          "@id": "https://valuepeptide.com//about/#webpage",
+          "@id": "https://smartpeptides.com//about/#webpage",
         },
         inLanguage: "en-US",
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://valuepeptide.com//about/#breadcrumb",
+        "@id": "https://smartpeptides.com//about/#breadcrumb",
         itemListElement: [
           {
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: "https://valuepeptide.com//",
+            item: "https://smartpeptides.com//",
           },
           {
             "@type": "ListItem",
             position: 2,
             name: "About Us",
-            item: "https://valuepeptide.com//about/",
+            item: "https://smartpeptides.com//about/",
           },
         ],
       },
@@ -118,10 +118,10 @@ export default async function AboutPage() {
       <div className="container-padding-inline container-margin-bottom-D96px-M64px mx-auto flex max-w-[1264px] flex-col gap-[64px] pt-[48px] sm:gap-[40px]">
         <div className="flex flex-col items-center gap-[24px] text-center">
           <h1 className="font-D32px-M24px flex flex-col items-center justify-center gap-[16px]  font-bold">
-            About Us <div className="h-[2px] w-[48px] bg-[#E7461E]"></div>
+            About Us <div className="h-[2px] w-[48px] bg-[#333333]"></div>
           </h1>
           <p className="font-D16px-M13px">
-            Read everything about valuepeptide.com and find out why are we the
+            Read everything about smartpeptides.com and find out why are we the
             best in the business.
           </p>
         </div>

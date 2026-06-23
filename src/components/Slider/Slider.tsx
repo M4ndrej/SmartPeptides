@@ -96,7 +96,7 @@ const Slider: FC<SliderProps> = ({
       {title && (
         <div className="w-full text-center">
           <div className="font-D32px-M24px font-bold">{title}</div>
-          <div className="mx-auto mb-[40px] mt-[16px] h-[2px] w-[48px] bg-[#E7461E]"></div>
+          <div className="mx-auto mb-[40px] mt-[16px] h-[2px] w-[48px] bg-[#333333]"></div>
         </div>
       )}
       <div

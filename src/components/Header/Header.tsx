@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="h-[90px] xs:!h-[86px] sm:h-[91px]" />
+      <div className="h-[110px] xs:!h-[86px] sm:h-[91px]" />
       <header id="header" className="relative w-full">
         <div
           id="header-sticky"
@@ -36,7 +36,7 @@ const Header = () => {
           <div
             id="header-main"
             className={classNames(
-              "container-padding-inline m-auto flex min-h-[60px] w-full max-w-[1264px] items-center justify-between"
+              "container-padding-inline m-auto flex min-h-[80px] w-full max-w-[1264px] items-center justify-between"
             )}
           >
             <div className="flex shrink-0 basis-1/4 items-center xl:hidden">
@@ -50,7 +50,7 @@ const Header = () => {
             </div> */}
 
             <div className="flex items-center justify-start gap-6 overflow-hidden">
-              <Logo className="h-[37px] w-[288px] xs:!h-[20px] xs:!w-[163px] sm:h-[29px] sm:w-[225px]" />
+              <Logo className="h-[57px] w-[223px] xs:!h-[20px] xs:!w-[163px] sm:h-[29px] sm:w-[225px]" />
               <HeaderNavigation isSticky={true} isTransitioning={!isSticky} />
             </div>
 
@@ -63,7 +63,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="hidden min-h-[40px] bg-[#FFE9E3] xl:flex dark:bg-transparent">
+        <div className="hidden min-h-[40px] bg-[#f0f0f0] xl:flex dark:bg-transparent">
           <div
             id="header-link-section"
             className="mx-auto flex w-full max-w-[1264px] items-center justify-between px-8"

@@ -135,14 +135,14 @@ const ImageSlide: FC<ImageSlideProps> = ({
                   stroke="white"
                   strokeWidth="1.5"
                   strokeLinecap="round"
-                  className="transition duration-300 group-hover:stroke-[#E7461E]"
+                  className="transition duration-300 group-hover:stroke-[#333333]"
                 />
                 <path
                   d="M1 16.999L16.9989 1.00013"
                   stroke="white"
                   strokeWidth="1.5"
                   strokeLinecap="round"
-                  className="transition duration-300 group-hover:stroke-[#E7461E]"
+                  className="transition duration-300 group-hover:stroke-[#333333]"
                 />
               </svg>
             </div>

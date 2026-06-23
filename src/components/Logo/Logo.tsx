@@ -10,6 +10,7 @@ interface LogoProps {
   height?: number;
   customClass?: string;
   size?: string;
+  fixedColor?: boolean;
   className?: string;
 }
 
@@ -18,6 +19,7 @@ const Logo: FC<LogoProps> = ({
   height,
   customClass,
   size,
+  fixedColor,
   className,
 }) => {
   const { state } = useThemeContext();
@@ -27,12 +29,12 @@ const Logo: FC<LogoProps> = ({
     <Link href="/">
       <Image
         src={
-          !isDark
-            ? "/images/valuepeptide-logo.svg"
-            : "/images/valuepeptide-logo.svg"
+          !isDark && !fixedColor 
+            ? "/images/smart-peptides-logo-light.svg"
+            : "/images/smart-peptides-logo-dark.svg"
         }
-        width={width ? width : 288}
-        height={height ? height : 37}
+        width={width ? width : 223}
+        height={height ? height : 57}
         priority={true}
         alt="Logo"
         className={classNames(

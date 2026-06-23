@@ -18,7 +18,7 @@ const ContentCard: FC<ContentCardProps> = ({ chatOption, onClick }) => {
           className={`flex h-[32px] w-[32px] items-center justify-center rounded-[5px] ${
             chatOption.chatheadBgColor
               ? `${chatOption.chatheadBgColor}`
-              : "bg-[#E7461E]2"
+              : "bg-[#333333]2"
           }`}
         >
           <div className="font-medium text-black">

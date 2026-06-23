@@ -24,7 +24,7 @@ export default function SimpleBreadcrumb({
 
   breadcrumbs.push(
     <Link
-      className="group relative transition duration-300 hover:text-[#E7461E]"
+      className="group relative transition duration-300 hover:text-[#333333]"
       key="home"
       href="/"
     >
@@ -43,7 +43,7 @@ export default function SimpleBreadcrumb({
         </span>
       ) : (
         <Link
-          className="group relative transition duration-300 hover:text-[#E7461E]"
+          className="group relative transition duration-300 hover:text-[#333333]"
           key={breadcrumbTrail[i].name}
           href={cumulativePath}
         >

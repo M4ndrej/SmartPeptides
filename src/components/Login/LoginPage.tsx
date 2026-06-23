@@ -53,7 +53,7 @@ const LoginPage: FC<LoginPageProps> = ({ registeredUser }) => {
         <h1 className="font-D32px-M24px pb-[16px] text-center font-bold">
           Sign in
         </h1>
-        <div className="mx-auto mb-2 h-[2px] w-[48px] bg-[#E7461E]" />
+        <div className="mx-auto mb-2 h-[2px] w-[48px] bg-[#333333]" />
       </div>
       <div className="m-auto w-[592px] overflow-hidden sm:w-[calc(100vw-20px)] sm:overflow-hidden">
         <div className={classNames("modal-animation", animationClass)}>

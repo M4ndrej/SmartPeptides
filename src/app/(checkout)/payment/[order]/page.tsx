@@ -21,7 +21,7 @@ export async function generateMetadata({
   params,
 }: ParamProps): Promise<Metadata> {
   return {
-    title: `Checkout for Order #${params.order} | VALUE PEPTIDE`,
+    title: `Checkout for Order #${params.order} | SMART PEPTIDES`,
     robots: {
       index: false,
       follow: false,

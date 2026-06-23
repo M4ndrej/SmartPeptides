@@ -23,13 +23,13 @@ const Spinner: FC<SpinnerProps> = ({
         cx="12"
         cy="12"
         r="10"
-        stroke={reverseColors ? "#FFFFFF" : "#E7461E"}
+        stroke={reverseColors ? "#FFFFFF" : "#333333"}
         fill="transparent"
         strokeWidth="4"
       ></circle>
       <path
         className="opacity-75"
-        fill={reverseColors ? "#FFFFFF" : "#E7461E"}
+        fill={reverseColors ? "#FFFFFF" : "#333333"}
         d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
       ></path>
     </svg>

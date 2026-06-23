@@ -404,7 +404,7 @@ const ProductCard: FC<ProductCardProps> = ({
                       className="group/quickView font-16px-ALL blue-color-hover text flex cursor-pointer select-none items-center gap-[8px] whitespace-nowrap text-gray2"
                     >
                       {" "}
-                      <QuickviewIcon customClass="w-[32px] h-[32px] [&_path]:stroke-gray2 [&_circle]:stroke-gray2 [&_path]:group-hover/quickView:stroke-[#E7461E] [&_circle]:group-hover/quickView:stroke-[#E7461E]" />{" "}
+                      <QuickviewIcon customClass="w-[32px] h-[32px] [&_path]:stroke-gray2 [&_circle]:stroke-gray2 [&_path]:group-hover/quickView:stroke-[#333333] [&_circle]:group-hover/quickView:stroke-[#333333]" />{" "}
                       QUICK VIEW
                     </div>
                     {/* Wishlist btn */}

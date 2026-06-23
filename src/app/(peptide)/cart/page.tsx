@@ -17,28 +17,28 @@ export default async function CartDeskt() {
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://valuepeptide.com//#organization",
-        name: "VALUE PEPTIDE",
+        "@id": "https://smartpeptides.com//#organization",
+        name: "SMART PEPTIDES",
       },
       {
         "@type": "WebSite",
-        "@id": "https://valuepeptide.com//#website",
-        url: "https://valuepeptide.com/",
-        name: "VALUE PEPTIDE",
+        "@id": "https://smartpeptides.com//#website",
+        url: "https://smartpeptides.com/",
+        name: "SMART PEPTIDES",
         publisher: {
-          "@id": "https://valuepeptide.com//#organization",
+          "@id": "https://smartpeptides.com//#organization",
         },
         inLanguage: "en-US",
       },
       {
         "@type": "WebPage",
-        "@id": "https://valuepeptide.com//cart/#webpage",
-        url: "https://valuepeptide.com//cart/",
-        name: "Cart - VALUE PEPTIDE",
+        "@id": "https://smartpeptides.com//cart/#webpage",
+        url: "https://smartpeptides.com//cart/",
+        name: "Cart - SMART PEPTIDES",
         datePublished: "2017-09-27T17:17:24-05:00",
         dateModified: "2023-08-24T09:49:48-05:00",
         isPartOf: {
-          "@id": "https://valuepeptide.com//#website",
+          "@id": "https://smartpeptides.com//#website",
         },
         inLanguage: "en-US",
       },

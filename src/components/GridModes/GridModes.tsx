@@ -29,7 +29,7 @@ const GridModes: FC = ({}) => {
             d="M11 1L11 15"
             stroke={
               viewMode == "5x5" || hoverViewMode == "5x5"
-                ? "#E7461E"
+                ? "#333333"
                 : "#999999"
             }
             strokeWidth="2"
@@ -39,7 +39,7 @@ const GridModes: FC = ({}) => {
             d="M6 1L6 15"
             stroke={
               viewMode == "5x5" || hoverViewMode == "5x5"
-                ? "#E7461E"
+                ? "#333333"
                 : "#999999"
             }
             strokeWidth="2"
@@ -49,7 +49,7 @@ const GridModes: FC = ({}) => {
             d="M1 1L0.999999 15"
             stroke={
               viewMode == "5x5" || hoverViewMode == "5x5"
-                ? "#E7461E"
+                ? "#333333"
                 : "#999999"
             }
             strokeWidth="2"
@@ -59,7 +59,7 @@ const GridModes: FC = ({}) => {
             d="M16 1L16 15"
             stroke={
               viewMode == "5x5" || hoverViewMode == "5x5"
-                ? "#E7461E"
+                ? "#333333"
                 : "#999999"
             }
             strokeWidth="2"
@@ -69,7 +69,7 @@ const GridModes: FC = ({}) => {
             d="M21 1L21 15"
             stroke={
               viewMode == "5x5" || hoverViewMode == "5x5"
-                ? "#E7461E"
+                ? "#333333"
                 : "#999999"
             }
             strokeWidth="2"
@@ -92,7 +92,7 @@ const GridModes: FC = ({}) => {
             d="M6 1L6 15"
             stroke={
               viewMode == "4x4" || hoverViewMode == "4x4"
-                ? "#E7461E"
+                ? "#333333"
                 : "#999999"
             }
             strokeWidth="2"
@@ -102,7 +102,7 @@ const GridModes: FC = ({}) => {
             d="M1 1L0.999999 15"
             stroke={
               viewMode == "4x4" || hoverViewMode == "4x4"
-                ? "#E7461E"
+                ? "#333333"
                 : "#999999"
             }
             strokeWidth="2"
@@ -112,7 +112,7 @@ const GridModes: FC = ({}) => {
             d="M11 1L11 15"
             stroke={
               viewMode == "4x4" || hoverViewMode == "4x4"
-                ? "#E7461E"
+                ? "#333333"
                 : "#999999"
             }
             strokeWidth="2"
@@ -122,7 +122,7 @@ const GridModes: FC = ({}) => {
             d="M16 1L16 15"
             stroke={
               viewMode == "4x4" || hoverViewMode == "4x4"
-                ? "#E7461E"
+                ? "#333333"
                 : "#999999"
             }
             strokeWidth="2"
@@ -144,7 +144,7 @@ const GridModes: FC = ({}) => {
             d="M1 1L0.999999 15"
             stroke={
               viewMode == "3x3" || hoverViewMode == "3x3"
-                ? "#E7461E"
+                ? "#333333"
                 : "#999999"
             }
             strokeWidth="2"
@@ -154,7 +154,7 @@ const GridModes: FC = ({}) => {
             d="M6 1L6 15"
             stroke={
               viewMode == "3x3" || hoverViewMode == "3x3"
-                ? "#E7461E"
+                ? "#333333"
                 : "#999999"
             }
             strokeWidth="2"
@@ -164,7 +164,7 @@ const GridModes: FC = ({}) => {
             d="M11 1L11 15"
             stroke={
               viewMode == "3x3" || hoverViewMode == "3x3"
-                ? "#E7461E"
+                ? "#333333"
                 : "#999999"
             }
             strokeWidth="2"
@@ -186,7 +186,7 @@ const GridModes: FC = ({}) => {
             d="M19.9995 1L7.99951 0.999998"
             stroke={
               viewMode == "rows" || hoverViewMode == "rows"
-                ? "#E7461E"
+                ? "#333333"
                 : "#999999"
             }
             strokeWidth="2"
@@ -196,7 +196,7 @@ const GridModes: FC = ({}) => {
             d="M19.9995 8L7.99951 8"
             stroke={
               viewMode == "rows" || hoverViewMode == "rows"
-                ? "#E7461E"
+                ? "#333333"
                 : "#999999"
             }
             strokeWidth="2"
@@ -206,7 +206,7 @@ const GridModes: FC = ({}) => {
             d="M19.9995 15L7.99951 15"
             stroke={
               viewMode == "rows" || hoverViewMode == "rows"
-                ? "#E7461E"
+                ? "#333333"
                 : "#999999"
             }
             strokeWidth="2"
@@ -216,7 +216,7 @@ const GridModes: FC = ({}) => {
             d="M2.99951 1L0.999512 1"
             stroke={
               viewMode == "rows" || hoverViewMode == "rows"
-                ? "#E7461E"
+                ? "#333333"
                 : "#999999"
             }
             strokeWidth="2"
@@ -226,7 +226,7 @@ const GridModes: FC = ({}) => {
             d="M2.99951 8L0.999512 8"
             stroke={
               viewMode == "rows" || hoverViewMode == "rows"
-                ? "#E7461E"
+                ? "#333333"
                 : "#999999"
             }
             strokeWidth="2"
@@ -236,7 +236,7 @@ const GridModes: FC = ({}) => {
             d="M2.99951 15L0.999512 15"
             stroke={
               viewMode == "rows" || hoverViewMode == "rows"
-                ? "#E7461E"
+                ? "#333333"
                 : "#999999"
             }
             strokeWidth="2"

@@ -19,7 +19,7 @@ const RightIcon: FC<IconProps> = ({
       strokeWidth={strokeWidth}
       viewBox="0 0 10 20"
       xmlns="http://www.w3.org/2000/svg"
-      className={classNames("fill-none stroke-[#E7461E]", className)}
+      className={classNames("fill-none stroke-[#333333]", className)}
       strokeLinecap="round"
       strokeLinejoin="round"
       {...props}

@@ -126,7 +126,7 @@ const LostPassword: FC<lostPasswordProps> = ({
             <div>
               Not a member?{" "}
               <span
-                className="cursor-pointer select-none text-[#E7461E] transition duration-300 hover:text-[#E7461E]"
+                className="cursor-pointer select-none text-[#333333] transition duration-300 hover:text-[#333333]"
                 onClick={() => setModalType?.("Initial")}
               >
                 Create an account

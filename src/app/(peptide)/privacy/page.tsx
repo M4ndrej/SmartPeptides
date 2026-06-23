@@ -17,28 +17,28 @@ export default async function PrivacyPolicyPage() {
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://valuepeptide.com//#organization",
-        name: "VALUE PEPTIDE",
+        "@id": "https://smartpeptides.com//#organization",
+        name: "SMART PEPTIDES",
       },
       {
         "@type": "WebSite",
-        "@id": "https://valuepeptide.com//#website",
-        url: "https://valuepeptide.com/",
-        name: "VALUE PEPTIDE",
+        "@id": "https://smartpeptides.com//#website",
+        url: "https://smartpeptides.com/",
+        name: "SMART PEPTIDES",
         publisher: {
-          "@id": "https://valuepeptide.com//#organization",
+          "@id": "https://smartpeptides.com//#organization",
         },
         inLanguage: "en-US",
       },
       {
         "@type": "WebPage",
-        "@id": "https://valuepeptide.com//privacy/#webpage",
-        url: "https://valuepeptide.com//privacy/",
-        name: "Privacy Policy - VALUE PEPTIDE",
+        "@id": "https://smartpeptides.com//privacy/#webpage",
+        url: "https://smartpeptides.com//privacy/",
+        name: "Privacy Policy - SMART PEPTIDES",
         datePublished: "2023-07-26T07:29:59-05:00",
         dateModified: "2023-11-07T07:10:01-06:00",
         isPartOf: {
-          "@id": "https://valuepeptide.com//#website",
+          "@id": "https://smartpeptides.com//#website",
         },
         inLanguage: "en-US",
       },

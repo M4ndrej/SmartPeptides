@@ -12,7 +12,7 @@ const EmailShareButton = () => {
         viewBox="0 0 24 24"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="[&_path]:transition [&_path]:duration-200 [&_path]:hover:stroke-[#E7461E] [&_rect]:transition [&_rect]:duration-200 [&_rect]:hover:stroke-[#E7461E]"
+        className="[&_path]:transition [&_path]:duration-200 [&_path]:hover:stroke-[#333333] [&_rect]:transition [&_rect]:duration-200 [&_rect]:hover:stroke-[#333333]"
       >
         <rect
           x="1.5"

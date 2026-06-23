@@ -33,7 +33,7 @@ const ProductsListHeader: FC<ProductsListHeaderProps> = ({
       <h1 className="font-D32px-M24px pb-[16px] text-center font-bold">
         {isGift ? "Congratulations! You have a free gift." : header}
       </h1>
-      <div className="h-[2px] w-[48px] bg-[#E7461E]" />
+      <div className="h-[2px] w-[48px] bg-[#333333]" />
       {isGift && (
         <p className="mb-4">
           Because you spent <span className="font-bold">US$500</span> you can

@@ -34,7 +34,7 @@ const SingleMerchStyle: FC<SingleMerchStyleProps> = ({
       <div
         className={classNames(
           "relative h-12 w-12 rounded-[5px] border-2",
-          selectedStyle === style ? "border-[#E7461E]" : "border-borderColor"
+          selectedStyle === style ? "border-[#333333]" : "border-borderColor"
         )}
       >
         {!!styleImage && (

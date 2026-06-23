@@ -46,7 +46,7 @@ const TirzNotification = () => {
             isVisible ? "bottom-4 lg:bottom-8" : "bottom-[-200px]"
           )}
         >
-          <div className="flex h-full min-h-[168px] w-full items-center justify-between gap-6 rounded-[5px] border-[2px] border-[#E7461E] bg-white p-8 sm:flex-col sm:gap-4 lg:gap-16">
+          <div className="flex h-full min-h-[168px] w-full items-center justify-between gap-6 rounded-[5px] border-[2px] border-[#333333] bg-white p-8 sm:flex-col sm:gap-4 lg:gap-16">
             <div className="flex w-auto grow flex-col gap-2 sm:w-full">
               <p className="text-base font-bold lg:text-2xl">
                 Extra product - TIRZEPATIDE
@@ -68,7 +68,7 @@ const TirzNotification = () => {
                 />
                 <div className="flex flex-col gap-1">
                   <p className="text-base xs:text-sm">{product.name}</p>
-                  <p className="text-sm text-[#E7461E] xs:text-xs md:text-base">
+                  <p className="text-sm text-[#333333] xs:text-xs md:text-base">
                     <span>
                       {formatCurrency(+product.variations[0].price, true)}
                     </span>
@@ -107,7 +107,7 @@ const TirzNotification = () => {
             <XMarkIcon
               width={24}
               height={24}
-              className="!stroke-gray2 transition-colors duration-300 group-hover/closeBtn:!stroke-[#E7461E]"
+              className="!stroke-gray2 transition-colors duration-300 group-hover/closeBtn:!stroke-[#333333]"
             />
           </button>
         </div>

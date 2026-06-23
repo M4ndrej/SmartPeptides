@@ -30,8 +30,8 @@ const SingleNavItem: FC<SingleNavItemProps> = ({
       <Link
         href={page.link}
         className={classNames(
-          "underlineNew transition-all duration-300 group-hover/item:text-[#E7461E]",
-          isActive && "!font-bold !text-[#E7461E] after:!scale-100",
+          "underlineNew transition-all duration-300 group-hover/item:text-darkgray",
+          isActive && "!font-bold !text-darkgray after:!scale-100",
           isSticky ? "px-2 py-[18px]" : "px-4 py-2"
         )}
         onMouseEnter={() => handleHoveredPath(page.link)}

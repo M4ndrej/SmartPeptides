@@ -104,7 +104,7 @@ const SyringeMeasure: FC<Dose> = ({
   }, [peptideDose, peptideAmount, bacteriostaticWater, syringeVolume]);
 
   return (
-    <div className="flex w-full flex-col items-center rounded-[20px] bg-[#E7461E] px-[90px] py-[56px] sm:px-[24px] sm:py-[24px] md:px-[16px] md:py-[40px]">
+    <div className="flex w-full flex-col items-center rounded-[20px] bg-[#333333] px-[90px] py-[56px] sm:px-[24px] sm:py-[24px] md:px-[16px] md:py-[40px]">
       <div className="font-D32px-M24px mb-[32px] text-center font-bold text-white sm:mb-[16px] md:mb-[24px]">
         {!syringeIsSmall ? (
           <span>

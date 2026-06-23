@@ -67,7 +67,7 @@ const ProfilePictureModal: FC<ProfilePictureModalProps> = ({
           <span className="font-D18px-M16px font-bold">
             Upload your profile picture
           </span>
-          <div className="mb-[24px] h-[2px] w-[48px] rounded-[2px] bg-[#E7461E]"></div>
+          <div className="mb-[24px] h-[2px] w-[48px] rounded-[2px] bg-[#333333]"></div>
         </div>
         {stepToShow == 0 && (
           <ImageDropzone onImageChange={onImageChange} onError={setError} />

@@ -116,7 +116,7 @@ const ActiveFiltersBar: React.FC<ActiveFiltersBarProps> = ({
 
         {/* Clear all filters button */}
         <div
-          className="border-1 flex cursor-pointer select-none items-center gap-x-[8px] rounded-[11px] border border-light-gray-v2 px-[8px] py-[4px] transition duration-150 hover:border-[#E7461E] [&_circle]:transition [&_circle]:duration-150 [&_circle]:hover:fill-[#E7461E] [&_div]:transition [&_div]:duration-150 [&_div]:hover:text-[#E7461E]"
+          className="border-1 flex cursor-pointer select-none items-center gap-x-[8px] rounded-[11px] border border-light-gray-v2 px-[8px] py-[4px] transition duration-150 hover:border-[#333333] [&_circle]:transition [&_circle]:duration-150 [&_circle]:hover:fill-[#333333] [&_div]:transition [&_div]:duration-150 [&_div]:hover:text-[#333333]"
           onMouseEnter={() => onHoverRemoveFilter("all", true)}
           onMouseLeave={() => onHoverRemoveFilter("all", false)}
           onClick={onRemoveAll}

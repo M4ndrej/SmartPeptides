@@ -6,7 +6,7 @@ type ShippingBoxProps = {
 
 const ShippingBox: FC<ShippingBoxProps> = ({ children }) => {
   return (
-    <div className="font-D16px-T12px-M11px flex min-h-[72px] w-full max-w-[456px] flex-1 shrink-0 items-center justify-center rounded-[5px] border-[1px] border-solid border-[#E7461E] p-4 text-center sm:p-1">
+    <div className="font-D16px-T12px-M11px flex min-h-[72px] w-full max-w-[456px] flex-1 shrink-0 items-center justify-center rounded-[5px] border-[1px] border-solid border-[#333333] p-4 text-center sm:p-1">
       {children}
     </div>
   );

@@ -53,12 +53,12 @@ const ProductRating: FC<ProductRatingProps> = ({
               d="M9 2L11.116 7.08754L16.6085 7.52786L12.4238 11.1125L13.7023 16.4721L9 13.6L4.29772 16.4721L5.5762 11.1125L1.39155 7.52786L6.88397 7.08754L9 2Z"
               stroke={
                 (rating && +rating > i) || (hoverRating && hoverRating > i)
-                  ? "#FFC439"
+                  ? "#333333"
                   : "#999999"
               }
               fill={
                 (rating && +rating > i) || (hoverRating && hoverRating > i)
-                  ? "#FFC439"
+                  ? "#333333"
                   : ""
               }
             />

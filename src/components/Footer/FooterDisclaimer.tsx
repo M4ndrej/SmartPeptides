@@ -8,7 +8,7 @@ const FooterDisclaimer = () => {
         medical condition.
       </span>
       <span className="block font-normal text-red sm:text-center sm:text-[13px]">
-        Value Peptide operates strictly as a chemical supplier and is not a
+        Smart Peptides operates strictly as a chemical supplier and is not a
         compounding pharmacy or a compounding facility under section 503A of the
         Federal Food, Drug, and Cosmetic Act, nor an outsourcing facility under
         section 503B.

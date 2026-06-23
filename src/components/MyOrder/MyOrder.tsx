@@ -156,7 +156,7 @@ const MyOrder: FC<MyOrderProps> = ({
                   </div>
                   <div>
                     <div
-                      className={`flex cursor-pointer  select-none items-center [&_div]:transition [&_div]:duration-200 [&_div]:hover:text-[#E7461E] [&_path]:transition [&_path]:duration-200 [&_path]:hover:stroke-[#E7461E]`}
+                      className={`flex cursor-pointer  select-none items-center [&_div]:transition [&_div]:duration-200 [&_div]:hover:text-[#333333] [&_path]:transition [&_path]:duration-200 [&_path]:hover:stroke-[#333333]`}
                       onClick={() => viewOrder()}
                       aria-expanded={height !== 56}
                       aria-controls="my-order"
@@ -216,7 +216,7 @@ const MyOrder: FC<MyOrderProps> = ({
                     <div className="flex flex-1 justify-between sm:flex-col sm:text-[14px]">
                       <div className="sm:mb-[4px]">
                         <div
-                          className="font-D16px-M13px mb-[4px] cursor-pointer font-bold transition duration-200 hover:text-[#E7461E]"
+                          className="font-D16px-M13px mb-[4px] cursor-pointer font-bold transition duration-200 hover:text-[#333333]"
                           onClick={() =>
                             navigateToProductHandler(item.product_id)
                           }
@@ -231,7 +231,7 @@ const MyOrder: FC<MyOrderProps> = ({
                       </div>
 
                       <div>
-                        <div className="font-D16px-M13px text-[#E7461E]">
+                        <div className="font-D16px-M13px text-[#333333]">
                           {formatCurrency(item.price, true, false)}
                         </div>
                       </div>
@@ -257,7 +257,7 @@ const MyOrder: FC<MyOrderProps> = ({
           >
             <div className="flex items-center justify-between">
               <div className="font-bold">Subtotal:</div>
-              <div className=" text-[#E7461E]">
+              <div className=" text-[#333333]">
                 {formatCurrency(+order.subtotal, true, false)}
               </div>
             </div>
@@ -271,7 +271,7 @@ const MyOrder: FC<MyOrderProps> = ({
                     "text-black": false,
                   })}
                 >
-                  <span className="text-[#E7461E]">
+                  <span className="text-[#333333]">
                     {formatCurrency(
                       +order.shipping_lines?.[0].total,
                       true,
@@ -311,7 +311,7 @@ const MyOrder: FC<MyOrderProps> = ({
             <div className="h-[1px] w-[100%] bg-borderColor"></div>
             <div className="font-16px-ALL flex items-center justify-between pt-[6px]">
               <div className="font-bold">TOTAL:</div>
-              <div className=" font-bold text-[#E7461E]">
+              <div className=" font-bold text-[#333333]">
                 {formatCurrency(+order.total, true, false)}
               </div>
             </div>
@@ -376,7 +376,7 @@ const MyOrder: FC<MyOrderProps> = ({
           </div>
         )}
         <div
-          className="relative mt-[16px] flex cursor-pointer select-none items-center justify-center after:pointer-events-none after:absolute after:bottom-[-25px] after:left-0 after:h-[5px] after:w-full after:bg-white after:content-[''] sm:mt-[16px] after:sm:bottom-[-21px] md:mt-[16px] after:md:bottom-[-20px] [&_div]:hover:text-[#E7461E] [&_path]:hover:stroke-[#E7461E]"
+          className="relative mt-[16px] flex cursor-pointer select-none items-center justify-center after:pointer-events-none after:absolute after:bottom-[-25px] after:left-0 after:h-[5px] after:w-full after:bg-white after:content-[''] sm:mt-[16px] after:sm:bottom-[-21px] md:mt-[16px] after:md:bottom-[-20px] [&_div]:hover:text-[#333333] [&_path]:hover:stroke-[#333333]"
           onClick={() => viewOrder()}
         >
           <div className="font-D16px-M14px mr-[8px] text-black">Close</div>

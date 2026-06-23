@@ -89,14 +89,14 @@ const WishlistButton: FC<WishlistButtonProps> = ({
               customClass={classNames({
                 "group-hover/wishlist:[&_path]:!stroke-white group-hover/wishlist:[&_path]:!fill-black sm:w-[19px] sm:h-[19px]":
                   !listView,
-                "group-hover/wishlist:[&_path]:!stroke-[#E7461E] group-hover/wishlist:[&_path]:!fill-[#E7461E] w-[32px] h-[32px] ":
+                "group-hover/wishlist:[&_path]:!stroke-[#333333] group-hover/wishlist:[&_path]:!fill-[#333333] w-[32px] h-[32px] ":
                   listView,
               })}
               inWishlist={productIsInWishlist}
             />
           )}
           {listView && (
-            <span className="font-16px-ALL  text-gray2 transition duration-200 group-hover/wishlist:text-[#E7461E]">
+            <span className="font-16px-ALL  text-gray2 transition duration-200 group-hover/wishlist:text-[#333333]">
               WISHLIST
             </span>
           )}

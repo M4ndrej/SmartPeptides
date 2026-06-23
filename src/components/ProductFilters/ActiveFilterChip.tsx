@@ -33,7 +33,7 @@ const ActiveFilterChip: React.FC<ActiveFilterChipProps> = ({
         height="14"
         viewBox="0 0 13 14"
         fill="none"
-        className="min-h-[14px] min-w-[13px] cursor-pointer [&_circle]:hover:fill-[#E7461E]"
+        className="min-h-[14px] min-w-[13px] cursor-pointer [&_circle]:hover:fill-[#333333]"
         onMouseEnter={() => onHover(true)}
         onMouseLeave={() => onHover(false)}
         onClick={onRemove}

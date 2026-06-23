@@ -14,14 +14,14 @@ type VenmoNoticeProps = {
 const VenmoNotice: FC<VenmoNoticeProps> = ({ orderDetails }) => {
   const venmoLink = `https://venmo.com/?txn=pay&audience=public&recipients=@peptideshop&amount=${orderDetails?.total}`;
   return (
-    <div className="font-D16px-M13px flex flex-col gap-4 rounded-[5px] border-2 border-dashed border-[#E7461E] bg-lightgray p-4 md:p-6 lg:p-6">
+    <div className="font-D16px-M13px flex flex-col gap-4 rounded-[5px] border-2 border-dashed border-[#333333] bg-lightgray p-4 md:p-6 lg:p-6">
       <div className="font-D24px-M18px font-bold">Venmo Notice</div>
 
       <div className="flex flex-col gap-6">
         <div className="grid gap-4">
           <div>
             Send{" "}
-            <span className="font-bold text-[#E7461E]">
+            <span className="font-bold text-[#333333]">
               {formatCurrency(+orderDetails?.total!, true, false)} to
               @peptideshop
             </span>{" "}
@@ -39,7 +39,7 @@ const VenmoNotice: FC<VenmoNoticeProps> = ({ orderDetails }) => {
           </div>
           <div>
             If you are having an issue, call. You can also email{" "}
-            <span className="underline">support@valuepeptide.com</span>
+            <span className="underline">support@smartpeptides.com</span>
           </div>
         </div>
       </div>

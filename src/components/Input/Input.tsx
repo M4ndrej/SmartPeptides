@@ -121,7 +121,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
               {label}
               {/*  If input is required show red (*) */}
               {required && (
-                <span className={`ml-[3px] text-[#E7461E] ${customAsterisk}`}>
+                <span className={`ml-[3px] text-[#333333] ${customAsterisk}`}>
                   *
                 </span>
               )}
@@ -147,7 +147,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
                   htmlFor={`${name}-${index}`}
                   style={{
                     background: dos === mcgOrMg ? "#F4FAFF" : "#F8F8F8",
-                    color: dos === mcgOrMg ? "#E7461E" : "",
+                    color: dos === mcgOrMg ? "#333333" : "",
                   }}
                   onClick={() => changeMcgMg(dos)}
                 >
@@ -184,12 +184,12 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
             name={name}
             onBlur={(event) => {
               onBlur?.(event);
-              event.target.style.color = "#E7461E";
+              event.target.style.color = "#333333";
               if (event.target.value.trim() !== "") {
-                event.target.classList.remove("border", "border-[#E7461E]");
-                event.target.classList.add("bg-[#FFE9E3]");
+                event.target.classList.remove("border", "border-[#333333]");
+                event.target.classList.add("bg-[#f0f0f0]");
               } else {
-                event.target.classList.remove("border-[#E7461E]");
+                event.target.classList.remove("border-[#333333]");
               }
             }}
             onKeyUp={onKeyUpChange}
@@ -212,7 +212,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
             data-bwignore={pwIgnore}
             data-lpignore={pwIgnore}
             className={classNames({
-              "font-D16px-M13px h-[48px] w-[100%] rounded-[5px] border border-borderColor bg-inputColor px-4 py-3 text-[#E7461E] !shadow-none !outline-none !ring-transparent transition-all ease-linear hover:border-borderColor  hover:bg-lightgray focus:border-[1px] focus:border-[#E7461E] focus:bg-[#FFE9E3] sm:px-[10px] sm:!text-[13px]  sm:!leading-[21px] focus:sm:!text-[13px] dark:focus:border-none dark:focus:bg-inputColor dark:focus:!text-textWhite":
+              "font-D16px-M13px h-[48px] w-[100%] rounded-[5px] border border-borderColor bg-inputColor px-4 py-3 text-[#333333] !shadow-none !outline-none !ring-transparent transition-all ease-linear hover:border-borderColor  hover:bg-lightgray focus:border-[1px] focus:border-[#333333] focus:bg-[#f0f0f0] sm:px-[10px] sm:!text-[13px]  sm:!leading-[21px] focus:sm:!text-[13px] dark:focus:border-none dark:focus:bg-inputColor dark:focus:!text-textWhite":
                 true,
 
               [customClass]: true,
@@ -226,7 +226,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
                 height={24}
                 strokeWidth={1.5}
                 withSlash={currentType == "text"}
-                className="hover:!stroke-[#E7461E]"
+                className="hover:!stroke-[#333333]"
                 onClick={() =>
                   setCurrentType(
                     currentType === "password" ? "text" : "password"

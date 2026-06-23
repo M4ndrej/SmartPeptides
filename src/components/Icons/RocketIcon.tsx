@@ -15,7 +15,7 @@ const RocketIcon: FC<IconProps> = ({
       width={width}
       height={height}
       viewBox="0 0 46 48"
-      className={classNames("fill-[#E7461E]", className)}
+      className={classNames("fill-[#333333]", className)}
       xmlns="http://www.w3.org/2000/svg"
       strokeWidth={strokeWidth}
       {...props}

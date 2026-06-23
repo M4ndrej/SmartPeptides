@@ -29,7 +29,7 @@ const TrackingTimeline: FC<TrackingTimelineProps> = ({ status, className }) => {
                 key={s.key}
                 className={classNames(
                   "h-[2px] w-1/3 sm:h-1/3 sm:w-[2px]",
-                  i < activeIndex ? "bg-[#E7461E]" : "bg-gray4"
+                  i < activeIndex ? "bg-[#333333]" : "bg-gray4"
                 )}
               />
             ))}
@@ -39,7 +39,7 @@ const TrackingTimeline: FC<TrackingTimelineProps> = ({ status, className }) => {
             i <= activeIndex ? (
               <div
                 key={s.key}
-                className="flex h-5 w-5 items-center justify-center rounded-full bg-[#E7461E]"
+                className="flex h-5 w-5 items-center justify-center rounded-full bg-[#333333]"
               >
                 <CheckIcon width={20} height={20} />
               </div>
@@ -58,7 +58,7 @@ const TrackingTimeline: FC<TrackingTimelineProps> = ({ status, className }) => {
             key={s.key}
             className={classNames(
               "w-1/3 text-center sm:h-auto sm:w-full sm:text-left sm:text-[13px]",
-              i <= activeIndex ? "font-bold text-[#E7461E]" : "text-gray2",
+              i <= activeIndex ? "font-bold text-[#333333]" : "text-gray2",
               i == 0 && "!w-1/6 !text-left sm:!h-auto sm:!w-full sm:!text-left",
               i == trackingStatuses.length - 1 &&
                 "!w-1/6 !text-right sm:!h-auto sm:!w-full sm:!text-left"

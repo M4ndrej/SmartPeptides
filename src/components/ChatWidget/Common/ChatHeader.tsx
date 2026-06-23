@@ -16,7 +16,7 @@ const ChatHeader: FC<ChatHeaderProps> = ({
     <div className="w-full">
       <div className="flex items-center gap-x-[8px]">
         <div
-          className="flex h-[30px] w-[30px] cursor-pointer items-center justify-center rounded-[3px] bg-[#E7461E] hover:bg-[#E7461E]"
+          className="flex h-[30px] w-[30px] cursor-pointer items-center justify-center rounded-[3px] bg-[#333333] hover:bg-[#333333]"
           onClick={onBackButton}
         >
           <svg

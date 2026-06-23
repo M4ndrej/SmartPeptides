@@ -55,7 +55,7 @@ export default async function ProductBreadcrumbs({
   let cumulativePath = ""; //Starting point for the cumulative path
   breadcrumbs.push(
     <Link
-      className="group relative transition duration-300 hover:text-[#E7461E]"
+      className="group relative transition duration-300 hover:text-[#333333]"
       key="home"
       href="/"
     >
@@ -75,7 +75,7 @@ export default async function ProductBreadcrumbs({
         </span>
       ) : (
         <Link
-          className="group relative transition duration-300 hover:text-[#E7461E]"
+          className="group relative transition duration-300 hover:text-[#333333]"
           key={breadcrumbTrail[i].name}
           href={cumulativePath}
         >

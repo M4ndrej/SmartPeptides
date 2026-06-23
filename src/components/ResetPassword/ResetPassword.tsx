@@ -152,7 +152,7 @@ const ResetPassword: FC<ResetPasswordProps> = ({
                 />
                 <Link
                   href="/"
-                  className="font-D16px-M15px mt-4 flex items-center justify-center text-gray2 transition duration-300 hover:text-[#E7461E]"
+                  className="font-D16px-M15px mt-4 flex items-center justify-center text-gray2 transition duration-300 hover:text-[#333333]"
                 >
                   Back to home page
                 </Link>
@@ -169,7 +169,7 @@ const ResetPassword: FC<ResetPasswordProps> = ({
                 width={60}
                 height={60}
                 strokeWidth={1.2}
-                className="!stroke-[#E7461E]"
+                className="!stroke-[#333333]"
               />
               <div className="font-D32px-T24px-M24px text-center font-bold sm:font-medium">
                 Password updated

@@ -10,7 +10,7 @@ const DiscountsBanner = () => {
       {/* Text & button */}
       <div className="sm:w-full sm:min-w-[230px] sm:max-w-[230px] sm:pl-[16px] md:min-w-[448px]   lg:min-w-[259px] lg:max-w-[341px] xl:min-w-[340px] xl:max-w-[341px] ">
         <Link href="/discount">
-          <h3 className="font-D32px-M18px w-fit cursor-pointer font-bold text-[#E7461E] transition duration-300 hover:text-[#E7461E]">
+          <h3 className="font-D32px-M18px w-fit cursor-pointer font-bold text-[#333333] transition duration-300 hover:text-[#333333]">
             Discounts
           </h3>
         </Link>

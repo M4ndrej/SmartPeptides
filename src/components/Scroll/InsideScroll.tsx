@@ -37,7 +37,7 @@ const InsideScroll: FC<InsideScrollProps> = ({
 
   const thumbClassNames = (isHovering: boolean, isDragging: boolean) => {
     return classNames(
-      "bg-[#E7461E] transition-opacity duration-fast",
+      "bg-[#333333] transition-opacity duration-fast",
       isHovering || isDragging ? "opacity-100" : "opacity-50",
       isDragging ? "cursor-grabbing" : "cursor-grab"
     );

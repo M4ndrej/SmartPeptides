@@ -11,9 +11,9 @@ export const NOT_FOUND_METADATA: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: "Page Not Found | VALUE PEPTIDE",
+    title: "Page Not Found | SMART PEPTIDES",
     description: "Sorry, the page you're looking for doesn't exist.",
     type: "website",
-    siteName: "VALUE PEPTIDE",
+    siteName: "SMART PEPTIDES",
   },
 };

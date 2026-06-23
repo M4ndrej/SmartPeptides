@@ -29,10 +29,10 @@ const SubscribeVerifying: FC<{ redirectTo?: string }> = ({ redirectTo }) => {
         <div className="font-D32px-M24px text-center font-bold">
           Thank you for verifying!
         </div>
-        <div className="mx-auto my-4 h-[2px] w-[48px] bg-[#E7461E] sm:mb-[24px]"></div>
+        <div className="mx-auto my-4 h-[2px] w-[48px] bg-[#333333] sm:mb-[24px]"></div>
         <div className="font-D16px-M14px text-center">
           Your email has been successfully verified.
-          <br /> You can now use our Value Peptide website in the best way.
+          <br /> You can now use our Smart Peptides website in the best way.
         </div>
         <div className="mt-[32px]">
           <Link href="/shop">

@@ -15,7 +15,7 @@ const SingleProductPriceRange: FC<SingleProductPriceRangeProps> = ({
         mainProduct?.variations.length > 1 && "pt-[12px] sm:pt-[8px]"
       }`}
     >
-      <div className="font-D20px-M18px font-medium leading-[28px] text-[#E7461E]">
+      <div className="font-D20px-M18px font-medium leading-[28px] text-[#333333]">
         {mainProduct.variations.length > 1 && (
           <>
             {mainProduct.variations[0].sku === "10017"

@@ -28,7 +28,7 @@ const RecentlyViewedBtn: FC<RecentlyViewedBtnProps> = ({
             strokeWidth="1.5"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="transition duration-300 group-hover/recently-btn:stroke-[#E7461E]"
+            className="transition duration-300 group-hover/recently-btn:stroke-[#333333]"
           />
           <circle
             cx="13.5"
@@ -36,7 +36,7 @@ const RecentlyViewedBtn: FC<RecentlyViewedBtnProps> = ({
             r="12.75"
             stroke="#898989"
             strokeWidth="1.5"
-            className="transition duration-300 group-hover/recently-btn:stroke-[#E7461E]"
+            className="transition duration-300 group-hover/recently-btn:stroke-[#333333]"
           />
         </svg>
       </div>

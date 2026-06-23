@@ -93,7 +93,7 @@ const InputCardType: FC<InputCardTypeProps> = ({
               </span>
             )}
 
-            <span className="font-D16px-M13px text-[#E7461E]">
+            <span className="font-D16px-M13px text-[#333333]">
               &ensp;{cardType.charAt(0).toUpperCase() + cardType.slice(1)}
             </span>
             <svg
@@ -127,7 +127,7 @@ const InputCardType: FC<InputCardTypeProps> = ({
               <ul className="mt-[4px] h-[100%] w-[100%]">
                 {cardTypes.map((type) => (
                   <li
-                    className={`font-D16px-M13px flex h-[35px] cursor-pointer items-center justify-start px-[16px] py-[12px] transition duration-200 hover:bg-[#FFE9E3] sm:px-[10px] sm:leading-[16px] `}
+                    className={`font-D16px-M13px flex h-[35px] cursor-pointer items-center justify-start px-[16px] py-[12px] transition duration-200 hover:bg-[#f0f0f0] sm:px-[10px] sm:leading-[16px] `}
                     key={type}
                     onClick={() => handleSelectFromDropdown(type)}
                   >

@@ -17,8 +17,8 @@ const SingleProductSingleWeight: FC<SingleProductSingleWeightProps> = ({
       className={classNames(
         "flex cursor-pointer select-none items-center justify-center rounded-[4px]  border-[1px] px-[15px] py-[7px]  text-[16px] leading-[24px] transition duration-200 sm:px-[16px] sm:py-[8px] sm:text-[14px] sm:font-normal sm:leading-[22px]",
         size == selectedWeight
-          ? "border-[#E7461E] bg-[#E7461E] text-white"
-          : "border-gray2 text-gray2 hover:border-[#E7461E] hover:text-[#E7461E]"
+          ? "border-[#333333] bg-[#333333] text-white"
+          : "border-gray2 text-gray2 hover:border-[#333333] hover:text-[#333333]"
       )}
     >
       {size}

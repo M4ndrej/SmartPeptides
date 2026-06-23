@@ -133,7 +133,7 @@ const ChangePassword: FC<ChangePasswordProps> = ({ onClose }) => {
               highlighted={true}
               reverseColors={true}
               onPress={async () => closeModal()}
-              customClass="w-[100%] bg-transparent !text-[#E7461E] border-none hover:bg-transparent hover:text-[#E7461E]"
+              customClass="w-[100%] bg-transparent !text-[#333333] border-none hover:bg-transparent hover:text-[#333333]"
             />
           </div>
         </div>

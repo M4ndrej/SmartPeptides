@@ -25,13 +25,13 @@ const CartItemMerchVariations: FC<CartItemMerchVariationsProps> = ({
             key={v.attribute}
             className={classNames(
               "relative flex h-[27px] w-[27px] items-center justify-center rounded-[5px] border-2",
-              v.attribute === "Color" ? "border-lightgray" : "border-[#E7461E]",
+              v.attribute === "Color" ? "border-lightgray" : "border-[#333333]",
               v.attribute === "Color" && v.value === "white" && "bg-white",
               v.attribute === "Color" && v.value == "black" && "bg-black"
             )}
           >
             {v.attribute === "Size" && (
-              <span className="text-sm font-bold capitalize text-[#E7461E]">
+              <span className="text-sm font-bold capitalize text-[#333333]">
                 {v.value}
               </span>
             )}

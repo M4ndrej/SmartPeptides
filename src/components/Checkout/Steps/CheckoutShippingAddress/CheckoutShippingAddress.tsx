@@ -390,7 +390,7 @@ export const CheckoutShippingAddress: FC<CheckoutShippingAddressProps> = ({
               <div className="flex flex-col-reverse items-center justify-between gap-[16px] lg:flex-row">
                 <Link
                   href="/cart"
-                  className="font-D16px-M14px group/link flex items-center justify-start gap-[16px] uppercase transition duration-200 ease-linear hover:text-[#E7461E] lg:w-full"
+                  className="font-D16px-M14px group/link flex items-center justify-start gap-[16px] uppercase transition duration-200 ease-linear hover:text-[#333333] lg:w-full"
                 >
                   <svg
                     width="7"
@@ -404,7 +404,7 @@ export const CheckoutShippingAddress: FC<CheckoutShippingAddressProps> = ({
                       d="M6 1L1 6.5L6 12"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="stroke-black transition duration-200 group-hover/link:stroke-[#E7461E]"
+                      className="stroke-black transition duration-200 group-hover/link:stroke-[#333333]"
                     />
                   </svg>
                   <span>Return to cart</span>

@@ -11,7 +11,7 @@ const HeaderHamburgerButton: FC = () => {
       type="button"
       onClick={() => handlePopoverAction(true, "navigation")}
     >
-      <HamburgerIcon className="!fill-black group-hover/hamburger:!stroke-[#E7461E] sm:!h-6 sm:!w-6" />
+      <HamburgerIcon className="!fill-black group-hover/hamburger:!stroke-[#333333] sm:!h-6 sm:!w-6" />
     </button>
   );
 };

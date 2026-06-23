@@ -10,7 +10,7 @@ interface ChatHeaderProps {
 const ChatHeader: React.FC<ChatHeaderProps> = ({ setSelectedChatOption }) => {
   return (
     <div>
-      <div className="bg-[#FFE9E3] p-[16px] dark:bg-transparent">
+      <div className="bg-[#f0f0f0] p-[16px] dark:bg-transparent">
         <div className="font-14px-ALL font-bold">Chat with us</div>
       </div>
       <div>

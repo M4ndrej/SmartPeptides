@@ -176,7 +176,7 @@ const Addresses: FC = () => {
               />
             </div>
           ) : (
-            <div className="font-D16px-M14px font-bold text-[#E7461E] sm:max-w-[236px]">
+            <div className="font-D16px-M14px font-bold text-[#333333] sm:max-w-[236px]">
               Address updated successfully!!
             </div>
           )}

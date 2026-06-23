@@ -6,7 +6,7 @@ export const FaqHeader: FC<{
   isFaqSelected: boolean;
   selectedFaq: FaqOption | null;
 }> = ({ isFaqSelected, selectedFaq }) => (
-  <div className="relative flex items-center gap-x-[8px] bg-[#FFE9E3] p-4 dark:bg-transparent">
+  <div className="relative flex items-center gap-x-[8px] bg-[#f0f0f0] p-4 dark:bg-transparent">
     {isFaqSelected && !selectedFaq ? (
       <>
         <div className="flex h-[32px] w-[32px] items-center justify-center rounded-[5px] bg-red2">

@@ -191,7 +191,7 @@ const CheckoutCouponInput: FC<CheckoutCouponInputProps> = ({ cartData }) => {
 
       {(appliedCoupon || redeemedCoupon) && (
         <div>
-          <div className="mt-4 rounded-[5px] border-[2px] border-dashed border-[#E7461E] bg-[#FFE9E3] p-4 text-[16px] dark:bg-transparent">
+          <div className="mt-4 rounded-[5px] border-[2px] border-dashed border-[#333333] bg-[#f0f0f0] p-4 text-[16px] dark:bg-transparent">
             {redeemedCoupon && (
               <div className="mb-4 flex items-center gap-[8px] text-darkgray sm:items-start md:items-start">
                 <StoreCreditIcon
@@ -208,7 +208,7 @@ const CheckoutCouponInput: FC<CheckoutCouponInputProps> = ({ cartData }) => {
                 {appliedCoupon ? couponPercent * 2 : redeemedCoupon?.percentage}
                 %)
               </div>
-              <div className="text-[#E7461E]">
+              <div className="text-[#333333]">
                 {formatCurrency(
                   appliedCoupon
                     ? couponAmount * 2

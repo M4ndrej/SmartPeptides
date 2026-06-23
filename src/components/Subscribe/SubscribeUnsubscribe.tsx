@@ -34,7 +34,7 @@ const SubscribeUnsubscribe: FC<UnsubscribeProps> = ({ email, code }) => {
         <div className="font-D32px-M24px text-center font-bold">
           Confirm you want to unsubscribe
         </div>
-        <div className="mx-auto my-4 h-[2px] w-[48px] bg-[#E7461E] sm:mb-[24px]"></div>
+        <div className="mx-auto my-4 h-[2px] w-[48px] bg-[#333333] sm:mb-[24px]"></div>
         <div className="font-D16px-M14px text-center">
           Simply click on this link to stop receiving emails from us.
         </div>
@@ -51,7 +51,7 @@ const SubscribeUnsubscribe: FC<UnsubscribeProps> = ({ email, code }) => {
             type="button"
             disabled={isUnsubscribed || isLoading}
             className={classNames(
-              "font-D16px-M13px text-[#E7461E] transition duration-300 hover:text-[#E7461E]",
+              "font-D16px-M13px text-[#333333] transition duration-300 hover:text-[#333333]",
               !isUnsubscribed && !isLoading
                 ? "cursor-pointer hover:underline"
                 : "cursor-default opacity-50"

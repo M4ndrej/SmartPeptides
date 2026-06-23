@@ -15,7 +15,7 @@ export async function GET(request: Request) {
   //   cookieData.set(cookieSplitValue[0], cookieSplitValue[1]);
   // });
 
-  //https://api.valuepeptide.com//wp-json/myauth/v2/init_affiliate?wpam_id=163
+  //https://api.smartpeptides.com//wp-json/myauth/v2/init_affiliate?wpam_id=163
 
   if (wpamId && wpamId !== "undefined") {
     var myHeaders = new Headers();

@@ -68,13 +68,13 @@ const HomeSlide: FC<HomeSlide> = ({
         >
           {title && isH1 ? (
             <h1
-              className={`${couponCode && "lg:text-[35px] xl:text-[43px]"} font-H1 text-[#E7461E] sm:!text-center`}
+              className={`${couponCode && "lg:text-[35px] xl:text-[43px]"} font-H1 text-black sm:!text-center`}
             >
               {title}
             </h1>
           ) : (
             <h2
-              className={`${couponCode && "lg:text-[35px] xl:text-[43px]"} font-H1 text-[#E7461E] sm:!text-center`}
+              className={`${couponCode && "lg:text-[35px] xl:text-[43px]"} font-H1 text-black sm:!text-center`}
             >
               {title}
             </h2>
@@ -126,7 +126,7 @@ const HomeSlide: FC<HomeSlide> = ({
                 text={btnTitle}
                 highlighted
                 smallerButton
-                customClass="sm:!w-fit !bg-[#E7461E] !border-[#E7461E]"
+                customClass="sm:!w-fit !bg-[#333333] !border-[#333333]"
                 onPress={async () => {}}
               />
             </Link>

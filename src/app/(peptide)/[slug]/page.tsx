@@ -76,7 +76,7 @@ export async function generateMetadata({
   //       description: product.meta.description,
   //       images: [product.meta.image.src],
   //       type: "website",
-  //       siteName: "VALUE PEPTIDE",
+  //       siteName: "SMART PEPTIDES",
   //     },
   //   };
   // }
@@ -109,7 +109,7 @@ export async function generateMetadata({
   //       description: blog.meta.description,
   //       images: [blog.meta.image.src],
   //       type: "website",
-  //       siteName: "VALUE PEPTIDE",
+  //       siteName: "SMART PEPTIDES",
   //     },
   //   };
   // }

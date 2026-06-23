@@ -166,7 +166,7 @@ const Login: FC<LoginProps> = ({
           <div className="flex items-center">
             {!isNewUser && (
               <div
-                className="font-D16px-M13px ml-auto cursor-pointer select-none transition duration-300 hover:text-[#E7461E] sm:leading-[16px]"
+                className="font-D16px-M13px ml-auto cursor-pointer select-none transition duration-300 hover:text-[#333333] sm:leading-[16px]"
                 onClick={() => setModalType("LostPassword")}
               >
                 Forgot your password?

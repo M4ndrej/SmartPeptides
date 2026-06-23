@@ -20,7 +20,7 @@ const NavigationSidebarSocialAndPhoneInfo = () => {
               fillRule="evenodd"
               clipRule="evenodd"
               d="M16.7238 9.82439H12.9238V6.35122C13.1048 4.86829 13.9524 4.10732 15.381 4.10732H17V2.03902C16.8476 2.01951 16.7143 2 16.5714 2H14.4857C13.5524 2 12.6571 2.26341 11.9524 2.75122C11.181 3.30732 10.6476 4.20488 10.5238 5.13171C10.4286 5.57073 10.381 6 10.381 6.4V9.87317H7V12.2732H10.3333V22H13.0762V12.2244H16.4762L16.7238 9.82439Z"
-              fill="#E7461E"
+              fill="#333333"
             />
           </g>
           <g clipPath="url(#clip1_3954_3664)">
@@ -88,7 +88,7 @@ const NavigationSidebarSocialAndPhoneInfo = () => {
         className={classNames({
           "font-12px-ALL flex items-center gap-[4px] whitespace-nowrap transition duration-200 [&_path]:transition [&_path]:duration-200 ":
             true,
-          "hover:text-[#E7461E] [&_path]:hover:fill-[#E7461E]": !isDark,
+          "hover:text-[#333333] [&_path]:hover:fill-[#333333]": !isDark,
           "!fill-white text-white hover:text-white [&_path]:hover:fill-white":
             isDark,
         })}

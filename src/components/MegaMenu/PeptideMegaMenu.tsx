@@ -30,7 +30,7 @@ const PeptideMegaMenu: FC<MegaMenuProps> = ({ closePopover }) => {
     <>
       <div className="relative bg-white md:top-0 md:pt-[24px] lg:top-0 lg:pt-[24px] xl:top-0 xl:w-[100vw] xl:pt-0">
         <div className="xl:container-padding-inline flex min-w-[100%] lg:mr-auto lg:min-w-[637px] lg:max-w-[637px] xl:mx-auto xl:max-w-[1264px]">
-          <div className="categories bg-[#FFE9E3]-clear relative pr-[24px] pt-[32px] before:absolute before:left-[-400%] before:top-0 before:h-full before:min-w-[400%] before:content-[''] md:hidden lg:hidden xl:block dark:bg-transparent dark:before:bg-transparent">
+          <div className="categories bg-[#f0f0f0]-clear relative pr-[24px] pt-[32px] before:absolute before:left-[-400%] before:top-0 before:h-full before:min-w-[400%] before:content-[''] md:hidden lg:hidden xl:block dark:bg-transparent dark:before:bg-transparent">
             {/* {menuType === "Buy Peptides" ? ( */}
             <div className="font-16px-ALL flex min-w-[201px] max-w-[201px] flex-col gap-[24px]">
               <MegaMenuNavLink

@@ -44,7 +44,7 @@ export const DropdownLink: React.FC<DropdownListProps> = ({
             className={classNames(
               "!group-hover:stroke-textWhite !stroke-textWhite transition duration-300 ",
               {
-                "stroke-[#E7461E]": isActivePage,
+                "stroke-[#333333]": isActivePage,
               }
             )}
           />

@@ -115,7 +115,7 @@ const TrackingShipmentInformation: FC<TrackingShipmentInformationProps> = ({
       </div>
       <div className="flex flex-col gap-2">
         <div className="font-D16px-M14px font-bold">Estimated Delivery:</div>
-        <div className="font-D32px-T24px-M18px font-bold text-[#E7461E]">
+        <div className="font-D32px-T24px-M18px font-bold text-[#333333]">
           {!tracking?.eta_date || tracking.status_key == "label_created"
             ? "Will be updated soon"
             : formatDateWeekDay(tracking.eta_date)}

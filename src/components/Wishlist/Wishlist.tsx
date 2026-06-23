@@ -48,7 +48,7 @@ const Wishlist: FC<WishlistProps> = ({ closePopover, itemsCount }) => {
           {isLoading && (
             <div className="absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]">
               <Spinner
-                widthHeight="h-10 w-10 text-[#E7461E]"
+                widthHeight="h-10 w-10 text-[#333333]"
                 customClass="!mr-0"
               />
             </div>

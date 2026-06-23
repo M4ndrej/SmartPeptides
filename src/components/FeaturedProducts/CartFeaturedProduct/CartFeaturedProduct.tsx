@@ -157,7 +157,7 @@ const CartFeaturedProduct: FC<CartFeaturedProductProps> = ({
         (mainProduct.id === 114195 && !hasSerum)) && (
         <div
           className={classNames({
-            "!col-span-2 flex h-[67px] w-full items-center bg-[#FFE9E3] py-[9px] pl-[6px] pr-[16px] dark:bg-transparent":
+            "!col-span-2 flex h-[67px] w-full items-center bg-[#f0f0f0] py-[9px] pl-[6px] pr-[16px] dark:bg-transparent":
               true,
             "order-[-1]": mainProduct.id == 11557,
             "order-[1]": mainProduct.id === 114189,
@@ -195,7 +195,7 @@ const CartFeaturedProduct: FC<CartFeaturedProductProps> = ({
                 labelClickHandler(`/${getComProductSlug(mainProduct)}`)
               }
             >
-              <div className="font-D16px-M12px w-fit cursor-pointer font-bold transition-[color] duration-300 ease-in-out hover:text-[#E7461E]">
+              <div className="font-D16px-M12px w-fit cursor-pointer font-bold transition-[color] duration-300 ease-in-out hover:text-[#333333]">
                 {productName}
               </div>
             </div>
@@ -238,7 +238,7 @@ const CartFeaturedProduct: FC<CartFeaturedProductProps> = ({
             </div>
           </div>
           <div className="flex items-center gap-[10px]">
-            <p className="font-D16px-M14px text-[#E7461E]">
+            <p className="font-D16px-M14px text-[#333333]">
               ${mainProduct.price} USD
             </p>
             {showSpinner ? (
@@ -249,7 +249,7 @@ const CartFeaturedProduct: FC<CartFeaturedProductProps> = ({
               <div
                 ref={addToCartRef}
                 className={classNames({
-                  "group relative flex h-[41px] w-[41px] cursor-pointer select-none items-center justify-center rounded-[7px] bg-[#FFE9E3] transition duration-200 hover:bg-[#E7461E] dark:bg-transparent":
+                  "group relative flex h-[41px] w-[41px] cursor-pointer select-none items-center justify-center rounded-[7px] bg-[#f0f0f0] transition duration-200 hover:bg-[#333333] dark:bg-transparent":
                     true,
                   "!cursor-not-allowed": isProductInCart,
                 })}
@@ -266,7 +266,7 @@ const CartFeaturedProduct: FC<CartFeaturedProductProps> = ({
                     fillRule="evenodd"
                     clipRule="evenodd"
                     d="M11.4979 7.99609C11.4979 6.0631 13.0649 4.49609 14.9979 4.49609H16.9541C18.8871 4.49609 20.4541 6.0631 20.4541 7.99609V10.4963H11.4979V7.99609ZM10.4979 11.4963V11.6833C10.2324 11.8633 10.0575 12.1707 10.0575 12.5197C10.0575 13.0743 10.4991 13.5239 11.0439 13.5239C11.5886 13.5239 12.0303 13.0743 12.0303 12.5197C12.0303 12.1318 11.8142 11.7953 11.4979 11.6281V11.4963H20.4541V11.6286C20.1383 11.796 19.9227 12.1322 19.9227 12.5197C19.9227 13.0743 20.3643 13.5239 20.9091 13.5239C21.4539 13.5239 21.8955 13.0743 21.8955 12.5197C21.8955 12.1703 21.7201 11.8625 21.4541 11.6827V11.4963H23.0547C23.7801 11.4963 24.4016 12.0155 24.5307 12.7294L26.8952 25.8048C27.0617 26.7252 26.3545 27.5718 25.4192 27.5718H6.53392C5.59864 27.5718 4.89143 26.7252 5.05786 25.8048L7.42236 12.7294C7.55146 12.0155 8.17295 11.4963 8.89842 11.4963H10.4979ZM10.4979 10.4963V7.99609C10.4979 5.51081 12.5126 3.49609 14.9979 3.49609H16.9541C19.4394 3.49609 21.4541 5.51081 21.4541 7.99609V10.4963H23.0547C24.2638 10.4963 25.2996 11.3616 25.5148 12.5515L27.8793 25.6269C28.1567 27.1608 26.978 28.5718 25.4192 28.5718H6.53392C4.97513 28.5718 3.79643 27.1608 4.07382 25.6269L6.43832 12.5515C6.65348 11.3616 7.68931 10.4963 8.89842 10.4963H10.4979Z"
-                    fill="#E7461E"
+                    fill="#333333"
                     className="transition duration-300 group-hover:fill-gray4"
                   />
                 </svg>

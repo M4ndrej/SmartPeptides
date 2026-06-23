@@ -92,7 +92,7 @@ const SingleProductSwitchButtons: FC<SingleProductSwitchButtonsProps> = ({
                   <div className="font-13px-ALL mb-[4px]">
                     {hoverNextProduct?.name}
                   </div>
-                  <div className="font-13px-ALL text-[#E7461E]">
+                  <div className="font-13px-ALL text-[#333333]">
                     {formatCurrency(+hoverNextProduct?.price, true)}
                   </div>
                 </div>
@@ -127,7 +127,7 @@ const SingleProductSwitchButtons: FC<SingleProductSwitchButtonsProps> = ({
                 <div className="font-12px-ALL mb-[4px] text-ellipsis sm:max-w-full sm:overflow-hidden sm:whitespace-nowrap  md:overflow-hidden  md:whitespace-nowrap">
                   {previousProduct?.name}
                 </div>
-                <div className="font-12px-ALL text-[#E7461E]">
+                <div className="font-12px-ALL text-[#333333]">
                   {formatCurrency(+previousProduct?.price, true)}
                 </div>
               </div>
@@ -139,7 +139,7 @@ const SingleProductSwitchButtons: FC<SingleProductSwitchButtonsProps> = ({
                 <div className="font-12px-ALL mb-[4px] text-ellipsis sm:max-w-full sm:overflow-hidden sm:whitespace-nowrap md:overflow-hidden  md:whitespace-nowrap">
                   {nextProduct?.name}
                 </div>
-                <div className="font-12px-ALL text-[#E7461E]">
+                <div className="font-12px-ALL text-[#333333]">
                   {formatCurrency(+nextProduct?.price, true)}
                 </div>
               </div>

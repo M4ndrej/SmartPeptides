@@ -41,7 +41,7 @@ const AffiliateWelcomeModal: FC = () => {
                 height={120}
               />
             </div>
-            <div className="m-auto my-[16px] h-[2px] w-[48px] bg-[#E7461E] sm:block"></div>
+            <div className="m-auto my-[16px] h-[2px] w-[48px] bg-[#333333] sm:block"></div>
             <div className="font-D32px-M24px mb-[24px] mt-[24px] text-center font-bold">
               Welcome to our Affiliate program!
             </div>

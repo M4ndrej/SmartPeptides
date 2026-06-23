@@ -18,7 +18,7 @@ const SearchMessages: React.FC<SearchMessagesProps> = ({
     {!products && !loading && !error && (
       <div className="font-D16px-M13px mb-[48px] mt-[16px] transition duration-200 sm:mb-[24px] sm:mt-[10px]">
         Popular searches:{" "}
-        <span className="text-[#E7461E] transition duration-200">
+        <span className="text-[#333333] transition duration-200">
           Epithalon, Sermorelin, ...
         </span>
       </div>

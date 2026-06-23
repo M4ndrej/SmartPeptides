@@ -64,7 +64,7 @@ const DeleteProfileModal: FC<DeleteProfileModalProps> = ({
             </div>
             <ul className="font-D16px-M13px list-disc pl-[24px]">
               <li className="mb-[8px]">
-                You will no longer have access to your Value Peptide or Peptide
+                You will no longer have access to your Smart Peptides or Peptide
                 member profile.
               </li>
               <li>
@@ -74,7 +74,7 @@ const DeleteProfileModal: FC<DeleteProfileModalProps> = ({
             </ul>
             <div className="font-D16px-M13px mt-[24px]">
               Information shared on social networks or platforms outside of
-              valuepeptide.com/ will not be affected.
+              smartpeptides.com/ will not be affected.
             </div>
             <div className="mb-[32px] mt-[16px] flex items-start sm:mt-[24px]">
               <div className="pt-[4px]">
@@ -108,7 +108,7 @@ const DeleteProfileModal: FC<DeleteProfileModalProps> = ({
                 )}
               />
               <button
-                className="font-D16px-M15px mt-[16px] cursor-pointer hover:text-[#E7461E]"
+                className="font-D16px-M15px mt-[16px] cursor-pointer hover:text-[#333333]"
                 type="button"
                 onClick={() => setIsOpen(false)}
               >

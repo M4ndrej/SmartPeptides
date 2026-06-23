@@ -19,12 +19,12 @@ const FaqPage: FC = () => {
       <div className="mt-[48px] w-[100%]">
         <div className=" container-padding-inline mx-auto w-[100%] max-w-[1264px]">
           {/* <h1 className="font-D32px-M24px pb-[16px] font-bold">{"FAQ’s"}</h1>
-      <div className="mb-[16px] h-[2px] w-[48px] bg-[#E7461E]"></div> */}
+      <div className="mb-[16px] h-[2px] w-[48px] bg-[#333333]"></div> */}
         </div>
         <div className="container-padding-inline m-[auto] flex w-[100%] max-w-[1264px] items-center pb-[96px] sm:max-w-[100vw] sm:pb-[64px] md:max-w-[100vw] md:flex-col md:gap-[70px] lg:gap-[160px] xl:gap-[220px]">
           <div className="h-full w-[592px] sm:mr-0 sm:w-[100%] md:mr-0 md:w-[100%]">
             <h1 className="font-D32px-M24px pb-[16px] font-bold">{"FAQ's"}</h1>
-            <div className="mb-[16px] h-[2px] w-[48px] bg-[#E7461E]"></div>
+            <div className="mb-[16px] h-[2px] w-[48px] bg-[#333333]"></div>
             {FAQS_DATA.map((item, index) => (
               <AnimateHeight
                 height={showDescriptionIndex === index ? "auto" : 50}
@@ -43,9 +43,9 @@ const FaqPage: FC = () => {
                     handleDescription(index);
                   }}
                   className={classNames({
-                    "flex w-[592px] cursor-pointer items-center rounded-[5px] border-[1px] border-solid border-borderColor px-[14px] py-[12px] transition duration-300 ease-linear hover:border-[#E7461E] hover:bg-[#FFE9E3] sm:w-[100%] sm:px-[16px] sm:py-[13px] md:w-[100%] dark:hover:border-borderColor dark:hover:bg-transparent":
+                    "flex w-[592px] cursor-pointer items-center rounded-[5px] border-[1px] border-solid border-borderColor px-[14px] py-[12px] transition duration-300 ease-linear hover:border-[#333333] hover:bg-[#f0f0f0] sm:w-[100%] sm:px-[16px] sm:py-[13px] md:w-[100%] dark:hover:border-borderColor dark:hover:bg-transparent":
                       true,
-                    "!border-[#E7461E] bg-[#FFE9E3] dark:!border-borderColor dark:bg-transparent":
+                    "!border-[#333333] bg-[#f0f0f0] dark:!border-borderColor dark:bg-transparent":
                       showDescriptionIndex === index,
                   })}
                 >

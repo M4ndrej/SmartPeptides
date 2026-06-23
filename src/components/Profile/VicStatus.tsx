@@ -33,8 +33,8 @@ const VicStatus: FC<VicStatusProps> = ({ vicData, className }) => {
   //     <BannerWrapper
   //       title={`Current status: ${vicData.current_tier.name}`}
   //       bgColor="#FFFDF2"
-  //       borderColor="#FFC439"
-  //       bannerColor="#FFC439"
+  //       borderColor="#333333"
+  //       bannerColor="#333333"
   //       className="sm:flex-1 md:flex-1 lg:flex-grow xl:flex-1"
   //     >
   //       <div className="flex flex-col gap-1">

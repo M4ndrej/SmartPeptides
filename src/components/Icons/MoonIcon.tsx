@@ -21,7 +21,7 @@ const MoonIcon: FC<MoonIconProps> = ({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={classNames(
-        isActive ? "fill-[#E7461E]" : "fill-gray2",
+        isActive ? "fill-[#333333]" : "fill-gray2",
         className
       )}
     >

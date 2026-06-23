@@ -9,6 +9,6 @@ export const dynamicShareLink = (link?: string) => {
   const hostname = headerData.get("x-forwarded-host");
 
   url.protocol = protocol ?? "https";
-  url.host = hostname ?? "valuepeptide.com/";
+  url.host = hostname ?? "smartpeptides.com/";
   return url.toString();
 };

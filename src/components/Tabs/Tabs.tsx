@@ -48,7 +48,7 @@ const Tabs: FC<TabsProps> = ({ tabs, onChange, activeTab, className }) => {
             "font-16px-ALL hover:text-purple w-full cursor-pointer border-b-[2px] border-lightgray text-center text-gray2 transition-all",
             tab.id == activeTab &&
               !animation &&
-              "!border-[#E7461E] font-bold !text-[#E7461E]"
+              "!border-[#333333] font-bold !text-[#333333]"
           )}
           onClick={() => handleSwitch(tab)}
         >
@@ -57,7 +57,7 @@ const Tabs: FC<TabsProps> = ({ tabs, onChange, activeTab, className }) => {
       ))}
       <div
         className={classNames(
-          "absolute bottom-[2px] border-b-[2px] border-[#E7461E] transition-all",
+          "absolute bottom-[2px] border-b-[2px] border-[#333333] transition-all",
           animation ? "opacity-100" : "opacity-0"
         )}
         style={{

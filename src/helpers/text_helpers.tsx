@@ -9,7 +9,7 @@ export const getHighlightedText = (text: string, highlight: string) => {
           key={i}
           className={
             part.toLowerCase() === highlight.toLowerCase()
-              ? `bg-[#E7461E] text-white`
+              ? `bg-[#333333] text-white`
               : ""
           }
         >

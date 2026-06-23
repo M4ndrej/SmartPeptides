@@ -20,22 +20,22 @@ const HeaderUserMenu: FC<HeaderUserMenuProps> = ({
       )}
     >
       <ul className="!m-0 flex w-full list-none flex-col py-2">
-        <li className="cursor-pointer px-4 py-2 transition duration-200 hover:text-[#E7461E]">
+        <li className="cursor-pointer px-4 py-2 transition duration-200 hover:text-[#333333]">
           <Link href="/profile" prefetch={false}>
             Dashboard
           </Link>
         </li>
-        <li className="cursor-pointer px-4 py-2 transition duration-200 hover:text-[#E7461E]">
+        <li className="cursor-pointer px-4 py-2 transition duration-200 hover:text-[#333333]">
           <Link href="/profile/orders/" prefetch={false}>
             Orders
           </Link>
         </li>
-        <li className="cursor-pointer px-4 py-2 transition duration-200 hover:text-[#E7461E]">
+        <li className="cursor-pointer px-4 py-2 transition duration-200 hover:text-[#333333]">
           <Link href="/profile/store-credits/" prefetch={false}>
             Store Credit
           </Link>
         </li>
-        <li className="cursor-pointer px-4 py-2 transition duration-200 hover:text-[#E7461E]">
+        <li className="cursor-pointer px-4 py-2 transition duration-200 hover:text-[#333333]">
           <Link href="/profile/details" prefetch={false}>
             Account details
           </Link>

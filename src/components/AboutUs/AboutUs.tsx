@@ -6,7 +6,7 @@ const AboutUs = () => {
       <div className="sm:w-auto md:w-auto lg:w-[496px] xl:w-[592px]">
         <div className="font-16px-ALL">
           <div className="mb-[20px]">
-            Value Peptide is more than a supplier. We are a dependable research
+            Smart Peptides is more than a supplier. We are a dependable research
             partner dedicated to supporting scientists, labs, and institutions
             with high standard materials they can trust. Our company was built
             on clear principles: honesty, precision, and consistent performance.
@@ -14,7 +14,7 @@ const AboutUs = () => {
             crowded industry.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#E7461E]">
+          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
             Our Commitment to Quality
           </div>
 
@@ -26,17 +26,17 @@ const AboutUs = () => {
             moment it leaves our facility. Strict quality control procedures and
             third-party testing help ensure that each batch meets the demanding
             expectations of professional research environments. When you receive
-            a product from Value Peptide, you&apos;re receiving dependable,
+            a product from Smart Peptides, you&apos;re receiving dependable,
             thoroughly verified materials designed to support reliable and
             reproducible results.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#E7461E]">
+          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
             Our Vision
           </div>
 
           <div className="mb-[20px]">
-            Value Peptide aims to support research that pushes scientific
+            Smart Peptides aims to support research that pushes scientific
             boundaries and opens new possibilities for discovery. We believe
             that progress in peptide science should be driven with
             responsibility, awareness, and respect for both people and the

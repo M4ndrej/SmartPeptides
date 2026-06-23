@@ -23,7 +23,7 @@ export default async function AffiliateLayout({
     <AffiliateContextProvider affiliateInfo={affiliateInfo}>
       <div className="font-D24px-M18px font-bold ">Affiliate</div>
       <p className="font-D16px-M13px mt-[16px] font-bold">Your referral link</p>
-      <p className="font-D16px-M13px my-[4px] w-fit rounded-[5px] bg-[#E7461E] px-[8px] py-[5px] text-textWhite">
+      <p className="font-D16px-M13px my-[4px] w-fit rounded-[5px] bg-[#333333] px-[8px] py-[5px] text-textWhite">
         {dynamicShareLink(affiliateInfo?.share_link)}
       </p>
       <div className="mt-[24px]">

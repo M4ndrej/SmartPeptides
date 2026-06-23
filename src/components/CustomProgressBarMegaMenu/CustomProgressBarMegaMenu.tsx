@@ -21,7 +21,7 @@ const CustomProgressBarMegaMenu: FC<CustomProgressBarMegaMenuProps> = ({
       className={`relative m-auto mt-[13px] h-[5px] w-[180px] rounded-[6px] bg-gray sm:w-[93%] `}
     >
       <div
-        className={`t-0 absolute h-[5px] w-[33.33%] rounded-[5px] bg-[#E7461E] transition-all duration-300 sm:w-[16.66%]  ${leftPercent}`}
+        className={`t-0 absolute h-[5px] w-[33.33%] rounded-[5px] bg-[#333333] transition-all duration-300 sm:w-[16.66%]  ${leftPercent}`}
       ></div>
     </div>
   );

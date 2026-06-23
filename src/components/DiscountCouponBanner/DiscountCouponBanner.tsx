@@ -20,7 +20,7 @@ const DiscountCouponBanner = ({ className }: { className?: string }) => {
       )}
     >
       <div className="m-10 flex min-w-[227px] max-w-[740px] flex-col items-start sm:ml-[16px] sm:mr-[19px] md:ml-6 md:mr-7 from834:ml-10 from834:mr-[68px] lg:mr-[38px] xl:mr-[175px]">
-        <h2 className="font-D32px-M18px mb-4 text-center font-bold text-[#E7461E]">
+        <h2 className="font-D32px-M18px mb-4 text-center font-bold text-[#333333]">
           Coupon discounts
         </h2>
         <p className="font-D16px-M13px mb-8 sm:mb-4">

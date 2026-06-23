@@ -24,7 +24,7 @@ const PopoverArrow: FC<PopoverArrowProps> = ({
     <button
       type="button"
       className={classNames(
-        "absolute top-[316px] max-w-fit cursor-pointer select-none bg-[#E7461E] transition-all duration-300 hover:bg-[#E7461E] sm:hidden",
+        "absolute top-[316px] max-w-fit cursor-pointer select-none bg-[#333333] transition-all duration-300 hover:bg-[#333333] sm:hidden",
         (position === "top" || position === "bottom") && "hidden",
         position === "right" && "left-0 -translate-x-[100%] rounded-l-[5px]",
         position === "left" && "right-0 translate-x-[100%] rounded-r-[5px]",

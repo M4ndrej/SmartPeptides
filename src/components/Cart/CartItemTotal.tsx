@@ -17,7 +17,7 @@ const CartItemTotal: FC<CartItemTotalProps> = ({ item }) => {
   );
 
   return (
-    <div className="font-D16px-M13px font-bold text-[#E7461E] sm:leading-[16px]">
+    <div className="font-D16px-M13px font-bold text-[#333333] sm:leading-[16px]">
       <div className="flex flex-col items-end">
         {/* {quantity >= 5 && (
           <span className="font-10px-ALL text-gray2 line-through">{total}</span>

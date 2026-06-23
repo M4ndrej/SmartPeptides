@@ -42,7 +42,7 @@ const ImageDeleteButton: FC<ImageDeleteButtonProps> = ({
     <button
       className={classNames(
         "group/button !flex h-8 w-8 items-center justify-center rounded-md bg-gray transition-all duration-300",
-        isLoading ? "cursor-not-allowed" : "hover:bg-[#E7461E]",
+        isLoading ? "cursor-not-allowed" : "hover:bg-[#333333]",
         className
       )}
       disabled={isLoading}

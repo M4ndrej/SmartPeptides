@@ -9,7 +9,7 @@ import { WithContext } from "schema-dts";
 
 export const metadata = {
   title: "Exclusive Discounts and Coupon Codes",
-  description: `Discover active Value Peptide coupon codes for ${getMonthYearForDiscountPage()}! Save big on your peptides purchase with our exclusive discounts and coupon codes.`,
+  description: `Discover active Smart Peptides coupon codes for ${getMonthYearForDiscountPage()}! Save big on your peptides purchase with our exclusive discounts and coupon codes.`,
   ...(process.env.ENVIRONMENT === "production" && {
     alternates: {
       canonical: `/discount/`,
@@ -23,15 +23,15 @@ export default async function Discounts() {
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://valuepeptide.com//#organization",
-        name: "VALUE PEPTIDE",
+        "@id": "https://smartpeptides.com//#organization",
+        name: "SMART PEPTIDES",
       },
       {
         "@type": "WebSite",
-        "@id": "https://valuepeptide.com//#website",
-        url: "https://valuepeptide.com/",
-        name: "VALUE PEPTIDE",
-        publisher: { "@id": "https://valuepeptide.com//#organization" },
+        "@id": "https://smartpeptides.com//#website",
+        url: "https://smartpeptides.com/",
+        name: "SMART PEPTIDES",
+        publisher: { "@id": "https://smartpeptides.com//#organization" },
         inLanguage: "en-US",
       },
       {
@@ -44,13 +44,13 @@ export default async function Discounts() {
       },
       {
         "@type": "WebPage",
-        "@id": "https://valuepeptide.com//discount/#webpage",
-        url: "https://valuepeptide.com//discount",
-        name: "Discounts - VALUE PEPTIDE",
+        "@id": "https://smartpeptides.com//discount/#webpage",
+        url: "https://smartpeptides.com//discount",
+        name: "Discounts - SMART PEPTIDES",
         datePublished: "2023-07-25T11:41:52-05:00",
         dateModified: "2024-01-08T07:35:43-06:00",
-        about: { "@id": "https://valuepeptide.com//#organization" },
-        isPartOf: { "@id": "https://valuepeptide.com//#website" },
+        about: { "@id": "https://smartpeptides.com//#organization" },
+        isPartOf: { "@id": "https://smartpeptides.com//#website" },
         primaryImageOfPage: {
           "@id": "/images/discount15.svg",
         },
@@ -69,7 +69,7 @@ export default async function Discounts() {
       <div className="container-padding-inline m-auto mt-[48px] flex flex-col sm:mb-[64px] md:mb-[64px] md:!px-[8px] lg:mb-[64px] lg:max-w-[1264px] xl:mb-[94px]">
         <div className="flex w-full flex-col items-center justify-center">
           <h1 className="font-D32px-M24px pb-[16px] font-bold">Discounts</h1>
-          <div className="h-[2px] w-[48px] rounded-[2px] bg-[#E7461E]"></div>
+          <div className="h-[2px] w-[48px] rounded-[2px] bg-[#333333]"></div>
           <p className="font-D16px-M13px mt-[24px] text-center sm:mt-[16px]">
             Discover our amazing discounts!
           </p>

@@ -29,7 +29,7 @@ const LinkComponent: FC<LinkComponentProps> = ({
         onClick={handleClick}
         className={classNames({
           "transition duration-300": true,
-          "font-D16px-M13px cursor-pointer transition duration-300 hover:text-[#E7461E]":
+          "font-D16px-M13px cursor-pointer transition duration-300 hover:text-[#333333]":
             usefulLink,
           "!text-textWhite": !inFooter,
           "font-D16px-M13px": inFooter,

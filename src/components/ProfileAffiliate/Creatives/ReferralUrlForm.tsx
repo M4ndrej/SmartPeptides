@@ -16,7 +16,7 @@ const ReferralUrlForm: FC<ReferralUrlFormProps> = ({ affiliateIdURL }) => {
   const [link, setLink] = useState("");
 
   const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
-    const prefix = "https://valuepeptide.com/";
+    const prefix = "https://smartpeptides.com/";
     const inputVal = e.target.value;
 
     if (inputVal === prefix) {
@@ -74,7 +74,7 @@ const ReferralUrlForm: FC<ReferralUrlFormProps> = ({ affiliateIdURL }) => {
             required={true}
             customClass="w-full"
             parentCustomClass="w-full"
-            value={`https://valuepeptide.com//${link}`}
+            value={`https://smartpeptides.com//${link}`}
             onChange={handleInputChange}
             onKeyDown={handleKeyPress}
             errorInput={!!linkError}

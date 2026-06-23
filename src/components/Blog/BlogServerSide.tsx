@@ -13,7 +13,7 @@ const BlogServerSide = async () => {
             <h1 className="font-D32px-T24px-M24px inline">Blog</h1>
             <span className="font-D32px-T24px-M24px">{` (${blogs.length})`}</span>
           </div>
-          <div className="h-[2px] w-[48px] rounded-[2px] bg-[#E7461E]"></div>
+          <div className="h-[2px] w-[48px] rounded-[2px] bg-[#333333]"></div>
         </div>
         <BlogsList blogs={blogs} />
       </>

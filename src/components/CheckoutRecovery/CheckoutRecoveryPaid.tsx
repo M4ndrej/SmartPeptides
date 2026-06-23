@@ -18,12 +18,12 @@ const CheckoutRecoveryPaid = () => {
               width={60}
               height={60}
               strokeWidth={1.2}
-              className="!stroke-[#E7461E]"
+              className="!stroke-[#333333]"
             />
 
             <h1 className="font-D32px-M24px flex flex-col items-center justify-center gap-4 text-center font-bold">
               You have already paid.
-              <div className="h-[2px] w-[48px] bg-[#E7461E]" />
+              <div className="h-[2px] w-[48px] bg-[#333333]" />
             </h1>
 
             <p className="text-center">

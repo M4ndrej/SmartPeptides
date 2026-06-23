@@ -52,12 +52,12 @@ const AffiliateSaleCard: FC<AffiliateSaleCardProps> = ({
           </div>
           {width <= 768 && isClientRender && (
             <button
-              className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-[#FFE9E3] dark:bg-transparent"
+              className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-[#f0f0f0] dark:bg-transparent"
               onClick={() => setIsOpen(!isOpen)}
             >
               <DropdownIcon
                 className={classNames(
-                  "!stroke-[#E7461E] transition-transform duration-200",
+                  "!stroke-[#333333] transition-transform duration-200",
                   !isOpen && "rotate-180"
                 )}
                 width={28}

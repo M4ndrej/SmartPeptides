@@ -30,7 +30,7 @@ const MerchSizeTable: FC<MerchSizeTableProps> = ({
   return (
     <div className="relative flex min-h-[180px] w-full items-center justify-start gap-0 overflow-hidden rounded-[5px] sm:justify-center md:justify-center">
       {!isMobile && (
-        <div className="flex h-full min-h-[180px] w-8 items-center justify-center bg-[#E7461E] text-white">
+        <div className="flex h-full min-h-[180px] w-8 items-center justify-center bg-[#333333] text-white">
           <div className="h-full -rotate-90 text-center">{sideText}</div>
         </div>
       )}

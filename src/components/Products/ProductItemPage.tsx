@@ -41,14 +41,14 @@ const ProductItemPage: FC<ProductItemPageProps> = async ({ slug }) => {
     description: product.short_description,
     offers: {
       "@type": "AggregateOffer",
-      url: `https://valuepeptide.com//${getComProductSlug(product)}`,
+      url: `https://smartpeptides.com//${getComProductSlug(product)}`,
       lowPrice: product.price,
       priceCurrency: "USD",
       availability: "https://schema.org/InStock",
     },
     brand: {
       "@type": "Brand",
-      name: "VALUE PEPTIDE",
+      name: "SMART PEPTIDES",
     },
     sku: product.sku,
   };

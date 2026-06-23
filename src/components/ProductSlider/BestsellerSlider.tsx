@@ -19,7 +19,7 @@ const BestsellerSlider: FC<BestsellerSliderProps> = ({ products }) => {
     <div className="w-full">
       <div className="w-full text-center">
         <h2 className="font-D32px-M24px font-bold">Best Sellers</h2>
-        <div className="mx-auto mb-[40px] mt-[16px] h-[2px] w-[48px] bg-[#E7461E]"></div>
+        <div className="mx-auto mb-[40px] mt-[16px] h-[2px] w-[48px] bg-[#333333]"></div>
       </div>
       <div className="relative m-auto flex max-w-[1264px] sm:px-0 xl:px-[16px]">
         <ProductSlider

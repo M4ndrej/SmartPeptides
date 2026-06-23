@@ -29,7 +29,7 @@ const ModalCloseButton: FC<ModalCloseButtonProps> = ({
           "stroke-[#C8C8C8] group-hover/close:stroke-white":
             type === "prod-gallery",
           // Default behavior (white with blue on hover)
-          "stroke-textWhite group-hover/close:stroke-[#E7461E]":
+          "stroke-textWhite group-hover/close:stroke-[#333333]":
             type !== "prod-gallery",
         })}
       />

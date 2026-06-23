@@ -56,7 +56,7 @@ const BlogCard: FC<BlogCardProps> = ({ blog }) => {
         <div className="sm:max-h-auto mb-[32px] sm:h-auto">
           <Link href={`/${blog.slug}`}>
             <h2
-              className="font-D18px-M16px transtion mb-[8px] line-clamp-1 cursor-pointer font-bold duration-300 hover:text-[#E7461E]"
+              className="font-D18px-M16px transtion mb-[8px] line-clamp-1 cursor-pointer font-bold duration-300 hover:text-[#333333]"
               dangerouslySetInnerHTML={{
                 __html: blog.title.rendered || blog.title,
               }}
@@ -73,7 +73,7 @@ const BlogCard: FC<BlogCardProps> = ({ blog }) => {
       <div>
         <Link
           href={`/${blog.slug}`}
-          className="font-D16px-M14px absolute bottom-0 cursor-pointer font-medium text-[#E7461E] transition duration-300 hover:text-[#E7461E] "
+          className="font-D16px-M14px absolute bottom-0 cursor-pointer font-medium text-[#333333] transition duration-300 hover:text-[#333333] "
         >
           READ MORE +
         </Link>

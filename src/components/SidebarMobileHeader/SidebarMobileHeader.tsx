@@ -31,7 +31,7 @@ const SidebarMobileHeader: FC<SidebarMobileHeaderProps> = ({
         {title} {count !== 0 && count !== undefined && <span>({count}) </span>}
       </div>
       {!hideUnderline && (
-        <div className="m-auto mb-[24px] mt-[16px] hidden h-[1px] w-[48px] bg-[#E7461E] sm:block"></div>
+        <div className="m-auto mb-[24px] mt-[16px] hidden h-[1px] w-[48px] bg-[#333333] sm:block"></div>
       )}
       <div
         className={`group absolute right-[10px] top-[22px] z-[3] hidden bg-white sm:block ${customCloseBtnClass}`}
@@ -50,14 +50,14 @@ const SidebarMobileHeader: FC<SidebarMobileHeaderProps> = ({
             stroke="#999999"
             strokeWidth="1.5"
             strokeLinecap="round"
-            className="transition duration-200 group-hover:stroke-[#E7461E]"
+            className="transition duration-200 group-hover:stroke-[#333333]"
           />
           <path
             d="M1 16.998L16.9989 0.999157"
             stroke="#999999"
             strokeWidth="1.5"
             strokeLinecap="round"
-            className="transition duration-200 group-hover:stroke-[#E7461E]"
+            className="transition duration-200 group-hover:stroke-[#333333]"
           />
         </svg>
       </div>

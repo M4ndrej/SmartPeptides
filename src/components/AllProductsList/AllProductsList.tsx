@@ -110,7 +110,7 @@ const AllProductsList: FC<AllProductsListProps> = ({ closePopover }) => {
           {products?.map((item, index: number) => (
             <div
               key={index}
-              className="font-D16px-M13px mb-[16px] pl-[8px] transition last:mb-[24px] hover:text-[#E7461E] sm:last:mb-[24px]"
+              className="font-D16px-M13px mb-[16px] pl-[8px] transition last:mb-[24px] hover:text-[#333333] sm:last:mb-[24px]"
               onClick={() => closePopover && closePopover()}
             >
               <Link href={`/${getComProductSlug(item)}`}>{item.name}</Link>

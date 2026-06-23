@@ -88,7 +88,7 @@ const CartProductItem: FC<CartProductItemProps> = ({
               className={classNames({
                 "transition duration-200": true,
                 "cursor-not-allowed": isInDeleteProcess,
-                "[&_path]:hover:fill-[#E7461E]": !isInDeleteProcess,
+                "[&_path]:hover:fill-[#333333]": !isInDeleteProcess,
               })}
             >
               <path
@@ -111,7 +111,7 @@ const CartProductItem: FC<CartProductItemProps> = ({
           </Link>
           <Link
             href={`/${itemURL}`}
-            className="font-D16px-M12px overflow-hidden text-ellipsis whitespace-nowrap transition duration-200 hover:text-[#E7461E] md:max-w-none"
+            className="font-D16px-M12px overflow-hidden text-ellipsis whitespace-nowrap transition duration-200 hover:text-[#333333] md:max-w-none"
           >
             {item.title}{" "}
           </Link>
@@ -132,7 +132,7 @@ const CartProductItem: FC<CartProductItemProps> = ({
               </div>
             )}
           </div> */}
-          <p className=" font-D16px-M13px text-[#E7461E] md:min-w-[80px]">
+          <p className=" font-D16px-M13px text-[#333333] md:min-w-[80px]">
             {formatCurrency(item.prices.discount_price, false, false)}
           </p>
         </div>
@@ -170,7 +170,7 @@ const CartProductItem: FC<CartProductItemProps> = ({
           )} */}
           <p
             className={classNames({
-              "font-D16px-M13px min-w-[98px] text-center text-[#E7461E] md:min-w-[80px]":
+              "font-D16px-M13px min-w-[98px] text-center text-[#333333] md:min-w-[80px]":
                 true,
             })}
           >

@@ -54,7 +54,7 @@ const HeaderMegaMenu: FC<HeaderMegaMenuProps> = ({
       <Overlay
         isOpen={isOpen}
         onClose={() => {}}
-        customClass={classNames("xl:!top-[140px] !hidden xl:!flex")}
+        customClass={classNames("xl:!top-[150px] !hidden xl:!flex")}
       />
       <AnimateHeight
         height={isOpen ? "auto" : 0}

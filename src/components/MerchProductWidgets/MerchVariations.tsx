@@ -25,7 +25,7 @@ const SingleMerchVariation: FC<SingleMerchVariationProps> = ({
         className={classNames(
           "relative h-16 w-16 rounded-[5px] border-2",
           selectedVariation?.id === variation.id
-            ? "border-[#E7461E]"
+            ? "border-[#333333]"
             : "border-lightgray"
         )}
       >

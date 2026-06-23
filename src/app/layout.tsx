@@ -17,13 +17,13 @@ const monts = Montserrat({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://valuepeptide.com"),
+  metadataBase: new URL("https://smartpeptides.com"),
   title: {
-    default: "VALUE PEPTIDE",
-    template: "%s | VALUE PEPTIDE",
+    default: "SMART PEPTIDES",
+    template: "%s | SMART PEPTIDES",
   },
   description:
-    "VALUE PEPTIDE presents high quality research peptides for sale! Read about our peptides, research studies and buy them. Bulk orders for larger labs also available.",
+    "SMART PEPTIDES presents high quality research peptides for sale! Read about our peptides, research studies and buy them. Bulk orders for larger labs also available.",
   icons: {
     icon: ["/favicon.ico?v=5"],
     apple: ["/favicon/apple-touch-icon.png?v=5"],
@@ -41,13 +41,13 @@ export const metadata: Metadata = {
   //   },
   // },
   openGraph: {
-    title: "VALUE PEPTIDE",
+    title: "SMART PEPTIDES",
     description:
-      "If you are looking to buy high-quality research peptides, stop by VALUE PEPTIDE! We offer highly purified, safe, and effective peptides you can buy online today!",
-    url: "https://valuepeptide.com",
+      "If you are looking to buy high-quality research peptides, stop by SMART PEPTIDES! We offer highly purified, safe, and effective peptides you can buy online today!",
+    url: "https://smartpeptides.com",
     images: [
       {
-        url: "https://valuepeptide.com/images/ogImage.png",
+        url: "https://smartpeptides.com/images/ogImage.png",
         width: 1300,
         height: 1080,
         alt: "Peptide Vials",
@@ -81,7 +81,7 @@ export default async function RootLayout({
         })}
       >
         <Providers>
-          <NextTopLoader color="#E7461E" height={2} showSpinner={false} />
+          <NextTopLoader color="#333333" height={2} showSpinner={false} />
           <CookieConfigs />
           <MainScroll>{children}</MainScroll>
           {/* </MainScroll> */}

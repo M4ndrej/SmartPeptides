@@ -25,10 +25,10 @@ const FilterSection: React.FC<FilterSectionProps> = ({
     <div className="sm:w-[100%] md:w-[100%]">
       <div
         className={classNames({
-          "flex cursor-pointer items-center gap-x-[8px] duration-300 hover:text-[#E7461E] sm:mb-0 sm:transition-[margin-bottom] [&_path]:transition [&_path]:duration-300 [&_path]:hover:stroke-[#E7461E]":
+          "flex cursor-pointer items-center gap-x-[8px] duration-300 hover:text-[#333333] sm:mb-0 sm:transition-[margin-bottom] [&_path]:transition [&_path]:duration-300 [&_path]:hover:stroke-[#333333]":
             true,
           "font-16px-ALL": isMobile,
-          "text-[#E7461E] transition duration-300 sm:mb-[16px] [&_path]:stroke-[#E7461E] [&_svg]:rotate-180":
+          "text-[#333333] transition duration-300 sm:mb-[16px] [&_path]:stroke-[#333333] [&_svg]:rotate-180":
             isOpen,
         })}
         onClick={() => onToggle(filter)}

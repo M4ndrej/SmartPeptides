@@ -15,7 +15,7 @@ const ShopMerchBanner = ({ className }: { className?: string }) => {
       )}
     >
       <div className="flex min-w-[330px] max-w-[740px] flex-col items-start p-10 sm:pl-6">
-        <h2 className="font-D32px-M24px mb-4 pb-[16px] text-center font-bold text-[#E7461E]">
+        <h2 className="font-D32px-M24px mb-4 pb-[16px] text-center font-bold text-[#333333]">
           Merchandise
         </h2>
         <p className="mb-8">
@@ -34,7 +34,7 @@ const ShopMerchBanner = ({ className }: { className?: string }) => {
           you can find
           <span className="sm:hidden ">
             {" "}
-            graphics of Value Peptide and a lot of different categories, from
+            graphics of Smart Peptides and a lot of different categories, from
             art, music, politics and 35 more.
           </span>
           <span className="hidden sm:inline">...</span>

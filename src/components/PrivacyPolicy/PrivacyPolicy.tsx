@@ -7,23 +7,23 @@ const PrivacyPolicy = () => {
         <h1 className="font-D32px-M24px pb-[16px] text-center font-bold">
           Privacy policy
         </h1>
-        <div className="mx-auto mb-[20px] h-[2px] w-[48px] bg-[#E7461E]"></div>
+        <div className="mx-auto mb-[20px] h-[2px] w-[48px] bg-[#333333]"></div>
 
         <div className="font-D16px-M13px">
           <div className="mb-[20px]">
-            By accessing, browsing, or purchasing from Value Peptide, you
+            By accessing, browsing, or purchasing from Smart Peptides, you
             confirm that you have read and understood both the Terms and
             Conditions and this Privacy Policy. Your continued use of the
             website means that you accept all conditions listed here. If you do
             not agree with any part of these terms, you must leave the website
-            and stop using Value Peptide immediately.
+            and stop using Smart Peptides immediately.
           </div>
           <div className="mb-[20px]">
-            Any information that you voluntarily submit to Value Peptide, except
+            Any information that you voluntarily submit to Smart Peptides, except
             for personal and identifiable data described below, becomes the
-            exclusive property of Value Peptide. This includes comments,
+            exclusive property of Smart Peptides. This includes comments,
             suggestions, ideas, or any other form of shared content. By
-            submitting such information, you grant Value Peptide a permanent,
+            submitting such information, you grant Smart Peptides a permanent,
             worldwide, royalty free license to use, reproduce, analyze,
             distribute, or publish that material without any obligation to
             compensate you.
@@ -36,12 +36,12 @@ const PrivacyPolicy = () => {
         </div>
 
         <div className="font-16px-ALL container-margin-bottom-D96px-M64px">
-          <div className="font-D24px-M18px mb-[20px] text-[#E7461E]">
+          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
             COLLECTION AND USE OF PERSONAL INFORMATION
           </div>
 
           <div className="mb-[20px]">
-            To improve customer experience, Value Peptide may collect certain
+            To improve customer experience, Smart Peptides may collect certain
             details such as your name, address, location, browser type, IP
             address, payment information, order history, and shopping behavior.
             This information is stored securely on internal servers and used
@@ -49,40 +49,40 @@ const PrivacyPolicy = () => {
           </div>
 
           <div className="mb-[20px]">
-            Value Peptide does not sell, rent, trade, or distribute personal
+            Smart Peptides does not sell, rent, trade, or distribute personal
             information to third parties without your consent. We do not provide
             customer data to data aggregation companies.
           </div>
           <div className="mb-[20px]">
-            You acknowledge that Value Peptide may use your contact information
+            You acknowledge that Smart Peptides may use your contact information
             to notify you about promotions, discounts, new products, or other
             updates directly related to the store.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#E7461E]">
+          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
             DATA STORAGE AND PROTECTION
           </div>
 
           <div className="mb-[20px]">
-            Value Peptide follows standard industry practices for storing and
+            Smart Peptides follows standard industry practices for storing and
             protecting data. Although internet security standards constantly
-            change, Value Peptide guarantees that it collects only the
+            change, Smart Peptides guarantees that it collects only the
             information necessary to process your orders and payments. All
             collected data is stored on secure company servers and is not kept
             on devices outside the company network.
           </div>
 
           <div className="mb-[20px]">
-            The Value Peptide website is protected with SSL encryption to ensure
+            The Smart Peptides website is protected with SSL encryption to ensure
             secure transactions.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#E7461E]">
+          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
             LOG FILE INFORMATION
           </div>
 
           <div className="mb-[20px]">
-            Value Peptide maintains system generated log files that may include
+            Smart Peptides maintains system generated log files that may include
             data such as your internet provider, browser type, IP address,
             referring or exit pages, timestamps, and click activity. This
             information is used to manage the website, analyze trends, monitor
@@ -90,22 +90,22 @@ const PrivacyPolicy = () => {
             to personally identifiable information.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#E7461E]">
+          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
             USE OF COOKIES
           </div>
 
           <div className="mb-[20px]">
-            Value Peptide uses cookies to store information related to your
+            Smart Peptides uses cookies to store information related to your
             visit and browsing activity on the site. You may disable cookies at
             any time through your browser settings if you prefer.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#E7461E]">
+          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
             OPT IN
           </div>
 
           <div className="mb-[20px]">
-            When placing an order on Value Peptide, you agree to receive emails
+            When placing an order on Smart Peptides, you agree to receive emails
             related to your purchase, including confirmation messages, shipping
             updates, and occasional promotional content. Your email address is
             stored in an encrypted internal database. Phone numbers collected
@@ -114,7 +114,7 @@ const PrivacyPolicy = () => {
             fees may apply.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#E7461E]">
+          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
             OPT OUT
           </div>
 
@@ -125,22 +125,22 @@ const PrivacyPolicy = () => {
             days for your email or phone number to be removed from our lists.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#E7461E]">
+          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
             THIRD PARTY USE
           </div>
 
           <div className="mb-[20px]">
-            Value Peptide does not rely on external companies, advertisers, or
+            Smart Peptides does not rely on external companies, advertisers, or
             marketing providers to send content, aside from basic communication
             tools used to deliver purchase related or promotional emails.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#E7461E]">
+          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
             DATA SECURITY
           </div>
 
           <div className="mb-[20px]">
-            The Value Peptide website uses SSL certification to create an
+            The Smart Peptides website uses SSL certification to create an
             encrypted connection between the server and your browser. Sensitive
             information such as payment data and personal details is protected
             with encryption during transmission to prevent unauthorized access.

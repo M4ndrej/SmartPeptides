@@ -54,7 +54,7 @@ const BlogSidebar: FC<BlogSidebarProps> = ({
               <div className="flex cursor-pointer gap-x-[8px]">
                 <div className="mt-[8px] h-[8px] w-[8px] min-w-[8px] rounded-full bg-gray"></div>
                 <div
-                  className="font-D16px-M13px !text-gray2 transition duration-300 group-hover:!text-[#E7461E]"
+                  className="font-D16px-M13px !text-gray2 transition duration-300 group-hover:!text-[#333333]"
                   dangerouslySetInnerHTML={{
                     __html: blog,
                   }}
@@ -71,19 +71,19 @@ const BlogSidebar: FC<BlogSidebarProps> = ({
         </div>
         <div className="flex flex-col gap-y-[16px]">
           <Link href={`/blog/`}>
-            <div className="flex cursor-pointer items-center gap-x-[8px] [&_div]:hover:text-[#E7461E]">
+            <div className="flex cursor-pointer items-center gap-x-[8px] [&_div]:hover:text-[#333333]">
               <div
                 className={classNames({
                   " h-[8px] w-[8px] min-w-[8px] rounded-full": true,
                   "bg-gray": categorySlug,
-                  "bg-[#E7461E]": !categorySlug,
+                  "bg-[#333333]": !categorySlug,
                 })}
               ></div>
               <div
                 className={classNames({
                   "font-D16px-M13px transition-[color] ease-in-out": true,
                   "text-gray2": categorySlug,
-                  "font-bold text-[#E7461E]": !categorySlug,
+                  "font-bold text-[#333333]": !categorySlug,
                 })}
               >
                 All categories
@@ -97,12 +97,12 @@ const BlogSidebar: FC<BlogSidebarProps> = ({
               //   className={classNames({ hidden: !category.count })}
               //   onClick={() => changeCategory(category.id)}
             >
-              <div className="flex cursor-pointer items-center gap-x-[8px] [&_div]:hover:text-[#E7461E]">
+              <div className="flex cursor-pointer items-center gap-x-[8px] [&_div]:hover:text-[#333333]">
                 <div
                   className={classNames({
                     "h-[8px] w-[8px] min-w-[8px] rounded-full": true,
                     "bg-gray": slugs[i] !== categorySlug,
-                    "bg-[#E7461E]": slugs[i] === categorySlug,
+                    "bg-[#333333]": slugs[i] === categorySlug,
                   })}
                 ></div>
 
@@ -110,7 +110,7 @@ const BlogSidebar: FC<BlogSidebarProps> = ({
                   className={classNames({
                     "font-D16px-M13px transition-[color] ease-in-out": true,
                     "text-gray2": slugs[i] !== categorySlug,
-                    "font-bold text-[#E7461E]": slugs[i] === categorySlug,
+                    "font-bold text-[#333333]": slugs[i] === categorySlug,
                   })}
                 >
                   {category}

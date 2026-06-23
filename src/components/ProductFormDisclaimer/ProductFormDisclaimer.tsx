@@ -35,7 +35,7 @@ const ProductFormDisclaimer: FC<ProductFormDisclaimerProps> = ({
         {isPowderForm
           ? "Product is sold in powder form, needs reconstitution before use. Please read more on our"
           : "Product is topical, in powder form, needs reconstitution before use. Please read more on our"}{" "}
-        <Link href="/faq" className="text-[#E7461E] underline">
+        <Link href="/faq" className="text-[#333333] underline">
           FAQ page
         </Link>
         .

@@ -51,7 +51,7 @@ export const shopPagePaths = [
     seoHeading: "Research Peptides",
     seoTitle: "Peptides For Sale",
     seoDescription:
-      "Value Peptide is your number one source of, 99% pure peptides for sale. Shop by our shop today and secure your discounted order!",
+      "Smart Peptides is your number one source of, 99% pure peptides for sale. Shop by our shop today and secure your discounted order!",
   },
   {
     path: "/cosmetic-peptides/",
@@ -61,7 +61,7 @@ export const shopPagePaths = [
     seoHeading: "Cosmetic Peptides",
     seoTitle: "Buy Cosmetic Peptides Online",
     seoDescription:
-      "Looking to buy cosmetic peptides with 99% purity? Value Peptide is the best place to do so and score an awesome discount!",
+      "Looking to buy cosmetic peptides with 99% purity? Smart Peptides is the best place to do so and score an awesome discount!",
   },
   {
     path: "/blends/",
@@ -71,7 +71,7 @@ export const shopPagePaths = [
     seoHeading: "Research Peptide Blends",
     seoTitle: "Buy Research Peptide Blends",
     seoDescription:
-      "Looking to buy research peptide blands for your lab testing and experimenting? Check out Value Peptide's inventory.",
+      "Looking to buy research peptide blands for your lab testing and experimenting? Check out Smart Peptides's inventory.",
   },
   {
     path: "/peptide-supplies/",
@@ -89,8 +89,8 @@ export const shopPagePaths = [
     dropdown: "Merch",
     header: "Buy Merch",
     seoHeading: "Buy Merch",
-    seoTitle: "Buy Value Peptide Merch",
-    seoDescription: "Buy merch from Value Peptide.",
+    seoTitle: "Buy Smart Peptides Merch",
+    seoDescription: "Buy merch from Smart Peptides.",
   },
 ];
 

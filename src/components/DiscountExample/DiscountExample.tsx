@@ -7,7 +7,7 @@ const DiscountExample = () => {
         <div className="font-D24px-M18px mx-auto text-center font-bold">
           EXAMPLE
         </div>
-        <div className="mt-[16px] h-[2px] w-[48px] rounded-[2px] bg-[#E7461E]"></div>
+        <div className="mt-[16px] h-[2px] w-[48px] rounded-[2px] bg-[#333333]"></div>
         {/* <p className="font-D16px-M13px mt-[24px] text-center font-bold sm:mt-[16px]">
           First discount order:
         </p> */}

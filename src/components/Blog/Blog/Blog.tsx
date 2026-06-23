@@ -45,7 +45,7 @@ const Blog: FC<BlogProps> = ({ blog }) => {
               {formatDate(blog.date)}
             </div>
             <div className="text-[14px] italic text-gray2">
-              by Value Peptide
+              by Smart Peptides
             </div>
           </div>
         </div>
@@ -66,10 +66,10 @@ const Blog: FC<BlogProps> = ({ blog }) => {
             d="M6 1L1 6.5L6 12"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="stroke-black transition duration-200 group-hover:stroke-[#E7461E]"
+            className="stroke-black transition duration-200 group-hover:stroke-[#333333]"
           />
         </svg>
-        <span className="transition duration-200 group-hover:text-[#E7461E]">
+        <span className="transition duration-200 group-hover:text-[#333333]">
           Return to all blogs
         </span>
       </Link>
@@ -86,7 +86,7 @@ const Blog: FC<BlogProps> = ({ blog }) => {
         )}
 
         {blog?.categories?.length ? (
-          <div className="font-13px-ALL absolute bottom-0 left-[50%] flex translate-x-[-50%] translate-y-[50%] items-center justify-center rounded-[5px] bg-[#E7461E] !px-[16px] !py-[8px] text-center text-gray4 sm:w-[max-content] sm:max-w-[100%] sm:text-[13px] sm:leading-[16px]">
+          <div className="font-13px-ALL absolute bottom-0 left-[50%] flex translate-x-[-50%] translate-y-[50%] items-center justify-center rounded-[5px] bg-[#333333] !px-[16px] !py-[8px] text-center text-gray4 sm:w-[max-content] sm:max-w-[100%] sm:text-[13px] sm:leading-[16px]">
             {blog.categories.map((cat, i) => (
               <div
                 key={i}
@@ -108,7 +108,7 @@ const Blog: FC<BlogProps> = ({ blog }) => {
             {formatDate(blog.date)}
           </div>
           <div className="text-[13px] text-gray2">
-            by Value Peptide
+            by Smart Peptides
           </div>
         </div>
       </div> */}
@@ -132,7 +132,7 @@ const Blog: FC<BlogProps> = ({ blog }) => {
           <div className="w-[100%] max-w-[416px]">
             {prevBlog && (
               <Link href={`/${prevBlog.slug}`}>
-                <div className="flex items-center gap-x-[16px] [&_button]:transition [&_button]:duration-300 [&_button]:hover:!border-[#E7461E] [&_button]:hover:!bg-[#FFE9E3] dark:[&_button]:hover:!bg-transparent [&_div]:hover:!text-[#E7461E] [&_path]:hover:stroke-[#E7461E] [&div]:duration-300 [&path]:transition [&path]:duration-300">
+                <div className="flex items-center gap-x-[16px] [&_button]:transition [&_button]:duration-300 [&_button]:hover:!border-[#333333] [&_button]:hover:!bg-[#f0f0f0] dark:[&_button]:hover:!bg-transparent [&_div]:hover:!text-[#333333] [&_path]:hover:stroke-[#333333] [&div]:duration-300 [&path]:transition [&path]:duration-300">
                   <button
                     className={classNames({
                       "border-1.5 flex h-[42px] min-h-[42px] w-[42px] min-w-[42px] items-center justify-center border border-gray2 bg-white p-0 text-light-gray-v2 hover:bg-white":
@@ -169,7 +169,7 @@ const Blog: FC<BlogProps> = ({ blog }) => {
               width="32"
               height="32"
               fill="none"
-              className="[&_rect]:transition [&_rect]:duration-300 [&_rect]:hover:stroke-[#E7461E]"
+              className="[&_rect]:transition [&_rect]:duration-300 [&_rect]:hover:stroke-[#333333]"
             >
               <rect
                 width="8.5"
@@ -213,7 +213,7 @@ const Blog: FC<BlogProps> = ({ blog }) => {
           <div className="w-[100%] max-w-[416px]">
             {nextBlog && (
               <Link href={`/${nextBlog.slug}`}>
-                <div className="flex items-center justify-end gap-x-[16px] transition duration-300 [&_button]:transition [&_button]:duration-300 [&_button]:hover:!border-[#E7461E] [&_button]:hover:!bg-[#FFE9E3] dark:[&_button]:hover:!bg-transparent [&_div]:hover:!text-[#E7461E] [&_path]:hover:stroke-[#E7461E]  [&div]:transition [&div]:duration-300 [&path]:transition [&path]:duration-300">
+                <div className="flex items-center justify-end gap-x-[16px] transition duration-300 [&_button]:transition [&_button]:duration-300 [&_button]:hover:!border-[#333333] [&_button]:hover:!bg-[#f0f0f0] dark:[&_button]:hover:!bg-transparent [&_div]:hover:!text-[#333333] [&_path]:hover:stroke-[#333333]  [&div]:transition [&div]:duration-300 [&path]:transition [&path]:duration-300">
                   <div className="sm:hidden">
                     <div className="text-right text-gray2 transition duration-300">
                       NEXT
@@ -327,7 +327,7 @@ const Blog: FC<BlogProps> = ({ blog }) => {
       {/* {relatedBlogs.length ? (
             <div className="mt-[92px] flex w-[100%] max-w-[896px] flex-col items-center justify-center overflow-hidden sm:mt-[80px] md:mt-[72px]">
               <div className="font-D32px-M24px font-bold">Related Blogs</div>
-              <div className="mt-[16px] h-[2px] w-[48px] rounded-[2px] bg-[#E7461E]"></div>
+              <div className="mt-[16px] h-[2px] w-[48px] rounded-[2px] bg-[#333333]"></div>
               <div className="mt-[40px] w-[100%]">
                 <div className="lg:scrollbar grid min-h-[100%] w-[100%] snap-x auto-cols-fr grid-flow-col items-center gap-x-[16px] overflow-x-auto sm:pb-[8px]">
                   {relatedBlogs.map((post, index) => (

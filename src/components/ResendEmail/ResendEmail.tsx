@@ -48,7 +48,7 @@ const ResendEmail: FC<ResendEmailProps> = ({
       type="button"
       disabled={isPressed || isLoading}
       className={classNames(
-        "font-D16px-M13px text-[#E7461E] transition duration-300 hover:text-[#E7461E]",
+        "font-D16px-M13px text-[#333333] transition duration-300 hover:text-[#333333]",
         !isPressed && !isLoading
           ? "cursor-pointer hover:underline"
           : "cursor-default opacity-50",

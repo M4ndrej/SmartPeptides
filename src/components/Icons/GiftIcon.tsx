@@ -15,7 +15,7 @@ const GiftIcon: FC<IconProps> = ({
       width={width}
       height={height}
       viewBox="0 0 20 20"
-      className={classNames("fill-[#E7461E] stroke-[#E7461E]", className)}
+      className={classNames("fill-[#333333] stroke-[#333333]", className)}
       xmlns="http://www.w3.org/2000/svg"
       strokeWidth={strokeWidth}
       {...props}

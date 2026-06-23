@@ -89,7 +89,7 @@ const CartPage = () => {
               <div className="col-span-2 text-black lg:col-span-3">
                 {items.length < 2 ? "PRODUCT" : "PRODUCTS"}
               </div>
-              <div className="label flex  justify-center text-[#E7461E] sm:hidden">
+              <div className="label flex  justify-center text-[#333333] sm:hidden">
                 PRICE
               </div>
               <div className="label flex justify-center text-black sm:hidden">

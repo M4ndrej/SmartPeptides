@@ -25,12 +25,12 @@ const MailIcon: FC<IconProps> = ({
         width="28"
         height="19"
         rx="2"
-        stroke="#E7461E"
+        stroke="#333333"
         strokeWidth="2"
       />
       <path
         d="M3 8L14.2924 15.8178C15.3197 16.529 16.6803 16.529 17.7076 15.8178L29 8"
-        stroke="#E7461E"
+        stroke="#333333"
         strokeWidth="2"
         strokeLinecap="round"
       />

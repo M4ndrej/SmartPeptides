@@ -44,12 +44,12 @@ const RecentlyViewedProduct: FC<RecentlyViewedProductProps> = ({
       </div>
       <div className="font-D16px-M13px mt-[28px] flex flex-col gap-[8px] font-bold">
         <p
-          className="cursor-pointer transition duration-300 hover:text-[#E7461E]"
+          className="cursor-pointer transition duration-300 hover:text-[#333333]"
           onClick={() => closeSidebarAndNavigateToProduct(slug)}
         >
           {name}{" "}
         </p>
-        <p className="text-[#E7461E]">${price}.00 </p>
+        <p className="text-[#333333]">${price}.00 </p>
       </div>
     </div>
   );

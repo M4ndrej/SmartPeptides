@@ -146,9 +146,9 @@ const ProfileEmailField: FC<ProfileEmailFieldProps> = ({
               type="button"
               className={classNames(
                 `absolute right-1 top-1 inline-flex h-10 w-[132px] select-none items-center justify-center overflow-hidden text-ellipsis 
-                whitespace-nowrap rounded-[5px] border border-[#E7461E] bg-[#E7461E] 
+                whitespace-nowrap rounded-[5px] border border-[#333333] bg-[#333333] 
                 font-medium text-textWhite !transition-all !duration-300 
-              hover:bg-[#E7461E] hover:text-textWhite`,
+              hover:bg-[#333333] hover:text-textWhite`,
                 (!email || !!emailErrors?.email) &&
                   "!border-none !bg-lightgray !text-gray2"
               )}
@@ -211,7 +211,7 @@ const ProfileEmailField: FC<ProfileEmailFieldProps> = ({
         <button
           onClick={() => setState("editing")}
           type="button"
-          className="font-D16px-M13px mt-2 text-gray2 transition duration-300 hover:text-[#E7461E]"
+          className="font-D16px-M13px mt-2 text-gray2 transition duration-300 hover:text-[#333333]"
         >
           Edit email
         </button>

@@ -90,7 +90,7 @@ const TrackingOrder: FC<TrackingOrderProps> = ({ order }) => {
 
           <div className="font-16px-ALL flex items-center justify-between ">
             <div className="font-bold">TOTAL:</div>
-            <div className="font-bold text-[#E7461E]">
+            <div className="font-bold text-[#333333]">
               {formatCurrency(
                 +order.total - +order.discount_total,
                 true,

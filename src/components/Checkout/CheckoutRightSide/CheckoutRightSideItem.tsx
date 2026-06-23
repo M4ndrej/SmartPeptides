@@ -41,7 +41,7 @@ const CheckoutRightSideItem: FC<CheckoutRightSideItemProps> = ({ item }) => {
           height={100}
           className="h-full w-full select-none object-contain"
         />
-        <span className="font-13px-ALL absolute right-[-10px] top-[-10px] flex h-[24px] w-[24px] select-none items-center justify-center rounded-[24px] bg-[#E7461E] text-textWhite">
+        <span className="font-13px-ALL absolute right-[-10px] top-[-10px] flex h-[24px] w-[24px] select-none items-center justify-center rounded-[24px] bg-[#333333] text-textWhite">
           {item.quantity}{" "}
         </span>
       </div>
@@ -51,7 +51,7 @@ const CheckoutRightSideItem: FC<CheckoutRightSideItemProps> = ({ item }) => {
           <p className="font-D16px-M13px overflow-hidden text-ellipsis whitespace-nowrap sm:max-w-[140px] md:max-w-[210px]">
             {item.name}
           </p>{" "}
-          <p className="font-D16px-M13px hidden text-[#E7461E] sm:block xl:block">
+          <p className="font-D16px-M13px hidden text-[#333333] sm:block xl:block">
             {productSubtotal}{" "}
           </p>
         </div>
@@ -71,7 +71,7 @@ const CheckoutRightSideItem: FC<CheckoutRightSideItemProps> = ({ item }) => {
                       "relative flex h-[27px] w-[27px] items-center justify-center rounded-[5px] border-2",
                       v.attribute === "Color"
                         ? "border-lightgray"
-                        : "border-[#E7461E]",
+                        : "border-[#333333]",
                       v.attribute === "Color" &&
                         v.value === "white" &&
                         "bg-white",
@@ -81,25 +81,25 @@ const CheckoutRightSideItem: FC<CheckoutRightSideItemProps> = ({ item }) => {
                     )}
                   >
                     {v.attribute === "Size" && (
-                      <span className="text-sm font-bold capitalize text-[#E7461E]">
+                      <span className="text-sm font-bold capitalize text-[#333333]">
                         {v.value}
                       </span>
                     )}
                   </div>
                 ))
             ) : (
-              <span className="w-fit select-none rounded-[2px] border border-[#E7461E] bg-[#E7461E] px-[8px] py-[1.5px] text-[11px] text-textWhite">
+              <span className="w-fit select-none rounded-[2px] border border-[#333333] bg-[#333333] px-[8px] py-[1.5px] text-[11px] text-textWhite">
                 {variationValue}
               </span>
             )}
           </div>
         )}
         <div className="sm:hidden xl:hidden">
-          <p className="font-D16px-M13px text-[#E7461E]">{productSubtotal}</p>
+          <p className="font-D16px-M13px text-[#333333]">{productSubtotal}</p>
         </div>
 
         {/* <div className=" lg:hidden">
-        <p className="font-D16px-M14px text-[#E7461E]">{productPrice} </p>
+        <p className="font-D16px-M14px text-[#333333]">{productPrice} </p>
         </div> */}
       </div>
     </div>

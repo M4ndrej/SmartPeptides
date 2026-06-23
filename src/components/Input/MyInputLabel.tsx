@@ -46,10 +46,10 @@ const MyInputLabel: FC<MyInputLabelProps> = ({
       {/* Top border space when focused */}
       <div
         className={classNames(
-          "absolute left-4 top-0 origin-left bg-[#FFE9E3] opacity-100 transition-all duration-200 ease-linear",
+          "absolute left-4 top-0 origin-left bg-[#f0f0f0] opacity-100 transition-all duration-200 ease-linear",
           reverseColors
             ? "bg-white dark:bg-transparent"
-            : "bg-[#FFE9E3] dark:bg-transparent",
+            : "bg-[#f0f0f0] dark:bg-transparent",
           isError && "!bg-lightred"
         )}
         style={{
@@ -64,7 +64,7 @@ const MyInputLabel: FC<MyInputLabelProps> = ({
             isEmpty &&
             "font-D16px-M14px inset-[1px] px-[16px] py-[12px] text-gray2",
           (isFocused || !isEmpty) &&
-            "font-12px-ALL -top-2 left-5 px-1 text-[#E7461E]",
+            "font-12px-ALL -top-2 left-5 px-1 text-[#333333]",
           !isFocused && !isEmpty && "!p-0",
           isError && "!text-red",
           className
@@ -77,7 +77,7 @@ const MyInputLabel: FC<MyInputLabelProps> = ({
         {label}
         {/*  If input is required show red (*) */}
         {required && (
-          <span className={classNames("text-[#E7461E]", asteriskClassName)}>
+          <span className={classNames("text-[#333333]", asteriskClassName)}>
             {"*"}
           </span>
         )}

@@ -23,7 +23,7 @@ const SingleMerchSize: FC<SingleMerchSizeProps> = ({ size, selectedSize }) => {
     <div
       className={classNames(
         "flex h-10 w-10 select-none items-center justify-center rounded-[5px] border-2 bg-white",
-        selectedSize === size ? "border-[#E7461E]" : " border-borderColor"
+        selectedSize === size ? "border-[#333333]" : " border-borderColor"
       )}
     >
       {size}
@@ -74,10 +74,10 @@ const MerchSize: FC<MerchSizeProps> = ({
         )}
       />
       <div
-        className="group flex w-fit cursor-pointer items-center justify-start gap-2 text-black transition-colors duration-300 hover:text-[#E7461E]"
+        className="group flex w-fit cursor-pointer items-center justify-start gap-2 text-black transition-colors duration-300 hover:text-[#333333]"
         onClick={() => setIsSizeOpen(true)}
       >
-        <RulerIcon className="transition-colors duration-300 group-hover:fill-[#E7461E]" />
+        <RulerIcon className="transition-colors duration-300 group-hover:fill-[#333333]" />
         <span className="select-none text-sm underline">Size guide</span>
       </div>
       <MerchSizeGuide isOpen={isSizeOpen} setIsOpen={setIsSizeOpen} />

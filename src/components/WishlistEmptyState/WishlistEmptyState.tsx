@@ -12,7 +12,7 @@ const WishlistEmptyState: FC<WishlistEmptyStatetProps> = ({ navigate }) => {
       <HeartIcon
         width={99}
         height={105}
-        className="select-none fill-[#E7461E] sm:h-[81px] sm:w-[77px]"
+        className="select-none fill-[#333333] sm:h-[81px] sm:w-[77px]"
       />
       <div>
         <div className="font-D24px-M18px sm:mx-auto  ">

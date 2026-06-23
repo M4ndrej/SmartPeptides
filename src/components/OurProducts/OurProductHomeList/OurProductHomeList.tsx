@@ -27,7 +27,7 @@ const OurProductHomeList: FC<OurProductHomeListProps> = ({
     >
       <div className="flex w-full flex-col items-center">
         <h3 className="font-D32px-M24px font-bold">Our Products</h3>
-        <div className="mt-[16px] h-[2px] w-[48px] bg-[#E7461E]"></div>
+        <div className="mt-[16px] h-[2px] w-[48px] bg-[#333333]"></div>
       </div>
       <ProductFilter />
       <div className="relative flex justify-center">

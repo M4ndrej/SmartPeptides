@@ -13,7 +13,7 @@ const HeaderTopBar: FC<HeaderTopBarProps> = ({ isOpen = true }) => {
   return (
     <div
       id="header-top-bar"
-      className="flex h-[30px] items-center border-b-[1px] border-[#FFE9E3] py-[3px] dark:border-borderColor"
+      className="flex h-[30px] items-center border-b-[1px] border-[#f0f0f0] py-[3px] dark:border-borderColor"
     >
       <div className="container-padding-inline relative m-[auto] flex w-full max-w-[1264px] justify-between sm:flex sm:max-w-none">
         <div className="sm:hidden md:order-first md:hidden xl:order-first"></div>

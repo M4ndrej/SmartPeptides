@@ -10,7 +10,7 @@ const SingleProductSinglePrice: FC<SingleProductSinglePriceProps> = ({
   product,
 }) => {
   return (
-    <div className="font-D20px-M18px font-medium leading-[28px] text-[#E7461E]">
+    <div className="font-D20px-M18px font-medium leading-[28px] text-[#333333]">
       {product && <>{formatCurrency(+product.price!, true)}</>}
     </div>
   );

@@ -78,7 +78,7 @@ const CheckoutViewOrderMob: FC<CheckoutRightSideProps> = ({
             </svg>
           </div>
         </div>
-        <p className="font-D14px-M13px text-[#E7461E]">
+        <p className="font-D14px-M13px text-[#333333]">
           {cartData ? formatCurrency(cartData?.cart?.totals?.price!) : "$0.00"}
         </p>
       </div>

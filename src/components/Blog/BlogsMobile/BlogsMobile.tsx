@@ -14,7 +14,7 @@ const BlogsMobile: FC<BlogsMobileType> = ({ children }) => {
   return (
     <>
       <div
-        className="fixed left-0 top-[356px] z-[1] flex h-[44px] w-[44px] items-center justify-center rounded-r-[5px] bg-[#E7461E] opacity-70 xl:hidden"
+        className="fixed left-0 top-[356px] z-[1] flex h-[44px] w-[44px] items-center justify-center rounded-r-[5px] bg-[#333333] opacity-70 xl:hidden"
         onClick={() => setOpenPopover(true)}
       >
         <Image

@@ -34,7 +34,7 @@ export const StaticHeader = () => {
         </div>
       </div>
 
-      <div className="hidden bg-[#FFE9E3] xl:flex dark:bg-transparent">
+      <div className="hidden bg-[#f0f0f0] xl:flex dark:bg-transparent">
         <div
           id="header-link-section"
           className="mx-auto flex w-full max-w-[1264px] items-center justify-between px-8"

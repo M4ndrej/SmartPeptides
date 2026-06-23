@@ -23,7 +23,7 @@ const ProductsFilterButton: FC<ProductFilterProps> = ({
       <div
         id="filters"
         className={classNames({
-          "fixed left-0 z-[2] hidden h-[44px] w-[218px] cursor-pointer items-center justify-center rounded-r-[5px] bg-[#E7461E] sm:top-[400px] sm:flex sm:h-[44px] sm:w-[44px] sm:opacity-70 md:top-[328px] md:flex md:h-[44px] md:w-[44px] md:opacity-70 lg:top-[417px]":
+          "fixed left-0 z-[2] hidden h-[44px] w-[218px] cursor-pointer items-center justify-center rounded-r-[5px] bg-[#333333] sm:top-[400px] sm:flex sm:h-[44px] sm:w-[44px] sm:opacity-70 md:top-[328px] md:flex md:h-[44px] md:w-[44px] md:opacity-70 lg:top-[417px]":
             true,
         })}
         onClick={() => setIsOpen(true)}

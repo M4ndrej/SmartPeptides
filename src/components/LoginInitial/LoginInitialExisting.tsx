@@ -81,7 +81,7 @@ const LoginInitialExisting: FC<LoginInitialExistingProps> = ({
             <button
               onClick={handleEditEmail}
               type="button"
-              className="font-D16px-M13px text-gray2 transition duration-300 hover:text-[#E7461E]"
+              className="font-D16px-M13px text-gray2 transition duration-300 hover:text-[#333333]"
               tabIndex={tabIndex}
             >
               Edit email
@@ -101,7 +101,7 @@ const LoginInitialExisting: FC<LoginInitialExistingProps> = ({
               text="ONE TIME CODE"
               showSpiner={true}
               onPress={handleSendCode}
-              customClass="!border-none !p-0 !h-auto !bg-transparent hover:!text-[#E7461E]"
+              customClass="!border-none !p-0 !h-auto !bg-transparent hover:!text-[#333333]"
             />
             <Button
               text="LOGIN WITH PASSWORD"

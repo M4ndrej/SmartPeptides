@@ -8,7 +8,7 @@ const DeleteProfileButton = () => {
   return (
     <>
       <div
-        className="font-D16px-M14px cursor-pointer select-none font-medium text-gray2 hover:text-[#E7461E]"
+        className="font-D16px-M14px cursor-pointer select-none font-medium text-gray2 hover:text-[#333333]"
         onClick={() => setIsDeleteOpen(true)}
       >
         Delete account

@@ -229,7 +229,7 @@ const SidePopover: FC<PopoverProps> = ({
           >
             <div
               className={classNames({
-                "absolute right-[330px] top-[-24px] z-[1] h-[calc(100%+48px)] w-[1px] bg-[#FFE9E3] sm:hidden md:right-[330px] dark:bg-transparent":
+                "absolute right-[330px] top-[-24px] z-[1] h-[calc(100%+48px)] w-[1px] bg-[#f0f0f0] sm:hidden md:right-[330px] dark:bg-transparent":
                   megaMenuOpen,
                 hidden: type === "navigation",
               })}
@@ -245,7 +245,7 @@ const SidePopover: FC<PopoverProps> = ({
                   className={classNames({
                     "group/closePopover": true,
                     "!hidden": fromTop,
-                    "absolute top-[316px] flex cursor-pointer select-none items-center overflow-hidden rounded-bl-[5px] rounded-tl-[5px] bg-[#E7461E] pl-[10px] transition duration-300 sm:hidden":
+                    "absolute top-[316px] flex cursor-pointer select-none items-center overflow-hidden rounded-bl-[5px] rounded-tl-[5px] bg-[#333333] pl-[10px] transition duration-300 sm:hidden":
                       type === "cart" ||
                       type === "whishlist" ||
                       type === "quickview",
@@ -302,7 +302,7 @@ const SidePopover: FC<PopoverProps> = ({
                     <path
                       d="M60 0H5C2.23857 0 0 2.23858 0 5V55C0 57.7614 2.23857 60 5 60H60V0Z"
                       className="transition duration-300"
-                      fill="#E7461E"
+                      fill="#333333"
                     />
                     <path
                       d="M27 38L34 30.5L27 23"
@@ -339,7 +339,7 @@ const SidePopover: FC<PopoverProps> = ({
                       <div>
                         <div
                           onClick={onClose}
-                          className="font-16px-ALL flex h-[44px] cursor-pointer select-none items-center justify-center gap-[10px] rounded-br-[5px] rounded-tr-[5px] bg-[#E7461E] pl-[19px] pr-[24px] text-textWhite transition duration-300 sm:hidden"
+                          className="font-16px-ALL flex h-[44px] cursor-pointer select-none items-center justify-center gap-[10px] rounded-br-[5px] rounded-tr-[5px] bg-[#333333] pl-[19px] pr-[24px] text-textWhite transition duration-300 sm:hidden"
                         >
                           <svg
                             width="7"
@@ -377,14 +377,14 @@ const SidePopover: FC<PopoverProps> = ({
                           stroke="#999999"
                           strokeWidth="1.5"
                           strokeLinecap="round"
-                          className="transition duration-200 group-hover/btnX:stroke-[#E7461E]"
+                          className="transition duration-200 group-hover/btnX:stroke-[#333333]"
                         />
                         <path
                           d="M1 13L13 0.999999"
                           stroke="#999999"
                           strokeWidth="1.5"
                           strokeLinecap="round"
-                          className="transition duration-200 group-hover/btnX:stroke-[#E7461E]"
+                          className="transition duration-200 group-hover/btnX:stroke-[#333333]"
                         />
                       </svg>
                     }
@@ -427,14 +427,14 @@ const SidePopover: FC<PopoverProps> = ({
                       stroke="#999999"
                       strokeWidth="1.5"
                       strokeLinecap="round"
-                      className="transition duration-200 group-hover/leftSidebarX:stroke-[#E7461E]"
+                      className="transition duration-200 group-hover/leftSidebarX:stroke-[#333333]"
                     />
                     <path
                       d="M1 13L13 0.999999"
                       stroke="#999999"
                       strokeWidth="1.5"
                       strokeLinecap="round"
-                      className="transition duration-200 group-hover/leftSidebarX:stroke-[#E7461E]"
+                      className="transition duration-200 group-hover/leftSidebarX:stroke-[#333333]"
                     />
                   </svg>
                 </div>

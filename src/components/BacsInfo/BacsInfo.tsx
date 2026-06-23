@@ -6,7 +6,7 @@ interface BacsInfoProps {
 
 export const BacsInfo: FC<BacsInfoProps> = ({ includeInstructions = true }) => {
   return (
-    <div className="font-D16px-M13px flex flex-col gap-4 rounded-[5px] border-2 border-dashed border-[#E7461E] bg-lightgray p-4 md:p-6 lg:p-6">
+    <div className="font-D16px-M13px flex flex-col gap-4 rounded-[5px] border-2 border-dashed border-[#333333] bg-lightgray p-4 md:p-6 lg:p-6">
       {includeInstructions && (
         <p>
           You can send us a Wire or ACH payment with the following information.
@@ -29,8 +29,8 @@ export const BacsInfo: FC<BacsInfoProps> = ({ includeInstructions = true }) => {
       <div className="flex flex-col gap-0">
         <p className="font-bold">
           Account number:
-          {/* <span className="text-[#E7461E]">217422690586</span> */}
-          <span className="text-[#E7461E]"> 566086123</span>
+          {/* <span className="text-[#333333]">217422690586</span> */}
+          <span className="text-[#333333]"> 566086123</span>
         </p>
       </div>
 
@@ -38,13 +38,13 @@ export const BacsInfo: FC<BacsInfoProps> = ({ includeInstructions = true }) => {
         <p className="font-bold">(USA Customers only)</p>
         <p>
           Wire Routing Number:
-          {/* <span className="text-[#E7461E]">101019644</span> */}
-          <span className="text-[#E7461E]"> 021000021</span>
+          {/* <span className="text-[#333333]">101019644</span> */}
+          <span className="text-[#333333]"> 021000021</span>
         </p>
         <p>
           ACH Routing Number:
-          {/* <span className="text-[#E7461E]">101019644</span> */}
-          <span className="text-[#E7461E]"> 071000013</span>
+          {/* <span className="text-[#333333]">101019644</span> */}
+          <span className="text-[#333333]"> 071000013</span>
         </p>
       </div>
 
@@ -52,16 +52,16 @@ export const BacsInfo: FC<BacsInfoProps> = ({ includeInstructions = true }) => {
         <p className="font-bold">(Global Customers Only)</p>
         <p>
           Wire Routing Number:
-          {/* <span className="text-[#E7461E]">101019644</span> */}
-          <span className="text-[#E7461E]"> 021000021</span>
+          {/* <span className="text-[#333333]">101019644</span> */}
+          <span className="text-[#333333]"> 021000021</span>
         </p>
         <p>
           Swift Code/BIC:
-          {/* <span className="text-[#E7461E]">REVOUS31</span> */}
-          <span className="text-[#E7461E]"> CHASUS33</span>
+          {/* <span className="text-[#333333]">REVOUS31</span> */}
+          <span className="text-[#333333]"> CHASUS33</span>
         </p>
         {/* <p>
-          Intermediary BIC: <span className="text-[#E7461E]">CHASGB2L</span>
+          Intermediary BIC: <span className="text-[#333333]">CHASGB2L</span>
         </p> */}
       </div>
 

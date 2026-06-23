@@ -520,7 +520,7 @@ const ProductFilterSidepopover: FC<ProductFilterSidepopoverProps> = ({
                     height="14"
                     viewBox="0 0 13 14"
                     fill="none"
-                    className="min-h-[14px] min-w-[13px] cursor-pointer [&_circle]:hover:fill-[#E7461E]"
+                    className="min-h-[14px] min-w-[13px] cursor-pointer [&_circle]:hover:fill-[#333333]"
                     onMouseEnter={() =>
                       handleHoverRemoveFilter(
                         activeFilters[item as keyof typeof activeFilters]
@@ -576,7 +576,7 @@ const ProductFilterSidepopover: FC<ProductFilterSidepopoverProps> = ({
                         height="14"
                         viewBox="0 0 13 14"
                         fill="none"
-                        className="min-h-[14px] min-w-[13px] cursor-pointer [&_circle]:hover:fill-[#E7461E]"
+                        className="min-h-[14px] min-w-[13px] cursor-pointer [&_circle]:hover:fill-[#333333]"
                         onMouseEnter={() =>
                           handleHoverRemoveFilter(filter, true)
                         }
@@ -599,7 +599,7 @@ const ProductFilterSidepopover: FC<ProductFilterSidepopoverProps> = ({
             </div>
           ))}
         <div
-          className="border-1 flex cursor-pointer select-none items-center gap-x-[8px] rounded-[11px] border border-light-gray-v2 px-[8px] py-[4px] transition duration-150 hover:border-[#E7461E] [&_circle]:transition  [&_circle]:duration-150 [&_circle]:hover:fill-[#E7461E] [&_div]:transition [&_div]:duration-150 [&_div]:hover:text-[#E7461E]"
+          className="border-1 flex cursor-pointer select-none items-center gap-x-[8px] rounded-[11px] border border-light-gray-v2 px-[8px] py-[4px] transition duration-150 hover:border-[#333333] [&_circle]:transition  [&_circle]:duration-150 [&_circle]:hover:fill-[#333333] [&_div]:transition [&_div]:duration-150 [&_div]:hover:text-[#333333]"
           onMouseEnter={() => setHoverRemoveFilter("all")}
           onMouseLeave={() => setHoverRemoveFilter("")}
           onClick={handleRemoveAllFilters}
@@ -652,7 +652,7 @@ const ProductFilterSidepopover: FC<ProductFilterSidepopoverProps> = ({
             openedFilter.options.map((option: any, i) => (
               <div
                 key={i}
-                className="flex items-center gap-x-[8px] hover:cursor-pointer [&_label]:transition [&_label]:duration-150 [&_label]:hover:text-[#E7461E]"
+                className="flex items-center gap-x-[8px] hover:cursor-pointer [&_label]:transition [&_label]:duration-150 [&_label]:hover:text-[#333333]"
                 onClick={() => handleFilterCheckbox(openedFilter, option)}
               >
                 {openedFilter.type == "checkbox" && (
@@ -706,7 +706,7 @@ const ProductFilterSidepopover: FC<ProductFilterSidepopoverProps> = ({
                       background: `linear-gradient(to right, #e0e0e0 0% ${getPercentage(
                         maxPrice,
                         range[0]
-                      )}%, #E7461E ${getPercentage(
+                      )}%, #333333 ${getPercentage(
                         maxPrice,
                         range[0]
                       )}% ${getPercentage(
@@ -730,8 +730,8 @@ const ProductFilterSidepopover: FC<ProductFilterSidepopoverProps> = ({
                       borderRadius: "100%",
                       backgroundColor: "#fff",
                       border: filterOpenedMobile
-                        ? `2px solid #E7461E`
-                        : `3px solid #E7461E`,
+                        ? `2px solid #333333`
+                        : `3px solid #333333`,
                       outline: "none",
                     }}
                     key={props.key}
@@ -803,9 +803,9 @@ const ProductFilterSidepopover: FC<ProductFilterSidepopoverProps> = ({
               <div key={i} className="sm:w-[100%] md:w-[100%]">
                 <div
                   className={classNames({
-                    "font-16px-ALL flex cursor-pointer items-center gap-x-[8px] duration-300 hover:text-[#E7461E] sm:mb-0 sm:transition-[margin-bottom] [&_path]:transition [&_path]:duration-300 [&_path]:hover:stroke-[#E7461E]":
+                    "font-16px-ALL flex cursor-pointer items-center gap-x-[8px] duration-300 hover:text-[#333333] sm:mb-0 sm:transition-[margin-bottom] [&_path]:transition [&_path]:duration-300 [&_path]:hover:stroke-[#333333]":
                       true,
-                    "transition duration-300 sm:mb-[16px] [&_path]:stroke-[#E7461E] [&_svg]:rotate-180":
+                    "transition duration-300 sm:mb-[16px] [&_path]:stroke-[#333333] [&_svg]:rotate-180":
                       openedFilter.id == filter.id,
                   })}
                   onClick={() => handleOpenedFilter(filter)}
@@ -863,7 +863,7 @@ const ProductFilterSidepopover: FC<ProductFilterSidepopoverProps> = ({
       <div
         onClick={() => setFilterOpenedMobile(false)}
         className={classNames({
-          "right- absolute right-[-44px] top-[356px] flex h-[44px] w-[44px] items-center justify-center rounded-[5px] rounded-bl-none rounded-tl-none bg-[#E7461E] transition duration-200 hover:bg-[#E7461E] sm:hidden lg:hidden":
+          "right- absolute right-[-44px] top-[356px] flex h-[44px] w-[44px] items-center justify-center rounded-[5px] rounded-bl-none rounded-tl-none bg-[#333333] transition duration-200 hover:bg-[#333333] sm:hidden lg:hidden":
             true,
         })}
       >
@@ -883,7 +883,7 @@ const ProductFilterSidepopover: FC<ProductFilterSidepopoverProps> = ({
       <div
         id="filters"
         className={classNames({
-          "fixed left-0 z-[2] hidden h-[44px] w-[218px] cursor-pointer items-center justify-center rounded-r-[5px] bg-[#E7461E] sm:top-[400px] sm:flex sm:h-[44px] sm:w-[44px] sm:opacity-70 md:top-[328px] md:flex md:h-[44px] md:w-[44px] md:opacity-70 lg:top-[417px]":
+          "fixed left-0 z-[2] hidden h-[44px] w-[218px] cursor-pointer items-center justify-center rounded-r-[5px] bg-[#333333] sm:top-[400px] sm:flex sm:h-[44px] sm:w-[44px] sm:opacity-70 md:top-[328px] md:flex md:h-[44px] md:w-[44px] md:opacity-70 lg:top-[417px]":
             true,
         })}
         onClick={() => handleMobileFilter(true)}

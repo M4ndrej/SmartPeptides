@@ -27,7 +27,7 @@ const PeptidesList: FC = () => {
       <div
         id="peptides-list"
         className={classNames({
-          "absolute left-0 flex h-[44px] w-[44px] cursor-pointer select-none items-center justify-center rounded-r-[5px] bg-[#E7461E] opacity-70 duration-200 hover:bg-[#E7461E] sm:top-[-70px] md:top-[25px] ":
+          "absolute left-0 flex h-[44px] w-[44px] cursor-pointer select-none items-center justify-center rounded-r-[5px] bg-[#333333] opacity-70 duration-200 hover:bg-[#333333] sm:top-[-70px] md:top-[25px] ":
             true,
           "sm:!top-[113px] md:top-[46px] lg:top-[8px] xl:top-[12px]":
             pathname === "/shop/",

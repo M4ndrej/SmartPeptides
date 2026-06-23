@@ -70,9 +70,9 @@ const SingleProductAttributes: FC<SingleProductAttributesProps> = ({
                   strokeWidth={1.5}
                   width={14}
                   height={14}
-                  className="mt-[1px] !stroke-gray2 group-hover:!stroke-[#E7461E]"
+                  className="mt-[1px] !stroke-gray2 group-hover:!stroke-[#333333]"
                 />
-                <span className="font-13px-ALL select-none uppercase text-gray2 group-hover:text-[#E7461E]">
+                <span className="font-13px-ALL select-none uppercase text-gray2 group-hover:text-[#333333]">
                   Clear
                 </span>
               </div>

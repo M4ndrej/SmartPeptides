@@ -17,17 +17,17 @@ export default async function Contact() {
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://valuepeptide.com//#organization",
-        name: "Value Peptide",
-        url: "https://valuepeptide.com/",
-        logo: "https://valuepeptide.com//images/logo.svg",
+        "@id": "https://smartpeptides.com//#organization",
+        name: "Smart Peptides",
+        url: "https://smartpeptides.com/",
+        logo: "https://smartpeptides.com//images/logo.svg",
         description:
           "Leading provider of high-quality research peptides and peptide blends for scientific research and development.",
         address: { "@type": "PostalAddress", addressCountry: "US" },
         contactPoint: {
           "@type": "ContactPoint",
           contactType: "customer service",
-          url: "https://valuepeptide.com//contact",
+          url: "https://smartpeptides.com//contact",
         },
         sameAs: [
           "https://www.facebook.com/profile.php?id=61577011570165",
@@ -36,10 +36,10 @@ export default async function Contact() {
       },
       {
         "@type": "WebSite",
-        "@id": "https://valuepeptide.com//#website",
-        url: "https://valuepeptide.com/",
-        name: "VALUE PEPTIDE",
-        publisher: { "@id": "https://valuepeptide.com//#organization" },
+        "@id": "https://smartpeptides.com//#website",
+        url: "https://smartpeptides.com/",
+        name: "SMART PEPTIDES",
+        publisher: { "@id": "https://smartpeptides.com//#organization" },
         inLanguage: "en-US",
       },
       {
@@ -52,15 +52,15 @@ export default async function Contact() {
       },
       {
         "@type": "WebPage",
-        "@id": "https://valuepeptide.com//contact/#webpage",
-        url: "https://valuepeptide.com//contact",
-        name: "Contact Us - VALUE PEPTIDE",
+        "@id": "https://smartpeptides.com//contact/#webpage",
+        url: "https://smartpeptides.com//contact",
+        name: "Contact Us - SMART PEPTIDES",
         description:
-          "Get in touch with Value Peptide for customer support, sales inquiries, and general questions about our research peptides.",
+          "Get in touch with Smart Peptides for customer support, sales inquiries, and general questions about our research peptides.",
         datePublished: "2023-07-25T11:41:52-05:00",
         dateModified: "2024-01-08T07:35:43-06:00",
-        about: { "@id": "https://valuepeptide.com//#organization" },
-        isPartOf: { "@id": "https://valuepeptide.com//#website" },
+        about: { "@id": "https://smartpeptides.com//#organization" },
+        isPartOf: { "@id": "https://smartpeptides.com//#website" },
         primaryImageOfPage: {
           "@id": "/images/contactUs.svg",
         },
@@ -68,34 +68,34 @@ export default async function Contact() {
       },
       {
         "@type": "ContactPage",
-        "@id": "https://valuepeptide.com//contact/#contactpage",
-        url: "https://valuepeptide.com//contact",
-        name: "Contact Us - VALUE PEPTIDE",
+        "@id": "https://smartpeptides.com//contact/#contactpage",
+        url: "https://smartpeptides.com//contact",
+        name: "Contact Us - SMART PEPTIDES",
         description:
-          "Get in touch with Value Peptide for customer support, sales inquiries, and general questions about our research peptides.",
+          "Get in touch with Smart Peptides for customer support, sales inquiries, and general questions about our research peptides.",
         mainEntity: {
-          "@id": "https://valuepeptide.com//#organization",
+          "@id": "https://smartpeptides.com//#organization",
         },
         isPartOf: {
-          "@id": "https://valuepeptide.com//contact/#webpage",
+          "@id": "https://smartpeptides.com//contact/#webpage",
         },
         inLanguage: "en-US",
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://valuepeptide.com//contact/#breadcrumb",
+        "@id": "https://smartpeptides.com//contact/#breadcrumb",
         itemListElement: [
           {
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: "https://valuepeptide.com//",
+            item: "https://smartpeptides.com//",
           },
           {
             "@type": "ListItem",
             position: 2,
             name: "Contact Us",
-            item: "https://valuepeptide.com//contact",
+            item: "https://smartpeptides.com//contact",
           },
         ],
       },

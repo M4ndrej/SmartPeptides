@@ -17,7 +17,7 @@ const OpenPopoverList: FC<OpenPopoverListProps> = () => {
   return (
     <>
       <div
-        className="absolute left-0 top-[72px] z-[1] hidden items-center justify-center rounded-r-[5px] bg-[#E7461E] opacity-70 sm:flex sm:h-[44px] sm:w-[44px] md:flex md:h-[44px] md:w-[44px] lg:flex lg:h-[44px] lg:w-[44px] xl:hidden"
+        className="absolute left-0 top-[72px] z-[1] hidden items-center justify-center rounded-r-[5px] bg-[#333333] opacity-70 sm:flex sm:h-[44px] sm:w-[44px] md:flex md:h-[44px] md:w-[44px] lg:flex lg:h-[44px] lg:w-[44px] xl:hidden"
         onClick={() => handlePopoverAction(true, "productslist")}
       >
         <Image

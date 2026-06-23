@@ -5,17 +5,17 @@ export const HomeLdJson: WithContext<any> = {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://valuepeptide.com//#organization",
-      name: "Value Peptide",
-      url: "https://valuepeptide.com/",
-      logo: "https://valuepeptide.com//images/logo.svg",
+      "@id": "https://smartpeptides.com//#organization",
+      name: "Smart Peptides",
+      url: "https://smartpeptides.com/",
+      logo: "https://smartpeptides.com//images/logo.svg",
       description:
         "Leading provider of high-quality research peptides and peptide blends for scientific research and development.",
       address: { "@type": "PostalAddress", addressCountry: "US" },
       contactPoint: {
         "@type": "ContactPoint",
         contactType: "customer service",
-        url: "https://valuepeptide.com//contact",
+        url: "https://smartpeptides.com//contact",
       },
       sameAs: [
         "https://www.facebook.com/profile.php?id=61577011570165",
@@ -24,45 +24,45 @@ export const HomeLdJson: WithContext<any> = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://valuepeptide.com//#website",
-      url: "https://valuepeptide.com/",
-      name: "Value Peptide",
-      publisher: { "@id": "https://valuepeptide.com//#organization" },
+      "@id": "https://smartpeptides.com//#website",
+      url: "https://smartpeptides.com/",
+      name: "Smart Peptides",
+      publisher: { "@id": "https://smartpeptides.com//#organization" },
       inLanguage: "en-US",
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://valuepeptide.com/?s={search_term_string}",
+        target: "https://smartpeptides.com/?s={search_term_string}",
         "query-input": "required name=search_term_string",
       },
     },
     {
       "@type": "ImageObject",
-      "@id": "https://valuepeptide.com//wp-content/uploads/2023/10/newhero.png",
-      url: "https://valuepeptide.com//wp-content/uploads/2023/10/newhero.png",
+      "@id": "https://smartpeptides.com//wp-content/uploads/2023/10/newhero.png",
+      url: "https://smartpeptides.com//wp-content/uploads/2023/10/newhero.png",
       width: "200",
       height: "200",
       inLanguage: "en-US",
     },
     {
       "@type": "WebPage",
-      "@id": "https://valuepeptide.com//#webpage",
-      url: "https://valuepeptide.com//",
-      name: "Buy Peptides Online - VALUE PEPTIDE",
+      "@id": "https://smartpeptides.com//#webpage",
+      url: "https://smartpeptides.com//",
+      name: "Buy Peptides Online - SMART PEPTIDES",
       datePublished: "2023-07-25T11:41:52-05:00",
       dateModified: "2024-01-08T07:35:43-06:00",
-      about: { "@id": "https://valuepeptide.com//#organization" },
-      isPartOf: { "@id": "https://valuepeptide.com//#website" },
+      about: { "@id": "https://smartpeptides.com//#organization" },
+      isPartOf: { "@id": "https://smartpeptides.com//#website" },
       primaryImageOfPage: {
         "@id":
-          "https://valuepeptide.com//wp-content/uploads/2023/10/newhero.png",
+          "https://smartpeptides.com//wp-content/uploads/2023/10/newhero.png",
       },
       inLanguage: "en-US",
     },
     {
       "@type": "Person",
-      "@id": "https://valuepeptide.com//author/mihailo6/",
+      "@id": "https://smartpeptides.com//author/mihailo6/",
       name: "mihailo6",
-      url: "https://valuepeptide.com//author/mihailo6/",
+      url: "https://smartpeptides.com//author/mihailo6/",
       image: {
         "@type": "ImageObject",
         "@id":
@@ -71,7 +71,7 @@ export const HomeLdJson: WithContext<any> = {
         caption: "mihailo6",
         inLanguage: "en-US",
       },
-      worksFor: { "@id": "https://valuepeptide.com//#organization" },
+      worksFor: { "@id": "https://smartpeptides.com//#organization" },
     },
   ],
 };

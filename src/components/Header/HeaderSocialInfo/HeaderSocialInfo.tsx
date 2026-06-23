@@ -14,7 +14,7 @@ const HeaderSocialInfo: FC<HeaderSocialInfoProps> = ({ sidebarNav }) => {
         <a
           href="tel:+18662027786"
           className={classNames({
-            "flex items-center gap-[4px] whitespace-nowrap transition duration-200 hover:text-[#E7461E] [&_path]:hover:fill-[#E7461E]":
+            "flex items-center gap-[4px] whitespace-nowrap transition duration-200 hover:text-[#333333] [&_path]:hover:fill-[#333333]":
               true,
             "!font-14px-ALL": sidebarNav,
             "font-12px-ALL sm:hidden": !sidebarNav,
@@ -58,7 +58,7 @@ const HeaderSocialInfo: FC<HeaderSocialInfoProps> = ({ sidebarNav }) => {
                   fillRule="evenodd"
                   clipRule="evenodd"
                   d="M11.1498 6.54988H8.61644V4.23443C8.73708 3.24581 9.30216 2.7385 10.2545 2.7385H11.3339V1.35963C11.2323 1.34663 11.1434 1.33362 11.0482 1.33362H9.65771C9.03549 1.33362 8.43866 1.50923 7.96882 1.83443C7.45454 2.20516 7.09898 2.80354 7.01644 3.42142C6.95295 3.71411 6.9212 4.00029 6.9212 4.26695V6.5824H4.66724V8.1824H6.88946V14.667H8.71803V8.14988H10.9847L11.1498 6.54988Z"
-                  fill="#E7461E"
+                  fill="#333333"
                 />
               </g>
               <g clipPath="url(#clip1_7248_16061)">
@@ -67,7 +67,7 @@ const HeaderSocialInfo: FC<HeaderSocialInfoProps> = ({ sidebarNav }) => {
                   clipRule="evenodd"
                   d="M11.1495 6.54976H8.6162V4.23431C8.73683 3.24569 9.30191 2.73837 10.2543 2.73837H11.3337V1.35951C11.2321 1.3465 11.1432 1.3335 11.0479 1.3335H9.65747C9.03525 1.3335 8.43842 1.50911 7.96858 1.83431C7.45429 2.20504 7.09874 2.80341 7.0162 3.4213C6.95271 3.71398 6.92096 4.00016 6.92096 4.26683V6.58228H4.66699V8.18228H6.88921V14.6668H8.71779V8.14976H10.9845L11.1495 6.54976Z"
                   fill="#333333"
-                  className="transition duration-300 group-hover/fb:fill-[#E7461E]"
+                  className="transition duration-300 group-hover/fb:fill-[#333333]"
                 />
               </g>
               <defs>
@@ -107,17 +107,17 @@ const HeaderSocialInfo: FC<HeaderSocialInfoProps> = ({ sidebarNav }) => {
                 fill="#333333"
                 stroke="white"
                 strokeWidth="0.3"
-                className="transition duration-300 group-hover/insta:fill-[#E7461E]"
+                className="transition duration-300 group-hover/insta:fill-[#333333]"
               />
               <path
                 d="M9.00013 5.36377C6.99705 5.36377 5.36377 6.99705 5.36377 9.00013C5.36377 11.0032 6.99705 12.6365 9.00013 12.6365C11.0032 12.6365 12.6365 11.0032 12.6365 9.00013C12.6365 6.99705 11.0032 5.36377 9.00013 5.36377ZM9.00013 11.4038C7.6442 11.4038 6.56562 10.3252 6.56562 8.96932C6.56562 7.61338 7.6442 6.5348 9.00013 6.5348C10.3561 6.5348 11.4346 7.61338 11.4346 8.96932V9.00013C11.4346 10.3252 10.3561 11.4346 9.00013 11.4346V11.4038Z"
                 fill="#333333"
-                className="transition duration-300 group-hover/insta:fill-[#E7461E]"
+                className="transition duration-300 group-hover/insta:fill-[#333333]"
               />
               <path
                 d="M13.0003 6.091C13.6028 6.091 14.0912 5.60259 14.0912 5.00009C14.0912 4.3976 13.6028 3.90918 13.0003 3.90918C12.3978 3.90918 11.9094 4.3976 11.9094 5.00009C11.9094 5.60259 12.3978 6.091 13.0003 6.091Z"
                 fill="#333333"
-                className="transition duration-300 group-hover/insta:fill-[#E7461E]"
+                className="transition duration-300 group-hover/insta:fill-[#333333]"
               />
             </svg>
           </Link>

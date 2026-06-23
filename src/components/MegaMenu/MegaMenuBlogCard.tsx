@@ -25,7 +25,7 @@ const MegaMenuBlogCard: FC<MegaMenuBlogCardProps> = ({ blog }) => {
         <div>
           <Link
             href={`/${blog.slug}`}
-            className="font-18px-ALL mb-[8px] line-clamp-1 cursor-pointer font-bold transition duration-200 hover:text-[#E7461E]"
+            className="font-18px-ALL mb-[8px] line-clamp-1 cursor-pointer font-bold transition duration-200 hover:text-[#333333]"
             dangerouslySetInnerHTML={{
               __html: blog.title.rendered || blog.title,
             }}
@@ -40,7 +40,7 @@ const MegaMenuBlogCard: FC<MegaMenuBlogCardProps> = ({ blog }) => {
         </div>
         <Link
           href={`/${blog.slug}`}
-          className="font-16px-ALL group flex items-center gap-[8px] font-medium text-[#E7461E] transition duration-200 hover:text-[#E7461E]"
+          className="font-16px-ALL group flex items-center gap-[8px] font-medium text-[#333333] transition duration-200 hover:text-[#333333]"
         >
           READ MORE
           <svg
@@ -54,7 +54,7 @@ const MegaMenuBlogCard: FC<MegaMenuBlogCardProps> = ({ blog }) => {
               fillRule="evenodd"
               clipRule="evenodd"
               d="M6.5 1C6.5 0.585786 6.16421 0.25 5.75 0.25C5.33579 0.25 5 0.585786 5 1V5.25H0.75C0.335786 5.25 0 5.58579 0 6C0 6.41421 0.335786 6.75 0.75 6.75H5V11C5 11.4142 5.33579 11.75 5.75 11.75C6.16421 11.75 6.5 11.4142 6.5 11V6.75H10.75C11.1642 6.75 11.5 6.41421 11.5 6C11.5 5.58579 11.1642 5.25 10.75 5.25H6.5V1Z"
-              fill="#E7461E"
+              fill="#333333"
               className="transition duration-200 group-hover:fill-dark-blue"
             />
           </svg>

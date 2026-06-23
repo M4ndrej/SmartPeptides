@@ -31,7 +31,7 @@ const PayoutsCashOut = () => {
       </div>
       <div className="font-D16px-M13px mb-2 flex flex-col gap-[16px] rounded-b-[5px] py-4 pb-2">
         <p>Balance</p>
-        <p className="font-D32px-M24px font-bold text-[#E7461E]">
+        <p className="font-D32px-M24px font-bold text-[#333333]">
           {formatCurrency(totalAmount, true, false)}
         </p>
         <p>
@@ -46,7 +46,7 @@ const PayoutsCashOut = () => {
           />
           <Link
             href="/profile/affiliate/edit"
-            className="font-semibold text-[#E7461E] transition-colors duration-200 hover:text-[#E7461E]"
+            className="font-semibold text-[#333333] transition-colors duration-200 hover:text-[#333333]"
           >
             CHANGE PAYMENT
           </Link>

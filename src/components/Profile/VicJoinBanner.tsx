@@ -16,7 +16,7 @@ const VicJoinBanner: FC<VicJoinBannerProps> = ({ className }) => {
   //     )}
   //   >
   //     <div className="flex w-full flex-col gap-2 sm:min-w-[300px]">
-  //       <p className="font-D20px-M16px font-bold text-[#E7461E]">VIC Status</p>
+  //       <p className="font-D20px-M16px font-bold text-[#333333]">VIC Status</p>
   //       <p className="font-D16px-M12px w-full">
   //         <b>VIC (Very Important Customer)</b> status offers <b>10%</b>,{" "}
   //         <b>15%</b>, <b>20%</b>, <b>25%</b> and <b>30%</b> of permanent

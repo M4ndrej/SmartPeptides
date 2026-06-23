@@ -9,44 +9,44 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const productPages = staticData.products
     .filter((p) => p.id !== 56914 && p.id !== 11557)
     .map((p) => ({
-      url: `https://valuepeptide.com//${getComProductSlug(p)}/`,
+      url: `https://smartpeptides.com//${getComProductSlug(p)}/`,
       lastModified: new Date(),
     }));
 
   // Blogs
   const blogPages = staticData.blogs.map((b) => ({
-    url: `https://valuepeptide.com//${b.slug}/`,
+    url: `https://smartpeptides.com//${b.slug}/`,
     lastModified: new Date(),
   }));
 
   // Blog categories
   const blogCatPages = staticData.blogCategories.map((b) => ({
-    url: `https://valuepeptide.com//${b.slug}/`,
+    url: `https://smartpeptides.com//${b.slug}/`,
     lastModified: new Date(),
   }));
 
   // Categories
   const categories = [
     {
-      url: `https://valuepeptide.com//peptides/`,
+      url: `https://smartpeptides.com//peptides/`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: `https://valuepeptide.com/blends/`,
+      url: `https://smartpeptides.com/blends/`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: `https://valuepeptide.com/peptides/`,
+      url: `https://smartpeptides.com/peptides/`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: `https://valuepeptide.com//peptide-supplies/`,
+      url: `https://smartpeptides.com//peptide-supplies/`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
@@ -56,85 +56,85 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Static pages
   const staticPages = [
     {
-      url: `https://valuepeptide.com//`,
+      url: `https://smartpeptides.com//`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     } as any,
     {
-      url: `https://valuepeptide.com//profile/`,
+      url: `https://smartpeptides.com//profile/`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: `https://valuepeptide.com//shop/`,
+      url: `https://smartpeptides.com//shop/`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: `https://valuepeptide.com//contact/`,
+      url: `https://smartpeptides.com//contact/`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: `https://valuepeptide.com//blog/`,
+      url: `https://smartpeptides.com//blog/`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: `https://valuepeptide.com//faq/`,
+      url: `https://smartpeptides.com//faq/`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: `https://valuepeptide.com//sign-in/`,
+      url: `https://smartpeptides.com//sign-in/`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: `https://valuepeptide.com//about/`,
+      url: `https://smartpeptides.com//about/`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: `https://valuepeptide.com//privacy/`,
+      url: `https://smartpeptides.com//privacy/`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: `https://valuepeptide.com//refunds/`,
+      url: `https://smartpeptides.com//refunds/`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: `https://valuepeptide.com//terms/`,
+      url: `https://smartpeptides.com//terms/`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: `https://valuepeptide.com//shipping/`,
+      url: `https://smartpeptides.com//shipping/`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: `https://valuepeptide.com//discount/`,
+      url: `https://smartpeptides.com//discount/`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: `https://valuepeptide.com//cart/`,
+      url: `https://smartpeptides.com//cart/`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,

@@ -112,8 +112,8 @@ export default function InputDropdown<T extends Item>({
             : "border-gray bg-inputColor"
           // selectedItem &&
           //   !reverseColor &&
-          //   "!border-light-blue2 !bg-[#FFE9E3] text-[#E7461E]",
-          // selectedItem && reverseColor && "!border-white !bg-white text-[#E7461E]"
+          //   "!border-light-blue2 !bg-[#f0f0f0] text-[#333333]",
+          // selectedItem && reverseColor && "!border-white !bg-white text-[#333333]"
         )}
       >
         <div

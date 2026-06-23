@@ -49,7 +49,7 @@ const ProductSort: FC<ProductSortProps> = ({
       </div>
       <div className="relative cursor-pointer [&_#dropdown]:hover:flex">
         <div className="group flex items-center">
-          <div className="font-D16px-M14px mr-[8px] transition group-hover:text-[#E7461E]">
+          <div className="font-D16px-M14px mr-[8px] transition group-hover:text-[#333333]">
             {selectedItemValue}
           </div>
           <svg width="13" height="7" viewBox="0 0 13 7" fill="none">
@@ -57,7 +57,7 @@ const ProductSort: FC<ProductSortProps> = ({
               d="M1 1L6.5 6L12 1"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="stroke-black transition duration-300 group-hover:stroke-[#E7461E]"
+              className="stroke-black transition duration-300 group-hover:stroke-[#333333]"
             />
           </svg>
         </div>
