@@ -26,7 +26,7 @@ const CheckboxIcon: FC<CheckboxIconProps> = ({
         <circle cx="7.5" cy="7.99707" r="7.5" fill="#E6E6E6" />
         <path
           d="M4 7.74707L6.5 10.2471L11 5.74707"
-          stroke="#333333"
+          stroke="#9A9A9F"
           strokeWidth="1.2"
           strokeLinecap="round"
           strokeLinejoin="round"
@@ -52,11 +52,11 @@ const CheckboxIcon: FC<CheckboxIconProps> = ({
           width="15"
           height="15"
           rx="1.5"
-          stroke="#333333"
+          stroke="#9A9A9F"
         />
         <path
           d="M4 8.14118L6.9321 11L12 5"
-          stroke="#333333"
+          stroke="#9A9A9F"
           strokeLinecap="round"
           strokeLinejoin="round"
         />

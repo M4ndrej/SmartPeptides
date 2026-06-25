@@ -105,8 +105,8 @@ const DosageCalculatorItem: FC<ItemsListProps> = ({
                   ${
                     (item === amount && !otherVolumesSelected) ||
                     (item === amountLast && !otherVolumesSelected)
-                      ? "border-[#333333] bg-[#333333] text-white"
-                      : "border-gray2 text-gray2 hover:border-[#333333] hover:text-[#333333]"
+                      ? "border-[#9A9A9F] bg-[#9A9A9F] text-white"
+                      : "border-gray2 text-gray2 hover:border-[#9A9A9F] hover:text-gray"
                   }
                   `}
                 onClick={() => {
@@ -121,9 +121,9 @@ const DosageCalculatorItem: FC<ItemsListProps> = ({
             {items?.otherVolumes?.length && (
               <div
                 className={classNames({
-                  "font-D16px-M14px flex h-[38px] cursor-pointer select-none items-center rounded-[2px] border border-gray bg-lightgray px-[16px] py-[6px] text-gray2 transition duration-300 hover:border-[#333333] hover:bg-white hover:text-[#333333] sm:max-h-[30px] sm:px-[14px] sm:py-[4px]":
+                  "font-D16px-M14px flex h-[38px] cursor-pointer select-none items-center rounded-[2px] border border-gray bg-lightgray px-[16px] py-[6px] text-gray2 transition duration-300 hover:border-[#9A9A9F] hover:bg-white hover:text-gray sm:max-h-[30px] sm:px-[14px] sm:py-[4px]":
                     true,
-                  "!border-[#333333] !bg-[#333333] !text-white":
+                  "!border-[#9A9A9F] !bg-[#9A9A9F] !text-white":
                     otherVolumesSelected,
                 })}
                 onClick={() => setOtherVolumesHandler()}
@@ -144,7 +144,7 @@ const DosageCalculatorItem: FC<ItemsListProps> = ({
                 mcgOrMgChange={setMcgOrMg}
                 required={false}
                 style={showDose ? widthOfinput : "100px"}
-                customClass=" appearance:textfield font-16px-ALL remove-number-input-arrows !h-[38px] rounded-[2px] border border-[#333333] px-[16px] py-[7px] sm:px-[14px] sm:py-[4px] sm:max-h-[31px] text-gray2 outline-0 [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
+                customClass=" appearance:textfield font-16px-ALL remove-number-input-arrows !h-[38px] rounded-[2px] border border-[#9A9A9F] px-[16px] py-[7px] sm:px-[14px] sm:py-[4px] sm:max-h-[31px] text-gray2 outline-0 [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
               />
             )}
           </div>

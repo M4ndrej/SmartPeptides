@@ -22,10 +22,10 @@ const ClearCartButton: FC<ClearCartButtonProps> = ({ handleClearCart }) => {
           fill="#999999"
           stroke="white"
           strokeWidth="0.3"
-          className="transition duration-200 group-hover/clearBtn:fill-[#333333]"
+          className="transition duration-200 group-hover/clearBtn:fill-[#9A9A9F]"
         />
       </svg>
-      <span className="font-D16px-M13px text-gray2 transition duration-200 group-hover/clearBtn:text-[#333333]">
+      <span className="font-D16px-M13px text-gray2 transition duration-200 group-hover/clearBtn:text-darkgray">
         CLEAR CART
       </span>
     </div>

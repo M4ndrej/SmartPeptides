@@ -23,7 +23,7 @@ const DropdownNavLink: FC<DropdownNavLinkProps> = ({
       className={classNames({
         "hover:animate-font-weight-once flex cursor-pointer select-none items-center justify-between whitespace-nowrap [&_svg]:hover:opacity-100":
           true,
-        "animate-font-weight-once font-bold text-[#333333]":
+        "animate-font-weight-once font-bold text-darkgray":
           activeLink === title,
       })}
     >
@@ -41,7 +41,7 @@ const DropdownNavLink: FC<DropdownNavLinkProps> = ({
       >
         <path
           d="M1.5 1.5L6 6L1.5 10.5"
-          stroke="#333333"
+          stroke="#9A9A9F"
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"

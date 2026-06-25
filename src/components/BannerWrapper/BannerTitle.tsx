@@ -16,7 +16,7 @@ const BannerTitle: FC<BannerTitleProps> = ({
     <div
       className="absolute left-[-5px] top-3 flex items-center justify-center rounded-b-[5px] rounded-tr-[5px] px-3 py-2"
       style={{
-        backgroundColor: bannerColor ?? "#333333",
+        backgroundColor: bannerColor ?? "#9A9A9F",
       }}
     >
       <Triangle
@@ -25,7 +25,7 @@ const BannerTitle: FC<BannerTitleProps> = ({
         height={5}
         style={{
           filter: "brightness(0.66)",
-          fill: bannerColor ?? "#333333",
+          fill: bannerColor ?? "#9A9A9F",
         }}
       />
       <span

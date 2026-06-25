@@ -27,7 +27,7 @@ const ScrollToTop = () => {
             strokeWidth="1.5"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="transition duration-300 group-hover:stroke-[#333333]"
+            className="transition duration-300 group-hover:stroke-[#9A9A9F]"
           />
         </svg>
       </button>

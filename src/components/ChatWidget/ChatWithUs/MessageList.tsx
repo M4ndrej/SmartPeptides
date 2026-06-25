@@ -59,7 +59,7 @@ const MessageList: FC<ChatMessageProps> = ({ chatMessage, alignRight }) => {
             className={classNames(
               "font-12px-ALL whitespace-normal break-words rounded-[20px] px-[14px] py-[12px]",
               alignRight
-                ? "rounded-tr-[4px] bg-[#333333] text-textWhite"
+                ? "rounded-tr-[4px] bg-[#9A9A9F] text-textWhite"
                 : "rounded-tl-[4px] bg-lightgray",
               isImageMessage &&
                 "cursor-pointer !rounded-none !bg-white !px-0 !py-0",
@@ -74,7 +74,7 @@ const MessageList: FC<ChatMessageProps> = ({ chatMessage, alignRight }) => {
                     chatMessage.messageImage &&
                     handleDownload(chatMessage.messageImage)
                   }
-                  className={`download hover:text-[#333333] ${alignRight ? "order-1" : "order-2"}`}
+                  className={`download hover:text-gray ${alignRight ? "order-1" : "order-2"}`}
                 >
                   <svg
                     width="24"
@@ -82,7 +82,7 @@ const MessageList: FC<ChatMessageProps> = ({ chatMessage, alignRight }) => {
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    className="text-gray2 hover:text-[#333333]"
+                    className="text-gray2 hover:text-gray"
                   >
                     <path
                       d="M4 16.004V17C4 17.7956 4.33583 18.5587 4.9336 19.1213C5.53137 19.6839 6.34212 20 7.1875 20H17.8125C18.6579 20 19.4686 19.6839 20.0664 19.1213C20.6642 18.5587 21 17.7956 21 17V16M12.5 4.5V15.5M12.5 15.5L16.2188 12M12.5 15.5L8.78125 12"

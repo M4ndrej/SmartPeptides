@@ -29,7 +29,7 @@ const ArrowLeftIcon: FC<ArrowLeftIconProps> = ({ type, className }) => {
         className={classNames("fill-[#E3E3E3] dark:fill-[#3E3E3E]", {
           "!fill-[#AFD6F6]": type === "home-slider",
           "!fill-[#565656]": type === "slider",
-          "!fill-[#333333]": type === "email-code",
+          "!fill-[#9A9A9F]": type === "email-code",
         })}
       />
     </svg>

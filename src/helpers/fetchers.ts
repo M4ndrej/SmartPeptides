@@ -13,7 +13,7 @@ export const hfetch = (
 
   myHeaders?.append(
     "Referer",
-    process.env.API_REFERER ?? "https://smartpeptides.com/"
+    process.env.API_REFERER ?? "https://smartpeptides.bio/"
   );
 
   let requestInitFetcher = requestInit;

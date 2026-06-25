@@ -21,7 +21,7 @@ const BlogCategory: FC<BlogCategoryProps> = async ({
             <h1 className="inline">{`Category Archives: ${categoryName} `}</h1>
             {` (${blogs.length})`}
           </div>
-          <div className="h-[2px] w-[48px] rounded-[2px] bg-[#333333]"></div>
+          <div className="h-[2px] w-[48px] rounded-[2px] bg-[#9A9A9F]"></div>
         </div>
         <BlogsList blogs={blogs} />
       </>

@@ -21,7 +21,7 @@ const CheckboxFilter: React.FC<CheckboxFilterProps> = ({
       {options.map((option: FilterOptions, i) => (
         <div
           key={i}
-          className="flex items-center gap-x-[8px] hover:cursor-pointer [&_label]:transition [&_label]:duration-150 [&_label]:hover:text-[#333333]"
+          className="flex items-center gap-x-[8px] hover:cursor-pointer [&_label]:transition [&_label]:duration-150 [&_label]:hover:text-gray"
           onClick={() => onOptionChange(option)}
         >
           <div className="flex h-[15px] w-[15px] items-center">

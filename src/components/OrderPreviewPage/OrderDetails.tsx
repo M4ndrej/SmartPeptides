@@ -103,7 +103,7 @@ const OrderDetails: FC<Info> = ({ orderDetails }) => {
                 <div className="w-[106px] border-r border-borderColor bg-white pb-[16px] pl-[16px] font-bold">
                   PRICE
                 </div>
-                <div className="pb-[16px] pr-[16px] text-[#333333]">
+                <div className="pb-[16px] pr-[16px] text-darkgray">
                   {formatCurrency(
                     +orderItem.total!,
                     true,
@@ -141,7 +141,7 @@ const OrderDetails: FC<Info> = ({ orderDetails }) => {
                     .split(".")[1] || "") == "00"
                 )}
               </div>
-              <div className=" block text-right text-[#333333]  sm:hidden">
+              <div className=" block text-right text-darkgray  sm:hidden">
                 {formatCurrency(
                   +orderItem.total!,
                   true,
@@ -156,7 +156,7 @@ const OrderDetails: FC<Info> = ({ orderDetails }) => {
         <div>
           <div className="flex px-[16px] pb-[8px] pt-[16px]">
             <div className="flex-1">Subtotal:</div>
-            <div className=" text-[#333333] ">
+            <div className=" text-darkgray ">
               {formatCurrency(
                 +(
                   +orderDetails?.total! -
@@ -184,7 +184,7 @@ const OrderDetails: FC<Info> = ({ orderDetails }) => {
                 {freeShippingNote && (
                   <span className="flex justify-end">{freeShippingNote}</span>
                 )}{" "}
-                <span className=" flex justify-end text-[#333333] ">
+                <span className=" flex justify-end text-darkgray ">
                   {formatCurrency(
                     +orderDetails?.shipping_lines[0].total!,
                     true,
@@ -208,7 +208,7 @@ const OrderDetails: FC<Info> = ({ orderDetails }) => {
             <div className="h-[1px] w-full bg-borderColor"></div>
             <div className="flex pt-[16px]">
               <div className="flex-1 font-bold">Total:</div>
-              <div className=" font-bold text-[#333333] ">
+              <div className=" font-bold text-darkgray ">
                 {formatCurrency(
                   +orderDetails?.total!,
                   true,
@@ -240,7 +240,7 @@ const OrderDetails: FC<Info> = ({ orderDetails }) => {
                 </div>
               )}
             </div>
-            <div className="text-[#333333]  ">
+            <div className="text-darkgray  ">
               {formatCurrency(
                 +orderItem.total!,
                 true,
@@ -256,7 +256,7 @@ const OrderDetails: FC<Info> = ({ orderDetails }) => {
           <div className="border-b border-gray py-[24px] sm:py-[16px]">
             <div className="flex items-center justify-between">
               <div>Subtotal:</div>
-              <div className="text-[#333333]  ">
+              <div className="text-darkgray  ">
                 {formatCurrency(
                   +orderItemsPrice!,
                   true,
@@ -287,7 +287,7 @@ const OrderDetails: FC<Info> = ({ orderDetails }) => {
 
                   <span
                     className={classNames({
-                      "text-[#333333]  ":
+                      "text-darkgray  ":
                         true,
                       flex:
                         shipping.method_title ===
@@ -320,7 +320,7 @@ const OrderDetails: FC<Info> = ({ orderDetails }) => {
               >
                 <div>{fees.name}:</div>
                 <div>
-                  <span className="text-[#333333]  ">
+                  <span className="text-darkgray  ">
                     {formatCurrency(+fees.total, true, false)}
                   </span>
                 </div>
@@ -336,7 +336,7 @@ const OrderDetails: FC<Info> = ({ orderDetails }) => {
           <div className="flex items-center justify-between py-[24px] font-bold sm:py-[16px]">
             <div>TOTAL</div>
             {orderDetails && (
-              <div className="text-[#333333]  ">
+              <div className="text-darkgray  ">
                 {formatCurrency(+orderDetails.total, true, false)}
               </div>
             )}

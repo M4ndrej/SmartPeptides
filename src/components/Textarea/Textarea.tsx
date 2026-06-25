@@ -34,7 +34,7 @@ const Textarea: FC<TextareaProps> = ({
         >
           {label}
           {/*  If input is required show red (*) */}
-          {required && <span className="text-[#333333]">*</span>}
+          {required && <span className="text-darkgray">*</span>}
         </label>
       )}
 

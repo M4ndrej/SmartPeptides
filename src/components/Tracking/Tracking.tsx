@@ -17,7 +17,7 @@ const Tracking: FC = () => {
         Order Tracking
       </h1>
 
-      <div className="mx-auto mb-[24px] h-[2px] w-[48px] bg-[#333333]" />
+      <div className="mx-auto mb-[24px] h-[2px] w-[48px] bg-[#9A9A9F]" />
 
       {order ? (
         <div className="mx-auto max-w-[794px]">

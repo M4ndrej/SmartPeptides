@@ -13,7 +13,7 @@ const MerchBanner = () => {
       {/* Text & button */}
       <div className="sm:w-full sm:min-w-[230px] sm:max-w-[70%] sm:pl-[16px] md:min-w-[430px]  md:max-w-[430px] from834:min-w-[520px]  from834:max-w-[520px] lg:min-w-[259px] lg:max-w-[341px] xl:min-w-[340px] xl:max-w-[341px] ">
         <a href="https://voice.art/" target="_blank">
-          <h3 className="font-D32px-M18px w-fit cursor-pointer font-bold text-[#333333] transition duration-300 hover:text-[#333333]">
+          <h3 className="font-D32px-M18px w-fit cursor-pointer font-bold text-darkgray transition duration-300 hover:text-gray">
             Merchandise
           </h3>
         </a>

@@ -16,18 +16,18 @@ const HeaderSocials: FC<HeaderSocialsProps> = ({ className }) => {
     >
       {/* <div className="flex items-center justify-end gap-2 sm:gap-1 lg:order-last">
         <Link href="https://www.facebook.com/peptide.city/" target="_blank">
-          <FacebookIcon className="transition-colors duration-300 hover:fill-[#333333]" />
+          <FacebookIcon className="transition-colors duration-300 hover:fill-[#9A9A9F]" />
         </Link>
         <Link href="https://www.instagram.com/peptide.city/" target="_blank">
-          <InstagramIcon className="transition-colors duration-300 hover:fill-[#333333]" />
+          <InstagramIcon className="transition-colors duration-300 hover:fill-[#9A9A9F]" />
         </Link>
       </div> */}
       {/* <Link
         href="tel:+18662027786"
         className="group/phone flex items-center justify-start gap-1 sm:hidden lg:order-first"
       >
-        <PhoneIcon className="transition-colors duration-300 group-hover/phone:fill-[#333333]" />
-        <span className="font-12px-ALL text-black transition-colors duration-300 group-hover/phone:text-[#333333]">
+        <PhoneIcon className="transition-colors duration-300 group-hover/phone:fill-[#9A9A9F]" />
+        <span className="font-12px-ALL text-black transition-colors duration-300 group-hover/phone:text-darkgray">
           (866) 202-7786
         </span>
       </Link> */}

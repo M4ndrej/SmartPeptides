@@ -298,7 +298,7 @@ const QuickView: FC<QuickViewProps> = ({ productId, closePopover }) => {
                   )}
 
                   {isMerch ? (
-                    <p className="font-D14px-M13px mb-6 mt-2 font-bold text-[#333333]">
+                    <p className="font-D14px-M13px mb-6 mt-2 font-bold text-darkgray">
                       *PURCHASING MERCH PRODUCTS MAY DELAY ENTIRE ORDER BY
                       ADDITIONAL 24H*
                     </p>

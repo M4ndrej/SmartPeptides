@@ -74,12 +74,12 @@ const CheckoutStoreCredit: FC<CheckoutStoreCreditProps> = ({
         <div className="group flex w-full items-center justify-between">
           <div className="flex items-center gap-[8px]">
             <StoreCreditIcon
-              customClass={`transition duration-300  ${isMobile && "group-hover:fill-[#333333]"}`}
+              customClass={`transition duration-300  ${isMobile && "group-hover:fill-[#9A9A9F]"}`}
             />
             <p
               className={classNames(
                 "font-D16px-M13px transition duration-300 ",
-                isMobile && "group-hover:text-[#333333]"
+                isMobile && "group-hover:text-gray"
               )}
             >
               Apply store credit discount?
@@ -89,7 +89,7 @@ const CheckoutStoreCredit: FC<CheckoutStoreCreditProps> = ({
           {isMobile && (
             <DropdownIcon
               className={classNames(
-                "transition duration-200 group-hover:!stroke-[#333333]",
+                "transition duration-200 group-hover:!stroke-[#9A9A9F]",
                 !isOpen && "rotate-[180deg]"
               )}
             />

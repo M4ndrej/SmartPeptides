@@ -21,14 +21,14 @@ const LinkButton: FC<LinkButtonProps> = ({
     <Link
       ref={linkRef}
       className={classNames(
-        `font-D16px-M13px group/linkBtn relative flex cursor-pointer select-none items-center justify-center gap-1 rounded-[5px] border-none px-4 py-1.5 text-[#333333] outline-none transition-all duration-300 
-        hover:bg-[#f0f0f0] hover:text-[#333333] focus-visible:bg-[#f0f0f0] focus-visible:text-[#333333] dark:hover:bg-transparent dark:focus-visible:bg-transparent`,
+        `font-D16px-M13px group/linkBtn relative flex cursor-pointer select-none items-center justify-center gap-1 rounded-[5px] border-none px-4 py-1.5 text-darkgray outline-none transition-all duration-300 
+        hover:bg-[#f0f0f0] hover:text-gray focus-visible:bg-[#f0f0f0] focus-visible:text-darkgray dark:hover:bg-transparent dark:focus-visible:bg-transparent`,
         className
       )}
       {...restProps}
     >
       {children}
-      <RightIcon className={classNames("stroke-[#333333]", iconClassName)} />
+      <RightIcon className={classNames("stroke-[#9A9A9F]", iconClassName)} />
     </Link>
   );
 };

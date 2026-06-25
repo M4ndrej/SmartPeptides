@@ -11,7 +11,7 @@ const LoginSuccess: FC = () => {
           width={60}
           height={60}
           strokeWidth={1.2}
-          className="!stroke-[#333333]"
+          className="!stroke-[#9A9A9F]"
         />
         <div className="font-D24px-M18px text-center sm:font-medium">
           Logging in successful!

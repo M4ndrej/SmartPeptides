@@ -7,16 +7,16 @@ const TermsOfService = () => {
         <h1 className="font-D32px-M24px pb-[16px] text-center font-bold">
           Terms Of Service
         </h1>
-        <div className="mx-auto mb-[20px] h-[2px] w-[48px] bg-[#333333]"></div>
+        <div className="mx-auto mb-[20px] h-[2px] w-[48px] bg-[#9A9A9F]"></div>
 
         <div className="font-D16px-M13px container-margin-bottom-D96px-M64px">
           <div className="pb-[20px]">
-            This website is operated by smartpeptides.com. By accessing and using
+            This website is operated by smartpeptides.bio. By accessing and using
             this site, you agree to comply with the terms and conditions
             outlined below.
           </div>
 
-          <div className="font-D20px-M16px mb-[20px] text-[#333333]">
+          <div className="font-D20px-M16px mb-[20px] text-darkgray">
             Legal Disclaimer
           </div>
           <div className="pb-[20px]">
@@ -29,12 +29,12 @@ const TermsOfService = () => {
             existing patents.
           </div>
 
-          <div className="font-D20px-M16px mb-[20px] text-[#333333]">
+          <div className="font-D20px-M16px mb-[20px] text-darkgray">
             Qualified Handling Only
           </div>
           <div className="pb-[20px]">
             All products sold on this website are to be handled by trained and
-            qualified individuals only. By purchasing from smartpeptides.com, you
+            qualified individuals only. By purchasing from smartpeptides.bio, you
             acknowledge that handling these materials comes with inherent risks.
             Buyers represent and warrant that they are aware of all associated
             hazards, are equipped to mitigate these risks through industrial
@@ -42,7 +42,7 @@ const TermsOfService = () => {
             adequate safety warnings.
           </div>
 
-          <div className="font-D20px-M16px mb-[20px] text-[#333333]">
+          <div className="font-D20px-M16px mb-[20px] text-darkgray">
             Buyer Responsibility
           </div>
           <div className="pb-[20px]">
@@ -51,7 +51,7 @@ const TermsOfService = () => {
             devices, cosmetics, or commercial use. Buyers are responsible for:
             <ul className="ml-4 mt-2">
               <li>
-                <div className="font-16px-ALL mb-2 text-[#333333]">
+                <div className="font-16px-ALL mb-2 text-darkgray">
                   • Conducting appropriate tests before use.
                 </div>
                 <div className="pb-3">
@@ -61,11 +61,11 @@ const TermsOfService = () => {
                 </div>
               </li>
               <li>
-                <div className="font-16px-ALL mb-2 text-[#333333]">
+                <div className="font-16px-ALL mb-2 text-darkgray">
                   • Research Use Only
                 </div>
                 <div className="pb-3">
-                  All products and services provided by smartpeptides.com are
+                  All products and services provided by smartpeptides.bio are
                   intended exclusively for laboratory and research purposes.
                   Buyers must not use these materials for human consumption,
                   recreational activities, or resale. All customers are presumed
@@ -74,7 +74,7 @@ const TermsOfService = () => {
                 </div>
               </li>
               <li>
-                <div className="font-16px-ALL mb-2 text-[#333333]">
+                <div className="font-16px-ALL mb-2 text-darkgray">
                   • Compliance with Laws
                 </div>
                 <div className="pb-3">
@@ -86,11 +86,11 @@ const TermsOfService = () => {
             </ul>
           </div>
 
-          <div className="font-D20px-M16px mb-[20px] text-[#333333]">
+          <div className="font-D20px-M16px mb-[20px] text-darkgray">
             Final Note
           </div>
           <div className="pb-[20px]">
-            smartpeptides.com retains the right to update or modify these terms
+            smartpeptides.bio retains the right to update or modify these terms
             at any time. Continued use of the website constitutes your
             acceptance of these changes.
           </div>

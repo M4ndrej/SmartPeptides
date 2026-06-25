@@ -25,7 +25,7 @@ const QuickviewIcon: FC<QuickviewIconProps> = ({ customClass, onPress }) => {
           cx="12.501"
           cy="12"
           r="3.5"
-          stroke="#333333"
+          stroke="#9A9A9F"
           className="stroke-darkgray transition duration-200 dark:stroke-gray4"
         />
       </g>

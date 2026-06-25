@@ -30,8 +30,8 @@ const GroupProfileTabs: FC<DropdownProps> = ({
           <div
             key={item.id}
             className={classNames(
-              "font-D16px-M13px  cursor-pointer rounded-[5px] p-[16px] transition-all ease-in-out hover:bg-lightgray hover:font-bold hover:text-[#333333] sm:py-[10px]",
-              item.id == selectedId && "bg-lightgray font-bold text-[#333333]",
+              "font-D16px-M13px  cursor-pointer rounded-[5px] p-[16px] transition-all ease-in-out hover:bg-lightgray hover:font-bold hover:text-gray sm:py-[10px]",
+              item.id == selectedId && "bg-lightgray font-bold text-darkgray",
               item.id == selectedId &&
                 "first:rounded-tl-none first:rounded-tr-none",
               item.id === 7 && "hidden"

@@ -61,8 +61,8 @@ const CheckoutNavSteps: FC<CheckoutNavStepsProps> = ({
         <Fragment key={step}>
           <span
             className={classNames(
-              "cursor-pointer transition-colors duration-300 hover:text-darkgray dark:hover:text-[#333333]",
-              paymentStep === i && "font-bold text-darkgray dark:text-[#333333]"
+              "cursor-pointer transition-colors duration-300 hover:text-gray dark:hover:text-gray",
+              paymentStep === i && "font-bold text-darkgray dark:text-darkgray"
             )}
             onClick={() => onStepClick(i)}
           >

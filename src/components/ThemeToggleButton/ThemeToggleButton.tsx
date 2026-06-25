@@ -30,7 +30,7 @@ const ThemeToggleButton: FC<ThemeToggleButtonProps> = ({
         <SystemIcon
           isActive={state.themeMode === "system"}
           className={classNames(
-            "group-hover/selectMode:fill-[#333333} group-hover/toggleBtn:fill-[#333333}"
+            "group-hover/selectMode:fill-[#9A9A9F} group-hover/toggleBtn:fill-[#9A9A9F}"
           )}
           width={32}
           height={32}
@@ -44,7 +44,7 @@ const ThemeToggleButton: FC<ThemeToggleButtonProps> = ({
         <SunIcon
           isActive={state.themeMode === "light"}
           className={classNames(
-            "group-hover/selectMode:fill-[#333333} group-hover/toggleBtn:fill-[#333333}"
+            "group-hover/selectMode:fill-[#9A9A9F} group-hover/toggleBtn:fill-[#9A9A9F}"
           )}
           width={32}
           height={32}
@@ -58,7 +58,7 @@ const ThemeToggleButton: FC<ThemeToggleButtonProps> = ({
         <MoonIcon
           isActive={state.themeMode === "dark"}
           className={classNames(
-            "group-hover/selectMode:fill-[#333333} group-hover/toggleBtn:fill-[#333333}"
+            "group-hover/selectMode:fill-[#9A9A9F} group-hover/toggleBtn:fill-[#9A9A9F}"
           )}
           width={32}
           height={32}
@@ -104,7 +104,7 @@ const ThemeToggleButton: FC<ThemeToggleButtonProps> = ({
           {state.themeMode === "dark" ? (
             <MoonIcon
               className={classNames(
-                "group-hover/toggleBtn:!fill-[#333333} !fill-black transition duration-200"
+                "group-hover/toggleBtn:!fill-[#9A9A9F} !fill-black transition duration-200"
               )}
               width={!isSmaller ? 32 : width}
               height={!isSmaller ? 32 : height}
@@ -112,7 +112,7 @@ const ThemeToggleButton: FC<ThemeToggleButtonProps> = ({
           ) : state.themeMode === "light" ? (
             <SunIcon
               className={classNames(
-                "group-hover/toggleBtn:!fill-[#333333} !fill-black transition duration-200"
+                "group-hover/toggleBtn:!fill-[#9A9A9F} !fill-black transition duration-200"
               )}
               width={!isSmaller ? 32 : width}
               height={!isSmaller ? 32 : height}
@@ -120,7 +120,7 @@ const ThemeToggleButton: FC<ThemeToggleButtonProps> = ({
           ) : (
             <SystemIcon
               className={classNames(
-                "group-hover/toggleBtn:!fill-[#333333} !fill-black transition duration-200"
+                "group-hover/toggleBtn:!fill-[#9A9A9F} !fill-black transition duration-200"
               )}
               width={!isSmaller ? 32 : width}
               height={!isSmaller ? 32 : height}
@@ -129,7 +129,7 @@ const ThemeToggleButton: FC<ThemeToggleButtonProps> = ({
         </span>
         <DropdownIcon
           className={classNames(
-            "group-hover/toggleBtn:!stroke-[#333333} hidden transition duration-200 xl:block",
+            "group-hover/toggleBtn:!stroke-[#9A9A9F} hidden transition duration-200 xl:block",
             dropdownOpen ? "rotate-[180deg]" : "rotate-0"
           )}
         />
@@ -149,8 +149,8 @@ const ThemeToggleButton: FC<ThemeToggleButtonProps> = ({
               type="button"
               disabled={option.value === state.themeMode}
               className={classNames(
-                "font-14px-ALL group/selectMode hover:fill-[#333333} flex items-center gap-[8px] text-gray2 transition duration-200 hover:text-[#333333] focus:outline-none",
-                { "!text-[#333333}": option.value === state.themeMode }
+                "font-14px-ALL group/selectMode hover:fill-[#9A9A9F} flex items-center gap-[8px] text-gray2 transition duration-200 hover:text-gray focus:outline-none",
+                { "!text-[#9A9A9F}": option.value === state.themeMode }
               )}
               onClick={() => handleChange(option.value)}
             >

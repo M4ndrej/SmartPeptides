@@ -174,7 +174,7 @@ const AffiliateForm: FC<AffiliateFormProps> = ({
           {/* Selected option */}
           <div
             className={classNames(
-              "flex cursor-pointer select-none items-center justify-between px-[16px] py-[12px] font-bold text-[#333333] transition duration-200 hover:border-gray",
+              "flex cursor-pointer select-none items-center justify-between px-[16px] py-[12px] font-bold text-darkgray transition duration-200 hover:border-gray",
               !paymentMethod && "font-normal text-gray2"
             )}
             onClick={() => togglePaymentMethodDropdown()}
@@ -193,7 +193,7 @@ const AffiliateForm: FC<AffiliateFormProps> = ({
               <div
                 key={method.key}
                 onClick={() => changePaymentMethod(method)}
-                className="font-16px-ALL cursor-pointer transition duration-200 hover:text-[#333333]"
+                className="font-16px-ALL cursor-pointer transition duration-200 hover:text-gray"
               >
                 {method.title}
               </div>

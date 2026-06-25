@@ -103,7 +103,7 @@ const ProductCategories: FC<ProductCategoriesProps> = ({
         <div
           onClick={() => toggleDropdown()}
           className={classNames({
-            "font-14px-ALL relative z-[2] mt-[8px] hidden w-full items-center justify-between rounded-[5px] bg-[#f0f0f0] px-[16px] py-[8px] font-bold text-[#333333] sm:flex dark:bg-transparent":
+            "font-14px-ALL relative z-[2] mt-[8px] hidden w-full items-center justify-between rounded-[5px] bg-[#f0f0f0] px-[16px] py-[8px] font-bold text-darkgray sm:flex dark:bg-transparent":
               true,
             "rounded-bl-none rounded-br-none": height !== 0,
           })}
@@ -138,7 +138,7 @@ const ProductCategories: FC<ProductCategoriesProps> = ({
                 }}
                 className={classNames({
                   "product-tab": true,
-                  "font-bold text-[#333333]":
+                  "font-bold text-darkgray":
                     activePath.replaceAll("/", "") === category.slug,
                 })}
               >

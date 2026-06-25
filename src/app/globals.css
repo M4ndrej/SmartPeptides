@@ -9,6 +9,9 @@
   --background-rgb: 255, 255, 255;
   --color-white: #fff;
   --color-textWhite: #ffffff;
+  --color-gray: #9A9A9F;
+  --color-darkgray: #333333;
+
   --color-blue: #3d9be9;
   --color-blue40: #3d9be966;
   --color-black: #000;
@@ -24,9 +27,8 @@
   --color-sliderNavBtnBlue: #afd6f6;
   --color-sliderNavBtnBlueHover: #8ec5f2;
   --color-scroll-color: #afd6f6;
-  --color-darkgray: #333333;
   --color-gray3: #898989;
-  --color-gray: #e6e6e6;
+  --color-gray1: #e6e6e6;
   --color-borderColor: #e6e6e6;
   --color-lightgray: #f8f8f8;
   --color-dark-blue: #257fca;
@@ -616,7 +618,7 @@ html {
     transition: transform 0.2s;
 
     @media only screen and (min-width: 1200px) {
-      border-bottom: solid 3px var(--color-darkgray);
+      border-bottom: solid 3px var(--color-gray);
     }
   }
 
@@ -636,7 +638,7 @@ html {
     transition: transform 0.2s;
 
     @media only screen and (min-width: 1200px) {
-      border-bottom: solid 3px #333333;
+      border-bottom: solid 3px gray;
     }
   }
 

@@ -11,7 +11,7 @@ type PayPalNoticeProps = {
 
 const PayPalNotice: FC<PayPalNoticeProps> = ({ orderDetails }) => {
   return (
-    <div className="font-D16px-M13px flex flex-col gap-4 rounded-[5px] border-2 border-dashed border-[#333333] bg-lightgray p-4 md:p-6 lg:p-6">
+    <div className="font-D16px-M13px flex flex-col gap-4 rounded-[5px] border-2 border-dashed border-[#9A9A9F] bg-lightgray p-4 md:p-6 lg:p-6">
       <div className="font-D24px-M18px font-bold">To complete your order</div>
 
       <div className="flex flex-col gap-6">

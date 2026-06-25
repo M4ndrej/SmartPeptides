@@ -24,28 +24,28 @@ export default async function AffiliatePage() {
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://smartpeptides.com//#organization",
+        "@id": "https://smartpeptides.bio//#organization",
         name: "SMART PEPTIDES",
       },
       {
         "@type": "WebSite",
-        "@id": "https://smartpeptides.com//#website",
-        url: "https://smartpeptides.com/",
+        "@id": "https://smartpeptides.bio//#website",
+        url: "https://smartpeptides.bio/",
         name: "SMART PEPTIDES",
         publisher: {
-          "@id": "https://smartpeptides.com//#organization",
+          "@id": "https://smartpeptides.bio//#organization",
         },
         inLanguage: "en-US",
       },
       {
         "@type": "WebPage",
-        "@id": "https://smartpeptides.com//affiliate/#webpage",
-        url: "https://smartpeptides.com//affiliate/",
+        "@id": "https://smartpeptides.bio//affiliate/#webpage",
+        url: "https://smartpeptides.bio//affiliate/",
         name: "Smart Peptides Affiliate Program - SMART PEPTIDES",
         datePublished: "2023-11-02T13:06:34-05:00",
         dateModified: "2024-01-08T08:21:07-06:00",
         isPartOf: {
-          "@id": "https://smartpeptides.com//#website",
+          "@id": "https://smartpeptides.bio//#website",
         },
         inLanguage: "en-US",
       },

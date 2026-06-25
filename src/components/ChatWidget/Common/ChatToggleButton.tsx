@@ -14,8 +14,8 @@ export const ChatToggleButton: FC<ChatToggleButtonProps> = ({
     <div
       className={classNames({
         "cursor-pointer transition-all duration-300 sm:relative sm:z-[1]": true,
-        "rotate-90 [&_#chatIconBg]:hover:fill-[#333333]": isChatWidgetOpen,
-        "[&_#chatIconBg]:hover:fill-[#333333]": !isChatWidgetOpen,
+        "rotate-90 [&_#chatIconBg]:hover:fill-[#9A9A9F]": isChatWidgetOpen,
+        "[&_#chatIconBg]:hover:fill-[#9A9A9F]": !isChatWidgetOpen,
       })}
       onClick={openCloseChat}
     >
@@ -27,7 +27,7 @@ export const ChatToggleButton: FC<ChatToggleButtonProps> = ({
         xmlns="http://www.w3.org/2000/svg"
       >
         <g filter="url(#filter0_d)">
-          <circle id="chatIconBg" cx="29" cy="28" r="26" fill="#333333" />
+          <circle id="chatIconBg" cx="29" cy="28" r="26" fill="#9A9A9F" />
         </g>
         {isChatWidgetOpen ? (
           <>

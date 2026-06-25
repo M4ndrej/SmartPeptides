@@ -19,7 +19,7 @@ const HeaderSearchButton: FC<HeaderSearchButtonProps> = ({ isSmaller }) => {
     >
       <SearchIcon
         className={classNames(
-          "!fill-black transition-colors duration-300 group-hover/search:!fill-[#333333]",
+          "!fill-black transition-colors duration-300 group-hover/search:!fill-[#9A9A9F]",
           isSmaller ? "!h-6 !w-6 sm:!h-5 sm:!w-5" : "sm:!h-6 sm:!w-6"
         )}
       />

@@ -126,17 +126,17 @@ const OurProducts: FC<OurProductsProps> = ({ products }) => {
     <>
       <div className="flex w-full flex-col items-center">
         <h2 className="font-D32px-M24px font-bold">Our Products</h2>
-        <div className="mt-[16px] h-[2px] w-[48px] bg-[#333333]"></div>
+        <div className="mt-[16px] h-[2px] w-[48px] bg-[#9A9A9F]"></div>
       </div>
       <div className="our-product-filters-alignment mb-[44px] mt-[40px] flex h-fit gap-[32px] sm:mb-[24px] sm:mt-[8px] sm:overflow-auto xl:mb-[40px]">
         {productFilter.map((item: any, index: number) => (
           <div
             key={index}
             className={classNames({
-              "product-filter-btn font-D16px-M14px animate-font-weight underlineNew relative cursor-pointer transition-[color] ease-in-out  hover:text-[#333333] sm:mt-[32px] sm:flex sm:flex-row-reverse sm:items-center [&_div]:hover:w-[100%]":
+              "product-filter-btn font-D16px-M14px animate-font-weight underlineNew relative cursor-pointer transition-[color] ease-in-out  hover:text-gray sm:mt-[32px] sm:flex sm:flex-row-reverse sm:items-center [&_div]:hover:w-[100%]":
                 true,
               "text-darkgray": currentFilter !== item.name,
-              "!font-bold !text-[#333333] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-[#333333] after:content-['']":
+              "!font-bold !text-darkgray after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-[#9A9A9F] after:content-['']":
                 currentFilter === item.name,
             })}
             onClick={() => {
@@ -146,7 +146,7 @@ const OurProducts: FC<OurProductsProps> = ({ products }) => {
             <div className="sm:whitespace-nowrap">{item.name}</div>
             {/* <div
               className={classNames({
-                "h-[2px] w-0 rounded bg-[#333333] transition-[width] ease-in-out sm:mr-[16px] sm:w-[24px]":
+                "h-[2px] w-0 rounded bg-[#9A9A9F] transition-[width] ease-in-out sm:mr-[16px] sm:w-[24px]":
                   true,
                 "w-[100%]": currentFilter == item.name,
                 "sm:hidden": currentFilter != item.name,
@@ -170,7 +170,7 @@ const OurProducts: FC<OurProductsProps> = ({ products }) => {
           ))}
         </div>
         <div
-          className="absolute left-0 top-[72px] z-[1] hidden items-center justify-center rounded-r-[5px] bg-[#333333] opacity-70 sm:flex sm:h-[44px] sm:w-[44px] md:flex md:h-[44px] md:w-[44px] lg:flex lg:h-[44px] lg:w-[44px] xl:hidden"
+          className="absolute left-0 top-[72px] z-[1] hidden items-center justify-center rounded-r-[5px] bg-[#9A9A9F] opacity-70 sm:flex sm:h-[44px] sm:w-[44px] md:flex md:h-[44px] md:w-[44px] lg:flex lg:h-[44px] lg:w-[44px] xl:hidden"
           onClick={() => handlePopoverAction(true, "productslist")}
         >
           <Image

@@ -25,7 +25,7 @@ const SingleMerchColor: FC<SingleMerchColorProps> = ({
     <div
       className={classNames(
         "h-10 w-10 rounded-[5px] border-2",
-        selectedColor === color ? "border-[#333333]" : "border-borderColor",
+        selectedColor === color ? "border-[#9A9A9F]" : "border-borderColor",
         color == "White" && "bg-textWhite",
         color == "Black" && "bg-black2"
       )}

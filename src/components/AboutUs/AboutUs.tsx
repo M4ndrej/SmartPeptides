@@ -14,7 +14,7 @@ const AboutUs = () => {
             crowded industry.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
+          <div className="font-D24px-M18px mb-[20px] text-darkgray">
             Our Commitment to Quality
           </div>
 
@@ -31,7 +31,7 @@ const AboutUs = () => {
             reproducible results.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
+          <div className="font-D24px-M18px mb-[20px] text-darkgray">
             Our Vision
           </div>
 
@@ -63,7 +63,7 @@ const AboutUs = () => {
       <div className="relative h-[355px] w-[355px]  md:h-[491px] md:w-[491px] from834:h-[598px] from834:w-[598px] lg:h-[488px] lg:w-[488px] xl:h-[491px] xl:w-[491px]">
         <Image
           className="select-none object-contain"
-          src="/images/aboutUsImg.png"
+          src="/images/aboutUsImg.svg"
           alt="Molecules Tube"
           fill={true}
           sizes="(max-width: 766px) 355px, (min-width: 767px) and (max-width: 833px) 491px, (min-width: 834px) and (max-width: 1023px) 598px, (min-width: 1024px) and (max-width: 1199px) 488px, 491px"

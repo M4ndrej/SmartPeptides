@@ -9,7 +9,7 @@ const CustomTooltip: FC<TooltipProps<string | number, string>> = ({
 }) => {
   return (
     <div className="min-w-32 rounded-[5px] bg-white p-4 shadow-globalShadow">
-      <div className="font-D16px-M13px mb-2 font-bold text-[#333333]">
+      <div className="font-D16px-M13px mb-2 font-bold text-darkgray">
         {labelFormatter?.(label, payload ?? []) ?? label}
       </div>
       <ul className="flex flex-col items-start justify-center gap-4">

@@ -19,7 +19,7 @@ const ClearInputButton: React.FC<ClearInputButtonProps> = ({
         xmlns="http://www.w3.org/2000/svg"
         className="treansition absolute top-[5px] z-[2] cursor-pointer select-none  duration-300 sm:right-[8px]
                   sm:top-[6px] md:right-[2px] lg:right-[15px] xl:right-[35px]
-                   [&_path]:hover:stroke-[#333333]"
+                   [&_path]:hover:stroke-[#9A9A9F]"
         onClick={handleClearInputSearch}
       >
         <path

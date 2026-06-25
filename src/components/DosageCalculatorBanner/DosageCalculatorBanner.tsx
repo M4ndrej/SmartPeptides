@@ -11,7 +11,7 @@ const DosageCalculatorBanner = () => {
       <div className="lg sm:w-full sm:min-w-[250px] sm:max-w-[330px] sm:pl-[16px] md:min-w-[310px] md:max-w-[505px] lg:min-w-[303px] xl:min-w-[340px] ">
         <Link href="/calculator">
           <h3
-            className="font-D32px-T24px-M18px w-fit cursor-pointer font-bold text-[#333333] transition duration-300 hover:text-[#333333]"
+            className="font-D32px-T24px-M18px w-fit cursor-pointer font-bold text-darkgray transition duration-300 hover:text-gray"
             onClick={() => {}}
           >
             Peptide Dosage Calculator

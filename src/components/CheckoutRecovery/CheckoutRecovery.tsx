@@ -212,7 +212,7 @@ const CheckoutRecovery: FC<CheckoutRecoveryProps> = ({
                 />
                 <SubmitButton
                   ref={buttonRef}
-                  customClass="inline-flex h-[48px] w-[100%] cursor-pointer select-none items-center justify-center rounded-[5px] border border-[#333333] bg-[#333333] px-[32px] py-[12px] font-medium text-[#333333] text-textWhite transition-all duration-300 hover:bg-[#333333] hover:text-white sm:w-full"
+                  customClass="inline-flex h-[48px] w-[100%] cursor-pointer select-none items-center justify-center rounded-[5px] border border-[#9A9A9F] bg-[#9A9A9F] px-[32px] py-[12px] font-medium text-darkgray text-textWhite transition-all duration-300 hover:bg-[#9A9A9F] hover:text-white sm:w-full"
                   showSpiner
                   reverseColors
                   highlighted

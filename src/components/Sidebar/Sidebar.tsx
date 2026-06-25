@@ -106,7 +106,7 @@ const Sidebar: FC<SidebarProps> = ({
               <div className="flex cursor-pointer gap-x-[8px]">
                 <div className="mt-[8px] h-[8px] w-[8px] min-w-[8px] rounded-full bg-gray "></div>
                 <div
-                  className="font-16px-ALL !text-gray2 transition duration-300 group-hover:!text-[#333333]"
+                  className="font-16px-ALL !text-gray2 transition duration-300 group-hover:!text-darkgray"
                   dangerouslySetInnerHTML={{
                     __html: blog.title.rendered,
                   }}
@@ -123,19 +123,19 @@ const Sidebar: FC<SidebarProps> = ({
         </div>
         <div className="flex flex-col gap-y-[16px]">
           <div onClick={() => changeCategory(0)}>
-            <div className="flex cursor-pointer items-center gap-x-[8px] [&_div]:hover:text-[#333333]">
+            <div className="flex cursor-pointer items-center gap-x-[8px] [&_div]:hover:text-gray">
               <div
                 className={classNames({
                   " h-[8px] w-[8px] min-w-[8px] rounded-full": true,
                   "bg-gray": activeCategory != 0,
-                  "bg-[#333333]": activeCategory == 0,
+                  "bg-[#9A9A9F]": activeCategory == 0,
                 })}
               ></div>
               <div
                 className={classNames({
                   "font-16px-ALL transition-[color] ease-in-out": true,
                   "text-gray2": activeCategory != 0,
-                  "font-bold text-[#333333]": activeCategory == 0,
+                  "font-bold text-darkgray": activeCategory == 0,
                 })}
               >
                 All categories
@@ -148,19 +148,19 @@ const Sidebar: FC<SidebarProps> = ({
               className={classNames({ hidden: !category.count })}
               onClick={() => changeCategory(category.id)}
             >
-              <div className="flex cursor-pointer items-center gap-x-[8px] [&_div]:hover:text-[#333333]">
+              <div className="flex cursor-pointer items-center gap-x-[8px] [&_div]:hover:text-gray">
                 <div
                   className={classNames({
                     "h-[8px] w-[8px] min-w-[8px] rounded-full": true,
                     "bg-gray": activeCategory != category.id,
-                    "bg-[#333333]": activeCategory == category.id,
+                    "bg-[#9A9A9F]": activeCategory == category.id,
                   })}
                 ></div>
                 <div
                   className={classNames({
                     "font-16px-ALL transition-[color] ease-in-out": true,
                     "text-gray2": activeCategory != category.id,
-                    "font-bold text-[#333333]": activeCategory == category.id,
+                    "font-bold text-darkgray": activeCategory == category.id,
                   })}
                 >
                   {category.name}

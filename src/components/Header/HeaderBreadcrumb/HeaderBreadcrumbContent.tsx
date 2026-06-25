@@ -37,7 +37,7 @@ const HeaderBreadcrumbContent: FC<HeaderBreadcrumbContentProps> = ({
                 <>
                   <Link
                     href={previousRoute?.link ? previousRoute.link : ""}
-                    className="group relative transition duration-300 hover:text-[#333333]"
+                    className="group relative transition duration-300 hover:text-gray"
                   >
                     {previousRoute?.headerTitle}
                   </Link>
@@ -52,7 +52,7 @@ const HeaderBreadcrumbContent: FC<HeaderBreadcrumbContentProps> = ({
                             ? previousRoute.subRoute.link
                             : ""
                         }
-                        className="group relative transition duration-300 hover:text-[#333333]"
+                        className="group relative transition duration-300 hover:text-gray"
                       >
                         {previousRoute.subRoute?.name}
                       </Link>
@@ -70,7 +70,7 @@ const HeaderBreadcrumbContent: FC<HeaderBreadcrumbContentProps> = ({
                     <>
                       <Link
                         href={currentRoute?.link ? currentRoute.link : ""}
-                        className="group/secondLink relative whitespace-nowrap transition duration-300 hover:text-[#333333]"
+                        className="group/secondLink relative whitespace-nowrap transition duration-300 hover:text-gray"
                       >
                         {currentRoute?.headerTitle}
                       </Link>
@@ -100,11 +100,11 @@ const HeaderBreadcrumbContent: FC<HeaderBreadcrumbContentProps> = ({
           hidden: !pageFromPagesData,
         })}
       >
-        <div className="h-[8px] w-[8px] select-none rounded-full bg-[#333333] sm:hidden sm:min-w-[8px] "></div>
-        <div className="font-D16px-M12px font-bold text-[#333333] sm:text-center">
+        <div className="h-[8px] w-[8px] select-none rounded-full bg-[#9A9A9F] sm:hidden sm:min-w-[8px] "></div>
+        <div className="font-D16px-M12px font-bold text-darkgray sm:text-center">
           New customer bonus: Get 15% off when you register
         </div>
-        <div className="h-[8px] w-[8px] select-none rounded-full bg-[#333333] sm:hidden sm:min-w-[8px] "></div>
+        <div className="h-[8px] w-[8px] select-none rounded-full bg-[#9A9A9F] sm:hidden sm:min-w-[8px] "></div>
       </div> */}
     </>
   );

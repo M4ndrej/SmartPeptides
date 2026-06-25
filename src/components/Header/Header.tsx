@@ -63,7 +63,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="hidden min-h-[40px] bg-[#f0f0f0] xl:flex dark:bg-transparent">
+        <div className="hidden min-h-[40px] bg-[#f1f1f1] xl:flex dark:bg-transparent">
           <div
             id="header-link-section"
             className="mx-auto flex w-full max-w-[1264px] items-center justify-between px-8"

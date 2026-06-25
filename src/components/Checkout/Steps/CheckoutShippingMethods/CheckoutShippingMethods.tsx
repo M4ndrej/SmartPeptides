@@ -72,7 +72,7 @@ export const CheckoutShippingMethods: FC<CheckoutShippingMethodsProps> = ({
           >
             <path
               d="M30.2482 24.5452L18.797 4.29609C18.5108 3.8 18.1023 3.38866 17.6119 3.10285C17.1216 2.81704 16.5663 2.66669 16.0013 2.66669C15.4363 2.66669 14.881 2.81704 14.3907 3.10285C13.9003 3.38866 13.4918 3.8 13.2056 4.29609L1.75442 24.5452C1.47908 25.0251 1.33398 25.5708 1.33398 26.1265C1.33398 26.6823 1.47908 27.228 1.75442 27.7079C2.0369 28.207 2.44472 28.6205 2.93602 28.9062C3.42731 29.1918 3.9844 29.3392 4.55011 29.3332H27.4525C28.0178 29.3387 28.5743 29.1911 29.0651 28.9055C29.5559 28.6199 29.9633 28.2066 30.2456 27.7079C30.5213 27.2283 30.6669 26.6826 30.6673 26.1269C30.6678 25.5712 30.5231 25.0253 30.2482 24.5452ZM28.432 26.6399C28.3321 26.8133 28.1888 26.9565 28.0167 27.0549C27.8446 27.1533 27.6499 27.2033 27.4525 27.1999H4.55011C4.35274 27.2033 4.15802 27.1533 3.9859 27.0549C3.81378 26.9565 3.67046 26.8133 3.57063 26.6399C3.48021 26.484 3.43251 26.3063 3.43251 26.1252C3.43251 25.9442 3.48021 25.7664 3.57063 25.6105L15.0218 5.36141C15.1237 5.18885 15.2676 5.04605 15.4397 4.94692C15.6118 4.84778 15.8062 4.79568 16.0039 4.79568C16.2017 4.79568 16.396 4.84778 16.5681 4.94692C16.7402 5.04605 16.8842 5.18885 16.986 5.36141L28.4372 25.6105C28.5269 25.7669 28.5736 25.9449 28.5727 26.1259C28.5718 26.307 28.5232 26.4845 28.432 26.6399ZM14.9537 18.6666V13.3333C14.9537 13.0504 15.0641 12.7791 15.2606 12.5791C15.457 12.3791 15.7235 12.2667 16.0013 12.2667C16.2791 12.2667 16.5456 12.3791 16.742 12.5791C16.9385 12.7791 17.0489 13.0504 17.0489 13.3333V18.6666C17.0489 18.9495 16.9385 19.2208 16.742 19.4209C16.5456 19.6209 16.2791 19.7333 16.0013 19.7333C15.7235 19.7333 15.457 19.6209 15.2606 19.4209C15.0641 19.2208 14.9537 18.9495 14.9537 18.6666ZM17.5727 23.4666C17.5727 23.783 17.4805 24.0924 17.3078 24.3555C17.1352 24.6186 16.8898 24.8237 16.6026 24.9448C16.3155 25.0659 15.9996 25.0975 15.6947 25.0358C15.3899 24.9741 15.11 24.8217 14.8902 24.5979C14.6704 24.3742 14.5208 24.0891 14.4601 23.7787C14.3995 23.4683 14.4306 23.1466 14.5496 22.8543C14.6685 22.5619 14.8699 22.312 15.1283 22.1362C15.3867 21.9604 15.6905 21.8666 16.0013 21.8666C16.4181 21.8666 16.8177 22.0352 17.1124 22.3352C17.4071 22.6353 17.5727 23.0422 17.5727 23.4666Z"
-              fill="#333333"
+              fill="#9A9A9F"
             />
           </svg>
           <p className="max-w-[605px]">
@@ -92,7 +92,7 @@ export const CheckoutShippingMethods: FC<CheckoutShippingMethodsProps> = ({
           </div>
           <button
             onClick={async () => changeStep(1)}
-            className="font-D16px-M13px flex cursor-pointer self-start text-gray2 transition duration-300 hover:text-[#333333]"
+            className="font-D16px-M13px flex cursor-pointer self-start text-gray2 transition duration-300 hover:text-gray"
           >
             Change
           </button>
@@ -107,7 +107,7 @@ export const CheckoutShippingMethods: FC<CheckoutShippingMethodsProps> = ({
           </div>
           <button
             onClick={async () => changeStep(1)}
-            className="font-D16px-M13px flex cursor-pointer self-start text-gray2 transition duration-300 hover:text-[#333333]"
+            className="font-D16px-M13px flex cursor-pointer self-start text-gray2 transition duration-300 hover:text-gray"
           >
             Change
           </button>
@@ -160,7 +160,7 @@ export const CheckoutShippingMethods: FC<CheckoutShippingMethodsProps> = ({
           Order notes (optional)
         </span>
         <textarea
-          className="font-D16px-M13px scrollbar h-[128px] w-full rounded-md border-[1px] border-borderColor bg-inputColor p-[16px] shadow-none outline-none transition-all ease-linear hover:border-gray hover:bg-lightgray focus:border-[1px]  focus:border-[#333333] focus:bg-[#f0f0f0] sm:!text-[13px] sm:!leading-[21px] dark:border-none dark:text-[#333333] dark:focus:bg-transparent"
+          className="font-D16px-M13px scrollbar h-[128px] w-full rounded-md border-[1px] border-borderColor bg-inputColor p-[16px] shadow-none outline-none transition-all ease-linear hover:border-gray hover:bg-lightgray focus:border-[1px]  focus:border-[#9A9A9F] focus:bg-[#f0f0f0] sm:!text-[13px] sm:!leading-[21px] dark:border-none dark:text-darkgray dark:focus:bg-transparent"
           placeholder="Notes about your order, e.g. special notes for delivery."
           value={customer_note}
           onChange={(e) => updateCustomerNote?.(e.target.value)}
@@ -169,7 +169,7 @@ export const CheckoutShippingMethods: FC<CheckoutShippingMethodsProps> = ({
       </div>
       <div className="shipping-custom-breakpoint flex justify-between gap-[16px] sm:flex-col-reverse sm:items-center md:flex-col-reverse md:items-center lg:flex-row">
         <button
-          className="group/link flex items-center gap-[16px] transition duration-200 hover:text-[#333333]"
+          className="group/link flex items-center gap-[16px] transition duration-200 hover:text-gray"
           onClick={() => changeStep(1)}
         >
           <svg
@@ -181,13 +181,13 @@ export const CheckoutShippingMethods: FC<CheckoutShippingMethodsProps> = ({
           >
             <path
               d="M6 1L1 6.5L6 12"
-              // stroke="#333333"
+              // stroke="#9A9A9F"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="stroke-black transition duration-200 group-hover/link:stroke-[#333333]"
+              className="stroke-black transition duration-200 group-hover/link:stroke-[#9A9A9F]"
             />
           </svg>
-          <p className="font-16px-ALL text-center transition duration-200 group-hover/link:text-[#333333]">
+          <p className="font-16px-ALL text-center transition duration-200 group-hover/link:text-darkgray">
             RETURN TO INFORMATION
           </p>
         </button>

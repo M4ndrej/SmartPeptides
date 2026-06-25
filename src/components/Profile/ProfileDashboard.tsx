@@ -62,12 +62,12 @@ const ProfileDashboard: FC = () => {
 
       {/* <div className=" gap-[16px] sm:flex-col flex-grow mb-[32px] hidden xl:flex">
           <div className="flex flex-grow flex-col gap-[4px] rounded-[5px] border border-[#8EC5F2] bg-[#F4FAFF] p-[16px]">
-            <div className="grid gap-[4px] text-[13px] font-bold text-[#333333]">
+            <div className="grid gap-[4px] text-[13px] font-bold text-darkgray">
               <p>Current status: No status</p>
               <p>(no permanent discount)</p>
             </div>
 
-            <div className="text-[16px] text-[#333333]">
+            <div className="text-[16px] text-darkgray">
               Money spent: $1,243 USD
             </div>
           </div>

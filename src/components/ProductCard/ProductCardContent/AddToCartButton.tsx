@@ -166,15 +166,15 @@ const AddToCartButton = forwardRef<HTMLDivElement, AddToCartButtonProps>(
           ref={ref}
           onClick={handleAddToCartAction}
           className={classNames({
-            "cart-img-btn ease-[cubic-bezier(0.11, 0, 0.5, 0)] select-none bg-[#333333] transition duration-200 ":
+            "cart-img-btn ease-[cubic-bezier(0.11, 0, 0.5, 0)] select-none bg-[#9A9A9F] transition duration-200 ":
               true,
             "group-hover/cart:bg-textWhite":
               !variation && hasVariations && !hideSelectWeightTooltip,
-            "group-hover/cart:!bg-[#333333]":
+            "group-hover/cart:!bg-[#9A9A9F]":
               variation || hideSelectWeightTooltip,
             "group-hover/cart:z-[3]": !selectVariationActive,
-            "group-hover/cart:bg-[#333333]": !hasVariations,
-            "!cursor-not-allowed hover:!bg-[#333333]":
+            "group-hover/cart:bg-[#9A9A9F]": !hasVariations,
+            "!cursor-not-allowed hover:!bg-[#9A9A9F]":
               productIsInCart || !inStock,
             "z-[99999999991] bg-textWhite ":
               selectVariationActive && !hideSelectWeightTooltip,

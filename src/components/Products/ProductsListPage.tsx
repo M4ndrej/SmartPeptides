@@ -60,7 +60,7 @@ const ProductsListPage: FC<ProductsListPageProps> = async ({ slug }) => {
           <div className="m-auto mt-[80px] max-w-[1264px]">
             <div className="font-D32px-M24px mb-[40px] flex flex-col items-center justify-center gap-[16px] font-bold">
               Peptide Supplies
-              <div className="h-[2px] w-[48px] bg-[#333333]"></div>
+              <div className="h-[2px] w-[48px] bg-[#9A9A9F]"></div>
             </div>
             <FeaturedProducts />
           </div>

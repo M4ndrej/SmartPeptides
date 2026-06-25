@@ -37,7 +37,7 @@ const ProductCardPrice: FC<ProductCardPriceProps> = ({
   return (
     <p
       className={classNames(
-        "font-D16px-M11px whitespace-nowrap text-[#333333] sm:leading-[13px]",
+        "font-D16px-M11px whitespace-nowrap text-darkgray sm:leading-[13px]",
         viewMode === "rows" && section !== "mega-menu" && "mb-[4px]",
         section === "mega-menu" && "font-D14px-T12px-M12px",
         isMegaMenuMobile && "text-textWhite"

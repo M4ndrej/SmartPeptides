@@ -57,7 +57,7 @@ export const WidgetTitleBar: FC<WidgetTitleBarProps> = ({
   return (
     <>
       <div
-        className={`rounded-[8px] bg-[#333333] transition-all duration-300 sm:rounded-t-none ${titleHeight}`}
+        className={`rounded-[8px] bg-[#9A9A9F] transition-all duration-300 sm:rounded-t-none ${titleHeight}`}
       >
         <div className="relative">
           <div
@@ -92,7 +92,7 @@ export const WidgetTitleBar: FC<WidgetTitleBarProps> = ({
               label="Search for answers"
               parentCustomClass="z-1"
               customLabelClass="!pt-[9px] !text-black"
-              customClass="border-0 !bg-inputColor hover:!bg-black/[.2] !h-[40px] !text-black dark:!text-[#333333]"
+              customClass="border-0 !bg-inputColor hover:!bg-black/[.2] !h-[40px] !text-black dark:!text-darkgray"
               value={searchText}
               required={false}
               onChange={handleSearch}

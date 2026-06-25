@@ -85,7 +85,7 @@ const AllProductsList: FC<AllProductsListProps> = ({ closePopover }) => {
                 fillRule="evenodd"
                 clipRule="evenodd"
                 d="M6.75195 0.751953C6.75195 0.33774 6.41617 0.00195312 6.00195 0.00195312C5.58774 0.00195312 5.25195 0.33774 5.25195 0.751953V5.25082H0.751953C0.33774 5.25082 0.00195312 5.5866 0.00195312 6.00082C0.00195312 6.41503 0.33774 6.75082 0.751953 6.75082H5.25195V11.2498C5.25195 11.664 5.58774 11.9998 6.00195 11.9998C6.41617 11.9998 6.75195 11.664 6.75195 11.2498V6.75082H11.2498C11.664 6.75082 11.9998 6.41503 11.9998 6.00082C11.9998 5.5866 11.664 5.25082 11.2498 5.25082H6.75195V0.751953Z"
-                fill="#333333"
+                fill="#9A9A9F"
               />
             </svg>
           ) : (
@@ -100,7 +100,7 @@ const AllProductsList: FC<AllProductsListProps> = ({ closePopover }) => {
                 fillRule="evenodd"
                 clipRule="evenodd"
                 d="M0.00195312 1C0.00195312 0.585786 0.33774 0.25 0.751953 0.25H11.2498C11.664 0.25 11.9998 0.585786 11.9998 1C11.9998 1.41421 11.664 1.75 11.2498 1.75H0.751953C0.33774 1.75 0.00195312 1.41421 0.00195312 1Z"
-                fill="#333333"
+                fill="#9A9A9F"
               />
             </svg>
           )}
@@ -110,7 +110,7 @@ const AllProductsList: FC<AllProductsListProps> = ({ closePopover }) => {
           {products?.map((item, index: number) => (
             <div
               key={index}
-              className="font-D16px-M13px mb-[16px] pl-[8px] transition last:mb-[24px] hover:text-[#333333] sm:last:mb-[24px]"
+              className="font-D16px-M13px mb-[16px] pl-[8px] transition last:mb-[24px] hover:text-gray sm:last:mb-[24px]"
               onClick={() => closePopover && closePopover()}
             >
               <Link href={`/${getComProductSlug(item)}`}>{item.name}</Link>

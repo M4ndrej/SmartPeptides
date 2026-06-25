@@ -72,7 +72,7 @@ const MegaMenuMobileSlider: FC<MegaMenuMobileSliderProps> = ({
         <Link
           href={matchedPage.link}
           onClick={() => closeSidebar && closeSidebar()}
-          className="mx-auto mt-8 flex w-fit items-center gap-4 pb-4 text-[14px] font-normal uppercase leading-[22px] hover:text-[#333333]"
+          className="mx-auto mt-8 flex w-fit items-center gap-4 pb-4 text-[14px] font-normal uppercase leading-[22px] hover:text-gray"
         >
           See all {peptidesCategory}
           <svg

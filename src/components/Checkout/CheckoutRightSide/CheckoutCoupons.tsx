@@ -43,7 +43,7 @@ const CheckoutCoupons: FC<CheckoutCouponsProps> = ({
         {" "}
         <span
           className={classNames(
-            "flex items-center overflow-hidden text-[#333333]",
+            "flex items-center overflow-hidden text-darkgray",
             isProcessing && "processing"
           )}
         >
@@ -55,7 +55,7 @@ const CheckoutCoupons: FC<CheckoutCouponsProps> = ({
                 "mr-[8px] flex items-center gap-x-[8px]",
                 removeCouponLoading && "cursor-wait",
                 !removeCouponLoading &&
-                  "cursor-pointer [&_circle]:hover:fill-[#333333]"
+                  "cursor-pointer [&_circle]:hover:fill-[#9A9A9F]"
               )}
               onClick={() =>
                 !removeCouponLoading ? handleRemoveCouponCode(coupon.code) : {}

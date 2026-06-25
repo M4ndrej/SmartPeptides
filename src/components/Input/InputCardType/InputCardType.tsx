@@ -93,7 +93,7 @@ const InputCardType: FC<InputCardTypeProps> = ({
               </span>
             )}
 
-            <span className="font-D16px-M13px text-[#333333]">
+            <span className="font-D16px-M13px text-darkgray">
               &ensp;{cardType.charAt(0).toUpperCase() + cardType.slice(1)}
             </span>
             <svg
@@ -108,7 +108,7 @@ const InputCardType: FC<InputCardTypeProps> = ({
             >
               <path
                 d="M1 0.5L6.5 5.5L12 0.5"
-                stroke="#333333"
+                stroke="#9A9A9F"
                 strokeLinecap="round"
                 strokeLinejoin="round"
               />

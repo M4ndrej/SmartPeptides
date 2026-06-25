@@ -15,9 +15,9 @@ const NewFooter: FC = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#000000] flex justify-center">
+    <footer className="bg-[#000000] flex justify-center py-[60px] sm:px-4 md:px-4 lg:px-6">
       {" "}
-      <div className="grid w-full grid-cols-1 gap-10   py-[60px] text-textWhite max-w-[1264px]  sm:px-[24px] xl:grid-cols-2 xl:grid-rows-2">
+      <div className="grid w-full grid-cols-1 gap-10    text-textWhite max-w-[1264px] xl:grid-cols-2 xl:grid-rows-2">
         <div className="flex flex-col gap-4">
           <Logo fixedColor />
           <p className=" text-sm leading-relaxed">

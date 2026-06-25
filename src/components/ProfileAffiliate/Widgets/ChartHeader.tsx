@@ -27,8 +27,8 @@ const ChartHeader: FC<ChartHeaderProps> = ({
                 type="button"
                 onClick={() => setViewBy?.(view)}
                 className={classNames(
-                  "font-D16px-M13px p-3 text-gray2 transition duration-300 hover:text-[#333333]",
-                  viewBy === view && "font-bold !text-[#333333]"
+                  "font-D16px-M13px p-3 text-gray2 transition duration-300 hover:text-gray",
+                  viewBy === view && "font-bold !text-darkgray"
                 )}
               >
                 {view}

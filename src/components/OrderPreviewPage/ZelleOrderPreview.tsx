@@ -24,7 +24,7 @@ const ZelleOrderPreview: FC<ZelleOrderPreviewProps> = ({ orderDetails }) => {
   }, [availablePayments]);
 
   return (
-    <div className="font-D16px-M13px flex flex-col gap-4 rounded-[5px] border-2 border-dashed border-[#333333] bg-lightgray p-4 md:p-6 lg:p-6">
+    <div className="font-D16px-M13px flex flex-col gap-4 rounded-[5px] border-2 border-dashed border-[#9A9A9F] bg-lightgray p-4 md:p-6 lg:p-6">
       <div className="font-D24px-M18px font-bold">To complete your order</div>
 
       <div className="flex flex-col gap-6">
@@ -44,7 +44,7 @@ const ZelleOrderPreview: FC<ZelleOrderPreviewProps> = ({ orderDetails }) => {
                 <strong className="text-[#6D1ED4]">
                   {formatCurrency(+orderDetails.total, true, false)} via{" "}
                   <Link
-                    className="transition duration-300 hover:text-[#333333]"
+                    className="transition duration-300 hover:text-gray"
                     href={"https://www.zellepay.com/"}
                   >
                     Zelle

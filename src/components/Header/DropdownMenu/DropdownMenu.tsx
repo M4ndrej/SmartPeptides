@@ -11,22 +11,22 @@ const DropdownMenu: FC<DropdownMenuProps> = ({ logoutHandler }) => {
     <div className="font-16px-ALL absolute left-[-56px] top-[24px] hidden w-[179px]  flex-col rounded-[5px] bg-white py-[16px] opacity-0 shadow-globalShadow before:absolute before:left-0 before:top-[-20px] before:h-[35px] before:w-full before:bg-transparent  before:content-none group-hover/dropdown:!z-[10] group-hover/dropdown:!flex group-hover/dropdown:opacity-100 sm:left-[-160px] xl:left-[calc(50%+2px)] xl:translate-x-[-50%]">
       <ul className="flex w-full list-none flex-col gap-[15px] px-[16px]">
         <Link href={{ pathname: "/profile" }} prefetch={false}>
-          <li className="cursor-pointer transition duration-200 hover:text-[#333333]">
+          <li className="cursor-pointer transition duration-200 hover:text-gray">
             Dashboard
           </li>
         </Link>
         <Link href={{ pathname: "/profile/orders/" }} prefetch={false}>
-          <li className="cursor-pointer transition duration-200 hover:text-[#333333]">
+          <li className="cursor-pointer transition duration-200 hover:text-gray">
             Orders
           </li>
         </Link>
         <Link href={{ pathname: "/profile/store-credits/" }} prefetch={false}>
-          <li className="cursor-pointer transition duration-200 hover:text-[#333333]">
+          <li className="cursor-pointer transition duration-200 hover:text-gray">
             Store Credit
           </li>
         </Link>
         <Link href={{ pathname: "/profile/details" }} prefetch={false}>
-          <li className="cursor-pointer transition duration-200 hover:text-[#333333]">
+          <li className="cursor-pointer transition duration-200 hover:text-gray">
             Account details
           </li>
         </Link>

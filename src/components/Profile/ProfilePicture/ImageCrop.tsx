@@ -109,7 +109,7 @@ const ImageCrop: FC<ImageCropProps> = ({
               style={{
                 background: getTrackBackground({
                   values: [zoom],
-                  colors: ["#333333", "#EEEEEE"],
+                  colors: ["#9A9A9F", "#EEEEEE"],
                   min: 1,
                   max: 5,
                 }),

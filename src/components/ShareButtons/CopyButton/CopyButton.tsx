@@ -26,7 +26,7 @@ const CopyButton = () => {
         viewBox="0 0 24 24"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="[&_path]:transition [&_path]:duration-200 [&_path]:hover:stroke-[#333333]"
+        className="[&_path]:transition [&_path]:duration-200 [&_path]:hover:stroke-[#9A9A9F]"
       >
         <path
           d="M6 11C6 8.172 6 6.757 6.879 5.879C7.757 5 9.172 5 12 5H15C17.828 5 19.243 5 20.121 5.879C21 6.757 21 8.172 21 11V16C21 18.828 21 20.243 20.121 21.121C19.243 22 17.828 22 15 22H12C9.172 22 7.757 22 6.879 21.121C6 20.243 6 18.828 6 16V11Z"

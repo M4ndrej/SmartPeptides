@@ -28,7 +28,7 @@ const CartPageRightSide: FC<CartPageRightSideProps> = ({
   const selectedShipping = shippingRates?.find((rate) => rate.selected);
 
   return (
-    <div className="w-full rounded-[6px] border-[1px] border-[#333333] p-[24px] sm:p-[16px]">
+    <div className="w-full rounded-[6px] border-[1px] border-[#9A9A9F] p-[24px] sm:p-[16px]">
       <h3 className="font-D18px-M16px font-medium uppercase">Cart total</h3>
       <div className="font-D16px-M13px mt-[24px] flex items-center justify-between">
         <p>Subtotal</p>
@@ -53,7 +53,7 @@ const CartPageRightSide: FC<CartPageRightSideProps> = ({
             {" "}
             <span
               className={classNames({
-                "flex items-center text-[#333333]": true,
+                "flex items-center text-darkgray": true,
                 //processing: recalculation,
               })}
             >
@@ -64,7 +64,7 @@ const CartPageRightSide: FC<CartPageRightSideProps> = ({
                   className={classNames({
                     "flex items-center gap-x-[8px]": true,
                     "cursor-wait": removeCouponLoading,
-                    "cursor-pointer [&_circle]:hover:fill-[#333333]":
+                    "cursor-pointer [&_circle]:hover:fill-[#9A9A9F]":
                       !removeCouponLoading,
                   })}
                   onClick={() =>
@@ -120,7 +120,7 @@ const CartPageRightSide: FC<CartPageRightSideProps> = ({
           {/* Calculate shipping hidden for now */}
           {/* <Link
             href="#"
-            className="text-[16px] font-normal leading-[24px] text-[#333333] transition-all ease-linear hover:text-[#333333] sm:text-[14px] sm:leading-[22px]"
+            className="text-[16px] font-normal leading-[24px] text-darkgray transition-all ease-linear hover:text-gray sm:text-[14px] sm:leading-[22px]"
           >
             Calculate shipping
           </Link> */}
@@ -129,7 +129,7 @@ const CartPageRightSide: FC<CartPageRightSideProps> = ({
       <div className="mt-[24px] sm:mt-[16px]">
         <div className="font-D18px-M13px flex items-center justify-between">
           <p className="font-bold uppercase">Total</p>
-          <p className="font-bold text-[#333333]">
+          <p className="font-bold text-darkgray">
             {formatCurrency(
               totalPrice,
               false,

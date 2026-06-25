@@ -76,7 +76,7 @@ const CarouselCustomDots: FC<CarouselProps> = ({
         onClick={() => onClick()}
         className={classNames(
           "custom-dot border-1 mr-[13px]  cursor-pointer snap-center border border-gray bg-lightgray opacity-[0.4] transition-all duration-300 last:mr-0 hover:opacity-[1] sm:mr-[9px] sm:mt-0 sm:h-[99px] sm:min-w-[81px] sm:max-w-[81px] md:mr-[16px] md:h-[205px] md:min-w-[169px] md:max-w-[169px] from834:h-[99px] from834:min-w-[82px] from834:max-w-[82px] lg:h-[132px] lg:w-[108px] lg:max-w-[108px] xl:h-[140px] xl:min-w-[112px] [&_img]:first:object-cover",
-          active && "custom-dot--active !border-[#333333] opacity-[1]",
+          active && "custom-dot--active !border-[#9A9A9F] opacity-[1]",
           wrapperClass &&
             "md:!h-[145px] md:!min-w-[113px] lg:h-[145px] lg:min-w-[138px] xl:h-[145px] xl:min-w-[138px]"
         )}

@@ -23,15 +23,15 @@ export default async function Discounts() {
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://smartpeptides.com//#organization",
+        "@id": "https://smartpeptides.bio//#organization",
         name: "SMART PEPTIDES",
       },
       {
         "@type": "WebSite",
-        "@id": "https://smartpeptides.com//#website",
-        url: "https://smartpeptides.com/",
+        "@id": "https://smartpeptides.bio//#website",
+        url: "https://smartpeptides.bio/",
         name: "SMART PEPTIDES",
-        publisher: { "@id": "https://smartpeptides.com//#organization" },
+        publisher: { "@id": "https://smartpeptides.bio//#organization" },
         inLanguage: "en-US",
       },
       {
@@ -44,13 +44,13 @@ export default async function Discounts() {
       },
       {
         "@type": "WebPage",
-        "@id": "https://smartpeptides.com//discount/#webpage",
-        url: "https://smartpeptides.com//discount",
+        "@id": "https://smartpeptides.bio//discount/#webpage",
+        url: "https://smartpeptides.bio//discount",
         name: "Discounts - SMART PEPTIDES",
         datePublished: "2023-07-25T11:41:52-05:00",
         dateModified: "2024-01-08T07:35:43-06:00",
-        about: { "@id": "https://smartpeptides.com//#organization" },
-        isPartOf: { "@id": "https://smartpeptides.com//#website" },
+        about: { "@id": "https://smartpeptides.bio//#organization" },
+        isPartOf: { "@id": "https://smartpeptides.bio//#website" },
         primaryImageOfPage: {
           "@id": "/images/discount15.svg",
         },
@@ -69,7 +69,7 @@ export default async function Discounts() {
       <div className="container-padding-inline m-auto mt-[48px] flex flex-col sm:mb-[64px] md:mb-[64px] md:!px-[8px] lg:mb-[64px] lg:max-w-[1264px] xl:mb-[94px]">
         <div className="flex w-full flex-col items-center justify-center">
           <h1 className="font-D32px-M24px pb-[16px] font-bold">Discounts</h1>
-          <div className="h-[2px] w-[48px] rounded-[2px] bg-[#333333]"></div>
+          <div className="h-[2px] w-[48px] rounded-[2px] bg-[#9A9A9F]"></div>
           <p className="font-D16px-M13px mt-[24px] text-center sm:mt-[16px]">
             Discover our amazing discounts!
           </p>

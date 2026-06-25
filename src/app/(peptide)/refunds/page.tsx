@@ -17,28 +17,28 @@ export default async function Contact() {
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://smartpeptides.com//#organization",
+        "@id": "https://smartpeptides.bio//#organization",
         name: "SMART PEPTIDES",
       },
       {
         "@type": "WebSite",
-        "@id": "https://smartpeptides.com//#website",
-        url: "https://smartpeptides.com/",
+        "@id": "https://smartpeptides.bio//#website",
+        url: "https://smartpeptides.bio/",
         name: "SMART PEPTIDES",
         publisher: {
-          "@id": "https://smartpeptides.com//#organization",
+          "@id": "https://smartpeptides.bio//#organization",
         },
         inLanguage: "en-US",
       },
       {
         "@type": "WebPage",
-        "@id": "https://smartpeptides.com//refunds/#webpage",
-        url: "https://smartpeptides.com//refunds/",
+        "@id": "https://smartpeptides.bio//refunds/#webpage",
+        url: "https://smartpeptides.bio//refunds/",
         name: "Refund and Returns Policy - SMART PEPTIDES",
         datePublished: "2023-07-25T10:24:25-05:00",
         dateModified: "2023-11-04T18:16:42-05:00",
         isPartOf: {
-          "@id": "https://smartpeptides.com//#website",
+          "@id": "https://smartpeptides.bio//#website",
         },
         inLanguage: "en-US",
       },

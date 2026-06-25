@@ -3,7 +3,7 @@ import { ChatMessageType, ChatOption } from "@/types/chat";
 export const chatOptions: ChatOption[] = [
   {
     name: "chat",
-    chatheadBgColor: "bg-[#333333]2",
+    chatheadBgColor: "bg-[#9A9A9F]2",
     chatheadLetter: "C",
     title: "Chat with us",
     text: "Hello there! Need help? Reac...",

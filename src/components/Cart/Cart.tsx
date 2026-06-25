@@ -161,9 +161,9 @@ const Cart: FC<ICartProps> = ({ closePopover, itemsCount }) => {
                     <div
                       onClick={() => setCartType("US")}
                       className={classNames({
-                        "font-D16px-M14px flex w-[50%] cursor-pointer select-none items-center justify-center rounded-l-[5px] text-center font-normal text-gray2 transition duration-200 hover:text-darkgray dark:text-borderGray":
+                        "font-D16px-M14px flex w-[50%] cursor-pointer select-none items-center justify-center rounded-l-[5px] text-center font-normal text-gray2 transition duration-200 hover:text-gray dark:text-borderGray":
                           true,
-                        "!font-bold dark:!text-[#333333]": cartType === "US",
+                        "!font-bold dark:!text-darkgray": cartType === "US",
                       })}
                     >
                       US
@@ -171,9 +171,9 @@ const Cart: FC<ICartProps> = ({ closePopover, itemsCount }) => {
                     <div
                       onClick={() => setCartType("WORLDWIDE")}
                       className={classNames({
-                        "font-D16px-M14px flex w-[50%] cursor-pointer select-none items-center justify-center rounded-r-[5px] text-center font-normal text-gray2 transition duration-200 hover:text-darkgray dark:text-borderGray":
+                        "font-D16px-M14px flex w-[50%] cursor-pointer select-none items-center justify-center rounded-r-[5px] text-center font-normal text-gray2 transition duration-200 hover:text-gray dark:text-borderGray":
                           true,
-                        "!font-bold dark:!text-[#333333]":
+                        "!font-bold dark:!text-darkgray":
                           cartType === "WORLDWIDE",
                       })}
                     >
@@ -183,7 +183,7 @@ const Cart: FC<ICartProps> = ({ closePopover, itemsCount }) => {
                   <div className="relative mt-[8px] h-[2px] w-full overflow-hidden rounded-[5px] bg-borderGray">
                     <div
                       className={classNames({
-                        "absolute left-0 h-[2px] w-[50%] bg-gray2 transition-all duration-[300ms] ease-in-out dark:bg-[#333333]":
+                        "absolute left-0 h-[2px] w-[50%] bg-gray2 transition-all duration-[300ms] ease-in-out dark:bg-[#9A9A9F]":
                           true,
                         "translate-x-[100%]": cartType === "WORLDWIDE",
                       })}
@@ -191,7 +191,7 @@ const Cart: FC<ICartProps> = ({ closePopover, itemsCount }) => {
                   </div>
                   <div className="mt-[16px] flex">
                     <div className="font-D16px-M13px flex-1">Subtotal</div>
-                    <div className="font-D16px-M13px text-[#333333]">
+                    <div className="font-D16px-M13px text-darkgray">
                       {formatCurrency(+subtotal, false, false)}
                     </div>
                   </div>
@@ -213,7 +213,7 @@ const Cart: FC<ICartProps> = ({ closePopover, itemsCount }) => {
                         <div className="font-D16px-M13px flex-1">
                           {fee.name}
                         </div>
-                        <div className="font-D16px-M13px text-[#333333]">
+                        <div className="font-D16px-M13px text-darkgray">
                           {formatCurrency(+fee.total, false, false)}
                         </div>
                       </div>
@@ -222,7 +222,7 @@ const Cart: FC<ICartProps> = ({ closePopover, itemsCount }) => {
                     <div className="font-D16px-M13px flex-1 font-bold">
                       Total
                     </div>
-                    <div className="font-D16px-M13px font-bold text-[#333333]">
+                    <div className="font-D16px-M13px font-bold text-darkgray">
                       {formatCurrency(+total, false, false)}
                     </div>
                   </div>
@@ -242,7 +242,7 @@ const Cart: FC<ICartProps> = ({ closePopover, itemsCount }) => {
                     {+total < CARTORDERSPENTGIFT ? (
                       <div className="font-D16px-M13px mt-[13px] sm:leading-[16px]">
                         Spend{" "}
-                        <span className=" font-bold text-[#333333]">
+                        <span className=" font-bold text-darkgray">
                           {formatCurrency(CARTORDERSPENTGIFT - +total)}{" "}
                         </span>
                         more for <span className="font-bold">FREE GIFT</span>
@@ -255,11 +255,11 @@ const Cart: FC<ICartProps> = ({ closePopover, itemsCount }) => {
                             href="/merch"
                             onClick={() => closePopover()}
                             className={classNames(
-                              "group/gift flex gap-1 font-bold uppercase text-[#333333] transition-colors duration-200 hover:text-[#333333]",
+                              "group/gift flex gap-1 font-bold uppercase text-darkgray transition-colors duration-200 hover:text-gray",
                               hasGift && "pointer-events-none"
                             )}
                           >
-                            <GiftIcon className="fill-[#333333] stroke-[#333333] transition-colors duration-200 group-hover/gift:fill-[#333333] group-hover/gift:stroke-[#333333]" />
+                            <GiftIcon className="fill-[#9A9A9F] stroke-[#9A9A9F] transition-colors duration-200 group-hover/gift:fill-[#9A9A9F] group-hover/gift:stroke-[#9A9A9F]" />
                             <span>FREE GIFT</span>
                           </Link>
                         </div>
@@ -287,7 +287,7 @@ const Cart: FC<ICartProps> = ({ closePopover, itemsCount }) => {
                     {+total < CARTORDERSPENTPRIORITY ? (
                       <div className="font-D16px-M13px mt-[13px] sm:leading-[16px]">
                         Spend{" "}
-                        <span className=" font-bold text-[#333333]">
+                        <span className=" font-bold text-darkgray">
                           {formatCurrency(CARTORDERSPENTPRIORITY - +total)}{" "}
                         </span>
                         more for{" "}
@@ -320,7 +320,7 @@ const Cart: FC<ICartProps> = ({ closePopover, itemsCount }) => {
                     {+total < CARTORDERSPENTEXPRESS ? (
                       <div className="font-D16px-M13px mt-[13px] sm:leading-[16px]">
                         Spend{" "}
-                        <span className=" font-bold text-[#333333]">
+                        <span className=" font-bold text-darkgray">
                           {formatCurrency(CARTORDERSPENTEXPRESS - +total)}{" "}
                         </span>
                         more for{" "}

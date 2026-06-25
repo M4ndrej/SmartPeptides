@@ -43,7 +43,7 @@ const CheckoutRecoveryCheckboxes: FC<CheckoutRecoveryCheckboxesProps> = ({
           >
             I have read and agree to the website&nbsp;
             <Link href="/terms">
-              <span className="cursor-pointer underline transition duration-300 hover:text-[#333333]">
+              <span className="cursor-pointer underline transition duration-300 hover:text-gray">
                 terms and conditions
               </span>
             </Link>

@@ -40,7 +40,7 @@ const CheckoutRecoveryOrderInfo: FC<CheckoutRecoveryOrderInfo> = ({
       <div className="flex flex-col gap-2">
         <div className="flex w-full items-center justify-between gap-2">
           <span>Subtotal</span>
-          <span className="text-[#333333]">
+          <span className="text-darkgray">
             {formatCurrency(subtotal, true, false)}
           </span>
         </div>
@@ -62,8 +62,8 @@ const CheckoutRecoveryOrderInfo: FC<CheckoutRecoveryOrderInfo> = ({
             </div>
           ))} */}
         <div className="flex w-full items-center justify-between gap-2">
-          <span className="font-bold text-[#333333]">TOTAL</span>
-          <span className="font-bold text-[#333333]">
+          <span className="font-bold text-darkgray">TOTAL</span>
+          <span className="font-bold text-darkgray">
             {formatCurrency(+order.total, true, false)}
           </span>
         </div>

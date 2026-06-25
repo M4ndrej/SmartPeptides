@@ -29,10 +29,10 @@ const DashboardTabWrapper: FC<DashboardTabWrapperProps> = ({
   };
 
   const styles = classNames(
-    "border-1 font-D16px-M13px flex h-[192px] flex-1 cursor-pointer flex-col justify-between rounded-[5px] border border-borderColor p-[24px] text-gray2 transition duration-200 hover:bg-lightgray hover:text-[#333333] sm:p-[16px] [&_mask]:hover:stroke-[#333333]",
-    !tab.iconStroke || (tab.id === 10 && "[&_path]:hover:fill-[#333333]"),
+    "border-1 font-D16px-M13px flex h-[192px] flex-1 cursor-pointer flex-col justify-between rounded-[5px] border border-borderColor p-[24px] text-gray2 transition duration-200 hover:bg-lightgray hover:text-gray sm:p-[16px] [&_mask]:hover:stroke-[#9A9A9F]",
+    !tab.iconStroke || (tab.id === 10 && "[&_path]:hover:fill-[#9A9A9F]"),
     tab.iconStroke &&
-      "[&_mask]:hover:stroke-[#333333] [&_path]:hover:stroke-[#333333] [&_rect]:hover:stroke-[#333333]",
+      "[&_mask]:hover:stroke-[#9A9A9F] [&_path]:hover:stroke-[#9A9A9F] [&_rect]:hover:stroke-[#9A9A9F]",
     tab.id === 6 && !userData?.has_affiliate && "!cursor-default"
   );
 

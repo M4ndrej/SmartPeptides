@@ -17,7 +17,7 @@ const monts = Montserrat({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://smartpeptides.com"),
+  metadataBase: new URL("https://smartpeptides.bio"),
   title: {
     default: "SMART PEPTIDES",
     template: "%s | SMART PEPTIDES",
@@ -44,10 +44,10 @@ export const metadata: Metadata = {
     title: "SMART PEPTIDES",
     description:
       "If you are looking to buy high-quality research peptides, stop by SMART PEPTIDES! We offer highly purified, safe, and effective peptides you can buy online today!",
-    url: "https://smartpeptides.com",
+    url: "https://smartpeptides.bio",
     images: [
       {
-        url: "https://smartpeptides.com/images/ogImage.png",
+        url: "https://smartpeptides.bio/images/ogImage.png",
         width: 1300,
         height: 1080,
         alt: "Peptide Vials",
@@ -81,7 +81,7 @@ export default async function RootLayout({
         })}
       >
         <Providers>
-          <NextTopLoader color="#333333" height={2} showSpinner={false} />
+          <NextTopLoader color="#9A9A9F" height={2} showSpinner={false} />
           <CookieConfigs />
           <MainScroll>{children}</MainScroll>
           {/* </MainScroll> */}

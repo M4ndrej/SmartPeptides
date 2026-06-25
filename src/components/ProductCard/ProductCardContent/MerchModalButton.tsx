@@ -76,12 +76,12 @@ const MerchModalButton = forwardRef<HTMLDivElement, MerchModalButtonProps>(
             ref={ref}
             onClick={handleOpenModal}
             className={classNames(
-              "cart-img-btn ease-[cubic-bezier(0.11, 0, 0.5, 0)] select-none bg-[#333333] transition duration-200",
+              "cart-img-btn ease-[cubic-bezier(0.11, 0, 0.5, 0)] select-none bg-[#9A9A9F] transition duration-200",
               !selectedVariation &&
                 !hideSelectTooltip &&
-                "group-hover/cart:!bg-[#333333]",
+                "group-hover/cart:!bg-[#9A9A9F]",
               (selectedVariation || hideSelectTooltip) &&
-                "group-hover/cart:bg-[#333333]",
+                "group-hover/cart:bg-[#9A9A9F]",
               !selectVariationActive && "group-hover/cart:z-[3]",
               selectVariationActive &&
                 "z-[99999999991] bg-white [&_svg]:transition [&_svg]:duration-200 [&_svg]:hover:rotate-[45deg] "

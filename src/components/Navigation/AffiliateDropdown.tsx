@@ -18,9 +18,9 @@ const AffiliateDropdown: FC<AffiliateDropdown> = ({
           href="/affiliate-register"
           onClick={() => (closePopover ? closePopover() : {})}
           className={classNames({
-            "font-16px-ALL after:contnet-[''] relative mt-[16px] cursor-pointer px-[16px] duration-300 hover:text-[#333333]":
+            "font-16px-ALL after:contnet-[''] relative mt-[16px] cursor-pointer px-[16px] duration-300 hover:text-gray":
               true,
-            "!text-[#333333] after:w-[142px]":
+            "!text-darkgray after:w-[142px]":
               activePage === "/affiliate-register",
           })}
         >
@@ -30,9 +30,9 @@ const AffiliateDropdown: FC<AffiliateDropdown> = ({
           href="/affiliate-login"
           onClick={() => (closePopover ? closePopover() : {})}
           className={classNames({
-            "font-16px-ALL after:contnet-[''] relative mb-[16px] cursor-pointer px-[16px] duration-300 hover:text-[#333333]":
+            "font-16px-ALL after:contnet-[''] relative mb-[16px] cursor-pointer px-[16px] duration-300 hover:text-gray":
               true,
-            "!text-[#333333] after:w-[119px]":
+            "!text-darkgray after:w-[119px]":
               activePage === "/affiliate-login",
           })}
         >
@@ -42,9 +42,9 @@ const AffiliateDropdown: FC<AffiliateDropdown> = ({
           href="/affiliate-home"
           onClick={() => (closePopover ? closePopover() : {})}
           className={classNames({
-            "font-16px-ALL after:contnet-[''] relative mb-[16px] cursor-pointer px-[16px] duration-300 hover:text-[#333333]":
+            "font-16px-ALL after:contnet-[''] relative mb-[16px] cursor-pointer px-[16px] duration-300 hover:text-gray":
               true,
-            "!text-[#333333] after:w-[124px]": activePage === "/affiliate-home",
+            "!text-darkgray after:w-[124px]": activePage === "/affiliate-home",
           })}
         >
           Store Affiliates

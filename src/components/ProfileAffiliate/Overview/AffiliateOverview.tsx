@@ -60,7 +60,7 @@ const AffiliateOverview: FC<AffiliateOverviewProps> = ({ overview }) => {
               className={classNames({
                 "overview-table-cell-right-text-align pointer-events-none text-gray2 sm:pointer-events-auto sm:text-center":
                   true,
-                "sm:font-bold sm:text-[#333333]": activeTab === col.key,
+                "sm:font-bold sm:text-darkgray": activeTab === col.key,
               })}
             >
               {col.title}

@@ -19,6 +19,12 @@ const nextConfig = {
         pathname: "**",
       },
       {
+        protocol: 'https',
+        hostname: 'api.smartpeptides.bio',
+        port: '',
+        pathname: '**',
+      },
+      {
         protocol: "http",
         hostname: process.env.IMAGE_API,
         port: "",

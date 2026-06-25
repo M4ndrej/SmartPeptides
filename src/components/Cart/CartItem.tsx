@@ -95,7 +95,7 @@ const CartItem: FC<CartItemProps> = ({
           <div className="flex flex-col justify-center">
             <div
               onClick={navigateToProductHandler}
-              className="font-D16px-M12px cursor-pointer  font-bold transition-[color] duration-300 ease-in-out hover:text-[#333333]"
+              className="font-D16px-M12px cursor-pointer  font-bold transition-[color] duration-300 ease-in-out hover:text-gray"
             >
               {item.title}{" "}
             </div>
@@ -129,7 +129,7 @@ const CartItem: FC<CartItemProps> = ({
                 width={28}
                 height={28}
                 strokeWidth={0.5}
-                className="transition-150 !stroke-gray2 duration-150 hover:!stroke-[#333333]"
+                className="transition-150 !stroke-gray2 duration-150 hover:!stroke-[#9A9A9F]"
               />
             </div>
             <CartItemTotal item={item} />

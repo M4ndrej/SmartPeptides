@@ -70,7 +70,7 @@ const HeaderUserButtons: FC<HeaderUserButtonsProps> = ({
       {!isJustIcon &&
         (isLogged ? (
           <div
-            className="transiton-text font-13px-ALL relative cursor-pointer duration-300 hover:text-[#333333]"
+            className="transiton-text font-13px-ALL relative cursor-pointer duration-300 hover:text-gray"
             onClick={openProfile}
           >
             {user?.firstname || user?.username} {user?.lastname}
@@ -81,11 +81,11 @@ const HeaderUserButtons: FC<HeaderUserButtonsProps> = ({
             className="font-13px-ALL flex items-center justify-center"
             onClick={openLoginModal}
           >
-            <span className="transiton-text login-btn cursor-pointer duration-300 hover:text-[#333333]">
+            <span className="transiton-text login-btn cursor-pointer duration-300 hover:text-gray">
               Login
             </span>
             <span className="mx-1">/</span>
-            <span className="transiton-text login-btn cursor-pointer duration-300 hover:text-[#333333]">
+            <span className="transiton-text login-btn cursor-pointer duration-300 hover:text-gray">
               Register
             </span>
           </button>

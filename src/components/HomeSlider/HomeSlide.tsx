@@ -126,7 +126,7 @@ const HomeSlide: FC<HomeSlide> = ({
                 text={btnTitle}
                 highlighted
                 smallerButton
-                customClass="sm:!w-fit !bg-[#333333] !border-[#333333]"
+                customClass="sm:!w-fit !bg-black text-white !border-black dark:hover:text-[#000000]"
                 onPress={async () => {}}
               />
             </Link>
@@ -134,7 +134,7 @@ const HomeSlide: FC<HomeSlide> = ({
         </div>
         {/* right side */}
         <div
-          className={`from w-full max-w-[701px] sm:mx-auto sm:max-h-[238px]  md:mx-auto md:max-h-[373px] from834:max-h-[405px] lg:max-h-[222px] lg:pr-[62px] xl:max-h-[361px] xl:pr-0`}
+          className={`from w-full flex justify-center max-w-[701px] sm:mx-auto sm:max-h-[238px]  md:mx-auto md:max-h-[373px] from834:max-h-[405px] lg:max-h-[222px] lg:pr-[62px] xl:max-h-[361px] xl:pr-0`}
         >
           {bgImage && (
             <Image
@@ -143,6 +143,7 @@ const HomeSlide: FC<HomeSlide> = ({
               height={354}
               src={bgImage!}
               alt="home slide "
+              priority
             />
           )}
           <Image
@@ -151,6 +152,7 @@ const HomeSlide: FC<HomeSlide> = ({
             height={600}
             src={imageSrc!}
             alt="home slide "
+            priority
           />
           {mobileImg && (
             <Image
@@ -159,6 +161,7 @@ const HomeSlide: FC<HomeSlide> = ({
               height={600}
               src={mobileImg ? mobileImg : ""}
               alt="home slide mobile"
+              priority
             />
           )}
         </div>

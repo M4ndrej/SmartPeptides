@@ -7,7 +7,7 @@ const PrivacyPolicy = () => {
         <h1 className="font-D32px-M24px pb-[16px] text-center font-bold">
           Privacy policy
         </h1>
-        <div className="mx-auto mb-[20px] h-[2px] w-[48px] bg-[#333333]"></div>
+        <div className="mx-auto mb-[20px] h-[2px] w-[48px] bg-[#9A9A9F]"></div>
 
         <div className="font-D16px-M13px">
           <div className="mb-[20px]">
@@ -36,7 +36,7 @@ const PrivacyPolicy = () => {
         </div>
 
         <div className="font-16px-ALL container-margin-bottom-D96px-M64px">
-          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
+          <div className="font-D24px-M18px mb-[20px] text-darkgray">
             COLLECTION AND USE OF PERSONAL INFORMATION
           </div>
 
@@ -59,7 +59,7 @@ const PrivacyPolicy = () => {
             updates directly related to the store.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
+          <div className="font-D24px-M18px mb-[20px] text-darkgray">
             DATA STORAGE AND PROTECTION
           </div>
 
@@ -77,7 +77,7 @@ const PrivacyPolicy = () => {
             secure transactions.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
+          <div className="font-D24px-M18px mb-[20px] text-darkgray">
             LOG FILE INFORMATION
           </div>
 
@@ -90,7 +90,7 @@ const PrivacyPolicy = () => {
             to personally identifiable information.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
+          <div className="font-D24px-M18px mb-[20px] text-darkgray">
             USE OF COOKIES
           </div>
 
@@ -100,7 +100,7 @@ const PrivacyPolicy = () => {
             any time through your browser settings if you prefer.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
+          <div className="font-D24px-M18px mb-[20px] text-darkgray">
             OPT IN
           </div>
 
@@ -114,7 +114,7 @@ const PrivacyPolicy = () => {
             fees may apply.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
+          <div className="font-D24px-M18px mb-[20px] text-darkgray">
             OPT OUT
           </div>
 
@@ -125,7 +125,7 @@ const PrivacyPolicy = () => {
             days for your email or phone number to be removed from our lists.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
+          <div className="font-D24px-M18px mb-[20px] text-darkgray">
             THIRD PARTY USE
           </div>
 
@@ -135,7 +135,7 @@ const PrivacyPolicy = () => {
             tools used to deliver purchase related or promotional emails.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
+          <div className="font-D24px-M18px mb-[20px] text-darkgray">
             DATA SECURITY
           </div>
 

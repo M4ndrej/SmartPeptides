@@ -57,7 +57,7 @@ const AffiliateSaleCard: FC<AffiliateSaleCardProps> = ({
             >
               <DropdownIcon
                 className={classNames(
-                  "!stroke-[#333333] transition-transform duration-200",
+                  "!stroke-[#9A9A9F] transition-transform duration-200",
                   !isOpen && "rotate-180"
                 )}
                 width={28}

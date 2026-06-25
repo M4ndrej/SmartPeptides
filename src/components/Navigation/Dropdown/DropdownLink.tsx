@@ -38,13 +38,13 @@ export const DropdownLink: React.FC<DropdownListProps> = ({
         >
           <path
             d="M1 1L6.5 6L12 1"
-            stroke="#333333"
+            stroke="#9A9A9F"
             strokeLinecap="round"
             strokeLinejoin="round"
             className={classNames(
               "!group-hover:stroke-textWhite !stroke-textWhite transition duration-300 ",
               {
-                "stroke-[#333333]": isActivePage,
+                "stroke-[#9A9A9F]": isActivePage,
               }
             )}
           />

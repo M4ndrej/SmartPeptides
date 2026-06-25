@@ -367,7 +367,7 @@ const CheckoutEmailField: FC<CheckoutEmailFieldProps> = ({
                 text="ONE TIME CODE"
                 showSpiner={true}
                 onPress={handleSendCode}
-                customClass="!border-none !p-0 !bg-transparent hover:!text-[#333333]"
+                customClass="!border-none !p-0 !bg-transparent hover:!text-darkgray"
               />
             </div>
             <div className="font-12px-ALL mt-4 flex flex-col gap-1">
@@ -394,7 +394,7 @@ const CheckoutEmailField: FC<CheckoutEmailFieldProps> = ({
                 text="VERIFY EMAIL"
                 showSpiner={true}
                 onPress={handleSendCode}
-                customClass="!border-none !p-0 !bg-transparent hover:!text-[#333333]"
+                customClass="!border-none !p-0 !bg-transparent hover:!text-darkgray"
               />
             </div>
             <div className="font-12px-ALL mt-4 flex flex-col gap-1">
@@ -409,7 +409,7 @@ const CheckoutEmailField: FC<CheckoutEmailFieldProps> = ({
             <button
               onClick={handleEditEmail}
               type="button"
-              className="font-D16px-M13px text-gray2 transition duration-300 hover:text-[#333333]"
+              className="font-D16px-M13px text-gray2 transition duration-300 hover:text-gray"
             >
               Edit email
             </button>
@@ -472,7 +472,7 @@ const CheckoutEmailField: FC<CheckoutEmailFieldProps> = ({
                 </label>
               </div> */}
               <div
-                className="font-D14px-M13px cursor-pointer transition duration-300 hover:text-[#333333] sm:leading-4"
+                className="font-D14px-M13px cursor-pointer transition duration-300 hover:text-gray sm:leading-4"
                 onClick={() => {
                   openModal("LostPassword");
                 }}

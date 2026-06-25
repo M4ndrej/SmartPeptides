@@ -5,32 +5,32 @@ const RefundsAndReturns = () => {
         <h1 className="font-D32px-M24px pb-[16px] text-center font-bold">
           Refunds and Returns
         </h1>
-        <div className="mx-auto mb-[20px] h-[2px] w-[48px] bg-[#333333]"></div>
+        <div className="mx-auto mb-[20px] h-[2px] w-[48px] bg-[#9A9A9F]"></div>
 
         <div className="font-16px-ALL container-margin-bottom-D96px-M64px">
-          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
+          <div className="font-D24px-M18px mb-[20px] text-darkgray">
             Do You Accept Returns?
           </div>
 
           <div className="mb-[20px]">
-            smartpeptides.com does not accept returns for any products. Our items
+            smartpeptides.bio does not accept returns for any products. Our items
             require strict handling and quality control, and because of their
             sensitive nature, we cannot receive or process returns under any
             circumstances.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
+          <div className="font-D24px-M18px mb-[20px] text-darkgray">
             Problems With Your Order
           </div>
 
           <div className="mb-[20px]">
             If something is wrong with your order, such as a missing, damaged,
             or incorrect item, please contact us right away at
-            support(at)smartpeptides.com. Our support team will review the issue
+            support(at)smartpeptides.bio. Our support team will review the issue
             and help you find a quick solution.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
+          <div className="font-D24px-M18px mb-[20px] text-darkgray">
             Canceling an Order
           </div>
 
@@ -40,7 +40,7 @@ const RefundsAndReturns = () => {
             carrier, cancellations can no longer be processed.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
+          <div className="font-D24px-M18px mb-[20px] text-darkgray">
             Lost Packages
           </div>
 
@@ -52,25 +52,25 @@ const RefundsAndReturns = () => {
             cannot be provided.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
+          <div className="font-D24px-M18px mb-[20px] text-darkgray">
             Missing Items
           </div>
 
           <div className="mb-[20px]">
             If an item is missing from your shipment, reach out to us
-            immediately at support(at)smartpeptides.com. After confirming that
+            immediately at support(at)smartpeptides.bio. After confirming that
             the claim is valid, we will send the missing item promptly. For
             accuracy and fraud prevention, every order is photographed and
             documented before it leaves our facility.
           </div>
 
-          <div className="font-D24px-M18px mb-[20px] text-[#333333]">
+          <div className="font-D24px-M18px mb-[20px] text-darkgray">
             Need Help?
           </div>
 
           <div className="mb-[20px]">
             If you have any other questions or concerns about your order, feel
-            free to email us at support@smartpeptides.com. Our team is here to
+            free to email us at support@smartpeptides.bio. Our team is here to
             assist you as quickly as possible.
           </div>
         </div>

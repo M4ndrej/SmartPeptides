@@ -33,7 +33,7 @@ const TablePagination: FC<TablePaginationProps> = ({
           type="button"
           className={classNames(
             `inline-flex h-6 w-6 select-none items-center justify-center overflow-hidden text-ellipsis whitespace-nowrap rounded-[5px] border-none font-medium text-gray3 !transition-all !duration-300 hover:bg-gray`,
-            currentPage === 0 && "bg-[#333333] text-white hover:!bg-[#333333]"
+            currentPage === 0 && "bg-[#9A9A9F] text-white hover:!bg-[#9A9A9F]"
           )}
           onClick={() => setPage(0)}
         >
@@ -48,7 +48,7 @@ const TablePagination: FC<TablePaginationProps> = ({
           className={classNames(
             `inline-flex h-6 w-6 select-none items-center justify-center overflow-hidden text-ellipsis whitespace-nowrap rounded-[5px] border-none font-medium text-gray3 !transition-all !duration-300 hover:bg-gray`,
             currentPage === number &&
-              "bg-[#333333] text-white hover:!bg-[#333333]"
+              "bg-[#9A9A9F] text-white hover:!bg-[#9A9A9F]"
           )}
           onClick={() => setPage(number)}
         >
@@ -63,7 +63,7 @@ const TablePagination: FC<TablePaginationProps> = ({
           className={classNames(
             `inline-flex h-6 w-6 select-none items-center justify-center overflow-hidden text-ellipsis whitespace-nowrap rounded-[5px] border-none font-medium text-gray3 !transition-all !duration-300 hover:bg-gray`,
             currentPage === totalPages - 1 &&
-              "bg-[#333333] text-white hover:!bg-[#333333]"
+              "bg-[#9A9A9F] text-white hover:!bg-[#9A9A9F]"
           )}
           onClick={() => setPage(totalPages - 1)}
         >

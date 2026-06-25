@@ -157,7 +157,7 @@ const ProfileDetails: FC = () => {
                     onClick={() => {
                       setPassEditHeight(passEditHeight === 0 ? "auto" : 0);
                     }}
-                    className="font-13px-ALL cursor-pointer underline transition duration-300 hover:text-[#333333]"
+                    className="font-13px-ALL cursor-pointer underline transition duration-300 hover:text-gray"
                     aria-expanded={passEditHeight !== 0}
                   >
                     edit
@@ -241,7 +241,7 @@ const ProfileDetails: FC = () => {
                   disabled={!formChanged}
                 />
               ) : (
-                <div className="font-D16px-M14px font-bold text-[#333333] sm:max-w-[236px] sm:text-center">
+                <div className="font-D16px-M14px font-bold text-darkgray sm:max-w-[236px] sm:text-center">
                   Profile updated successfully!
                 </div>
               )}

@@ -41,7 +41,7 @@ const PreLanderContent: FC = () => {
       <div className="relative flex max-w-[1015px] flex-col items-center justify-center sm:px-[10px]">
         <Logo width={428} height={55} className="mb-6" />
         <p className="font-D32px-M24px mb-4 text-center font-bold">
-          Products offered on smartpeptides.com/ are for research purposes only &
+          Products offered on smartpeptides.bio/ are for research purposes only &
           not for human use.
         </p>
         <p className="mb-8 text-center">

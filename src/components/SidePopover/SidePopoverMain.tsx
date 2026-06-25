@@ -180,7 +180,7 @@ const SidePopoverMain: FC<SidePopoverMain> = ({
                   className={classNames({
                     "group/closePopover": true,
                     "!hidden": fromTop,
-                    "absolute top-[316px] flex cursor-pointer select-none items-center overflow-hidden rounded-bl-[5px] rounded-tl-[5px] bg-[#333333] pl-[10px] transition duration-300 sm:hidden":
+                    "absolute top-[316px] flex cursor-pointer select-none items-center overflow-hidden rounded-bl-[5px] rounded-tl-[5px] bg-[#9A9A9F] pl-[10px] transition duration-300 sm:hidden":
                       type === "cart" ||
                       type === "whishlist" ||
                       type === "quickview",
@@ -236,7 +236,7 @@ const SidePopoverMain: FC<SidePopoverMain> = ({
                     <path
                       d="M60 0H5C2.23857 0 0 2.23858 0 5V55C0 57.7614 2.23857 60 5 60H60V0Z"
                       className="transition duration-300"
-                      fill="#333333"
+                      fill="#9A9A9F"
                     />
                     <path
                       d="M27 38L34 30.5L27 23"
@@ -274,7 +274,7 @@ const SidePopoverMain: FC<SidePopoverMain> = ({
                       <div
                         onClick={onClose}
                         className={classNames({
-                          "font-16px-ALL hover:bg-dark-[#333333] flex h-[44px] cursor-pointer items-center justify-center gap-[10px] rounded-br-[5px] rounded-tr-[5px] bg-[#333333] text-white transition duration-300 sm:hidden":
+                          "font-16px-ALL hover:bg-dark-[#9A9A9F] flex h-[44px] cursor-pointer items-center justify-center gap-[10px] rounded-br-[5px] rounded-tr-[5px] bg-[#9A9A9F] text-white transition duration-300 sm:hidden":
                             true,
                           "pl-[19px] pr-[24px]": type === "peptidescategories",
                           "px-[18.5px]": type !== "peptidescategories",
@@ -318,14 +318,14 @@ const SidePopoverMain: FC<SidePopoverMain> = ({
                           stroke="#999999"
                           strokeWidth="1.5"
                           strokeLinecap="round"
-                          className="transition duration-200 group-hover/btnX:stroke-[#333333]"
+                          className="transition duration-200 group-hover/btnX:stroke-[#9A9A9F]"
                         />
                         <path
                           d="M1 13L13 0.999999"
                           stroke="#999999"
                           strokeWidth="1.5"
                           strokeLinecap="round"
-                          className="transition duration-200 group-hover/btnX:stroke-[#333333]"
+                          className="transition duration-200 group-hover/btnX:stroke-[#9A9A9F]"
                         />
                       </svg>
                     }
@@ -360,14 +360,14 @@ const SidePopoverMain: FC<SidePopoverMain> = ({
                       stroke="#999999"
                       strokeWidth="1.5"
                       strokeLinecap="round"
-                      className="transition duration-200 group-hover/leftSidebarX:stroke-[#333333]"
+                      className="transition duration-200 group-hover/leftSidebarX:stroke-[#9A9A9F]"
                     />
                     <path
                       d="M1 13L13 0.999999"
                       stroke="#999999"
                       strokeWidth="1.5"
                       strokeLinecap="round"
-                      className="transition duration-200 group-hover/leftSidebarX:stroke-[#333333]"
+                      className="transition duration-200 group-hover/leftSidebarX:stroke-[#9A9A9F]"
                     />
                   </svg>
                 </div>

@@ -49,12 +49,12 @@ const SubmitButton = forwardRef<HTMLButtonElement, SubmitButtonProps>(
         tabIndex={tabIndex}
         className={classNames(
           {
-            "ml-auto inline-flex w-full select-none items-center justify-center overflow-hidden text-ellipsis whitespace-nowrap rounded-[5px] border border-[#333333] px-[32px] py-[12px] font-medium text-[#333333] !transition-all !duration-300 sm:w-full":
+            "ml-auto inline-flex w-full select-none items-center justify-center overflow-hidden text-ellipsis whitespace-nowrap rounded-[5px] border border-[#9A9A9F] px-[32px] py-[12px] font-medium text-darkgray !transition-all !duration-300 sm:w-full":
               true,
             "transition-all duration-300 ":
               !disabled && !spiner && !customHighlightedHover,
-            "bg-[#333333] text-textWhite hover:text-textWhite": highlighted,
-            "hover:bg-[#f0f0f0] hover:text-[#333333] dark:hover:bg-transparent":
+            "bg-[#9A9A9F] text-textWhite hover:text-textWhite": highlighted,
+            "hover:bg-[#f0f0f0] hover:text-gray dark:hover:bg-transparent":
               !highlighted,
             "h-[48px]": !smallerButton,
             "h-[44px]": smallerButton,

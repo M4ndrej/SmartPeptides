@@ -58,7 +58,7 @@ const SingleProductStickyActionButtons: FC<
           text="ADD TO CART"
           customSpinnerClass="!h-[16px] !w-[16px] !mr-[10px]"
           onPress={() => handleAddToCartAction(product)}
-          customClass="!h-[25px] font-13px-ALL bg-white border-[#333333]"
+          customClass="!h-[25px] font-13px-ALL bg-white border-[#9A9A9F]"
           showSpiner
           disabled={disabled || !product.in_stock}
         />

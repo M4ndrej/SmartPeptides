@@ -22,7 +22,7 @@ const PinterestShareButton: FC<PinterestShareButtonProps> = ({ image }) => {
         viewBox="0 0 24 24"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="[&_path]:transition [&_path]:duration-200 [&_path]:hover:fill-[#333333]"
+        className="[&_path]:transition [&_path]:duration-200 [&_path]:hover:fill-[#9A9A9F]"
       >
         <path
           fillRule="evenodd"

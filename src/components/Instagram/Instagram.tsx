@@ -8,12 +8,12 @@ const Instagram = () => {
     <div className="mt-[64px] flex flex-col items-center xl:mt-[96px]">
       <div className="flex w-full flex-col items-center">
         <h2 className="font-D32px-M24px font-bold">Our Instagram</h2>
-        <div className="mt-[16px] h-[2px] w-[48px] bg-[#333333]"></div>
+        <div className="mt-[16px] h-[2px] w-[48px] bg-[#9A9A9F]"></div>
       </div>
       <div className="mt-[32px] flex w-full flex-col items-center">
         <Link
           href="https://www.instagram.com/peptide.shop/"
-          className="font-24px-ALL blue-color-hover font-bold text-[#333333]"
+          className="font-24px-ALL blue-color-hover font-bold text-darkgray"
           target="_blank"
         >
           @peptide.shop

@@ -121,7 +121,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
               {label}
               {/*  If input is required show red (*) */}
               {required && (
-                <span className={`ml-[3px] text-[#333333] ${customAsterisk}`}>
+                <span className={`ml-[3px] text-darkgray ${customAsterisk}`}>
                   *
                 </span>
               )}
@@ -147,7 +147,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
                   htmlFor={`${name}-${index}`}
                   style={{
                     background: dos === mcgOrMg ? "#F4FAFF" : "#F8F8F8",
-                    color: dos === mcgOrMg ? "#333333" : "",
+                    color: dos === mcgOrMg ? "#9A9A9F" : "",
                   }}
                   onClick={() => changeMcgMg(dos)}
                 >
@@ -184,18 +184,18 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
             name={name}
             onBlur={(event) => {
               onBlur?.(event);
-              event.target.style.color = "#333333";
+              event.target.style.color = "#9A9A9F";
               if (event.target.value.trim() !== "") {
-                event.target.classList.remove("border", "border-[#333333]");
+                event.target.classList.remove("border", "border-[#9A9A9F]");
                 event.target.classList.add("bg-[#f0f0f0]");
               } else {
-                event.target.classList.remove("border-[#333333]");
+                event.target.classList.remove("border-[#9A9A9F]");
               }
             }}
             onKeyUp={onKeyUpChange}
             onChange={(event) => {
               !showDose ? onChange?.(event) : doseEvent && doseEvent(event);
-              event.target.style.color = "#333333";
+              event.target.style.color = "#9A9A9F";
             }}
             value={value}
             placeholder={placeholder}
@@ -212,7 +212,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
             data-bwignore={pwIgnore}
             data-lpignore={pwIgnore}
             className={classNames({
-              "font-D16px-M13px h-[48px] w-[100%] rounded-[5px] border border-borderColor bg-inputColor px-4 py-3 text-[#333333] !shadow-none !outline-none !ring-transparent transition-all ease-linear hover:border-borderColor  hover:bg-lightgray focus:border-[1px] focus:border-[#333333] focus:bg-[#f0f0f0] sm:px-[10px] sm:!text-[13px]  sm:!leading-[21px] focus:sm:!text-[13px] dark:focus:border-none dark:focus:bg-inputColor dark:focus:!text-textWhite":
+              "font-D16px-M13px h-[48px] w-[100%] rounded-[5px] border border-borderColor bg-inputColor px-4 py-3 text-darkgray !shadow-none !outline-none !ring-transparent transition-all ease-linear hover:border-borderColor  hover:bg-lightgray focus:border-[1px] focus:border-[#9A9A9F] focus:bg-[#f0f0f0] sm:px-[10px] sm:!text-[13px]  sm:!leading-[21px] focus:sm:!text-[13px] dark:focus:border-none dark:focus:bg-inputColor dark:focus:!text-textWhite":
                 true,
 
               [customClass]: true,
@@ -226,7 +226,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
                 height={24}
                 strokeWidth={1.5}
                 withSlash={currentType == "text"}
-                className="hover:!stroke-[#333333]"
+                className="hover:!stroke-[#9A9A9F]"
                 onClick={() =>
                   setCurrentType(
                     currentType === "password" ? "text" : "password"

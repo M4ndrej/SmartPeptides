@@ -7,7 +7,7 @@
   font-size: 48px !important;
   font-weight: 700;
   line-height: 58px !important;
-  color: #333333 !important;
+  color: #9A9A9F !important;
 }
 :root[data-theme="dark"] .blog-class h1,
 :root[data-theme="dark"] .blog-class h3 {

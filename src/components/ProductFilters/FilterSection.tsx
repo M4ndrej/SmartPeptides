@@ -25,10 +25,10 @@ const FilterSection: React.FC<FilterSectionProps> = ({
     <div className="sm:w-[100%] md:w-[100%]">
       <div
         className={classNames({
-          "flex cursor-pointer items-center gap-x-[8px] duration-300 hover:text-[#333333] sm:mb-0 sm:transition-[margin-bottom] [&_path]:transition [&_path]:duration-300 [&_path]:hover:stroke-[#333333]":
+          "flex cursor-pointer items-center gap-x-[8px] duration-300 hover:text-gray sm:mb-0 sm:transition-[margin-bottom] [&_path]:transition [&_path]:duration-300 [&_path]:hover:stroke-[#9A9A9F]":
             true,
           "font-16px-ALL": isMobile,
-          "text-[#333333] transition duration-300 sm:mb-[16px] [&_path]:stroke-[#333333] [&_svg]:rotate-180":
+          "text-darkgray transition duration-300 sm:mb-[16px] [&_path]:stroke-[#9A9A9F] [&_svg]:rotate-180":
             isOpen,
         })}
         onClick={() => onToggle(filter)}
@@ -43,7 +43,7 @@ const FilterSection: React.FC<FilterSectionProps> = ({
         >
           <path
             d="M1 0.998047L6.5 5.99805L12 0.998047"
-            stroke={isMobile ? "#333333" : undefined}
+            stroke={isMobile ? "#9A9A9F" : undefined}
             strokeLinecap="round"
             strokeLinejoin="round"
             className="stroke-black"

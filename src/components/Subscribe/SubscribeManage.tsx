@@ -73,7 +73,7 @@ const SubscribeManage: FC<SubscripeManageProps> = ({ subscriber }) => {
         <div className="font-D32px-M24px text-center font-bold">
           Manage your subscription
         </div>
-        <div className="mx-auto my-4 h-[2px] w-[48px] bg-[#333333] sm:mb-[24px]"></div>
+        <div className="mx-auto my-4 h-[2px] w-[48px] bg-[#9A9A9F] sm:mb-[24px]"></div>
         <form action={submitFormSubscriber}>
           <div className="mt-[16px] flex w-[592px] flex-col gap-y-[16px] sm:w-full">
             <div className="flex flex-col">
@@ -82,7 +82,7 @@ const SubscribeManage: FC<SubscripeManageProps> = ({ subscriber }) => {
               <div className="font-13px-ALL mt-3 text-gray3">
                 <Link
                   href={userData?.user ? "/profile" : "/sign-in"}
-                  className="cursor-pointer underline transition duration-300 hover:text-[#333333]"
+                  className="cursor-pointer underline transition duration-300 hover:text-gray"
                 >
                   {userData?.user
                     ? "Go to your account"
@@ -147,7 +147,7 @@ const SubscribeManage: FC<SubscripeManageProps> = ({ subscriber }) => {
                 disabled={!formChanged}
               />
             ) : (
-              <div className="font-D16px-M14px font-bold text-[#333333] sm:max-w-[236px] sm:text-center">
+              <div className="font-D16px-M14px font-bold text-darkgray sm:max-w-[236px] sm:text-center">
                 Schedulled for update!
               </div>
             )}

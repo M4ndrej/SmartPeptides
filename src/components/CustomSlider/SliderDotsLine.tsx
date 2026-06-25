@@ -27,7 +27,7 @@ const SliderDotsLine: FC<SliderDotsLineProps> = ({
       )}
     >
       <div
-        className="absolute left-0 top-0 z-[1] h-[5px] rounded-full bg-[#333333] transition-transform duration-300 ease-in-out"
+        className="absolute left-0 top-0 z-[1] h-[5px] rounded-full bg-[#9A9A9F] transition-transform duration-300 ease-in-out"
         style={{
           width: `${width.toFixed(2)}%`,
           transform: `translateX(${translate.toFixed(2)}%)`,

@@ -55,14 +55,14 @@ const ContactPage: FC = () => {
       <div className="container-padding-inline m-[auto] flex w-[100%] max-w-[1264px] justify-between sm:max-w-[100vw] md:max-w-[100vw] md:flex-col lg:flex-row lg:items-center">
         <div className="lg:max-w-[488px] xl:max-w-[592px]">
           <h1 className="font-D32px-M24px pb-[16px] font-bold">Need Help?</h1>
-          <div className="mb-[16px] h-[2px] w-[48px] bg-[#333333]"></div>
+          <div className="mb-[16px] h-[2px] w-[48px] bg-[#9A9A9F]"></div>
           <div className="font-D16px-M13px pb-[40px] sm:pb-[16px]">
             You can contact our team at{" "}
-            <span className="font-bold">support@smartpeptides.com</span>, or send
+            <span className="font-bold">support@smartpeptides.bio</span>, or send
             us a message through the form below.
           </div>
           {contactMessageSent ? (
-            <div className="font-D16px-M13px font-bold text-[#333333] sm:max-w-[236px] sm:text-center">
+            <div className="font-D16px-M13px font-bold text-darkgray sm:max-w-[236px] sm:text-center">
               Thanks for contacting us! We will be in touch with you shortly.
             </div>
           ) : (
@@ -162,7 +162,7 @@ const ContactPage: FC = () => {
 
         <div className="select-none sm:hidden md:flex md:justify-center lg:flex lg:h-full lg:items-center">
           <Image
-            src="/images/contactUsImg.png"
+            src="/images/contactUsImg.svg"
             width={456}
             height={456}
             alt="Contact"

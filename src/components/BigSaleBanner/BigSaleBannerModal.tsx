@@ -79,13 +79,13 @@ export const BigSaleBannerModal: FC<BigSaleBannerModalProps> = ({
             <p className="font-33px-ALL font-bold from834:pl-[11px]">
               SPECIAL OFFER
             </p>
-            <p className="text-[76px] font-bold leading-[100%] text-darkBlue xs:text-[66px] md:text-[98px] from834:hidden dark:text-[#333333]">
+            <p className="text-[76px] font-bold leading-[100%] text-darkBlue xs:text-[66px] md:text-[98px] from834:hidden dark:text-darkgray">
               BIG SALE
             </p>
-            <p className="hidden text-[158px] font-bold leading-[100%] text-darkBlue from834:block dark:text-[#333333]">
+            <p className="hidden text-[158px] font-bold leading-[100%] text-darkBlue from834:block dark:text-darkgray">
               BIG
             </p>
-            <p className="hidden pl-[10px] text-[105px] font-bold leading-[60%] text-darkBlue from834:block dark:text-[#333333]">
+            <p className="hidden pl-[10px] text-[105px] font-bold leading-[60%] text-darkBlue from834:block dark:text-darkgray">
               SALE
             </p>
             <p className="text-[59px] font-bold leading-[100%] text-red xs:text-[49px] from834:pl-[11px] from834:pt-2 from834:text-[49px] from834:leading-[160%]">

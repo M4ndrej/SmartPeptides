@@ -103,7 +103,7 @@ const ProductReviews: FC<ReviewProps> = ({
     <div className="w-[100%] max-w-[100%]">
       <div className="font-D16px-M14px">Based On {reviewCount} Reviews</div>
       <div className="mt-[16px]">
-        <span className="mr-[8px] text-[32px] leading-[39px] text-[#333333]">
+        <span className="mr-[8px] text-[32px] leading-[39px] text-darkgray">
           {averageRating}
         </span>
         <span className="text-[13px] leading-[16px] text-gray2">Overall</span>

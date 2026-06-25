@@ -41,11 +41,11 @@ const AffiliateWelcomeModal: FC = () => {
                 height={120}
               />
             </div>
-            <div className="m-auto my-[16px] h-[2px] w-[48px] bg-[#333333] sm:block"></div>
+            <div className="m-auto my-[16px] h-[2px] w-[48px] bg-[#9A9A9F] sm:block"></div>
             <div className="font-D32px-M24px mb-[24px] mt-[24px] text-center font-bold">
               Welcome to our Affiliate program!
             </div>
-            <div className="flex w-full flex-col items-start gap-4 text-[#333333]">
+            <div className="flex w-full flex-col items-start gap-4 text-darkgray">
               <p className="font-D16px-M15px">
                 As an affiliate you have the opportunity to get 10% of every
                 purchase which was made by anyone who registered through your

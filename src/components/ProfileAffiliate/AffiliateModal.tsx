@@ -56,7 +56,7 @@ const AffiliateModal: FC<AffiliateModalProps> = ({
               filled.
             </div>
           </div>
-          <div className="m-auto my-[16px] mt-[16px] h-[2px] w-[48px] bg-[#333333] sm:block"></div>
+          <div className="m-auto my-[16px] mt-[16px] h-[2px] w-[48px] bg-[#9A9A9F] sm:block"></div>
           <div className="font-D16px-M13px m-auto mb-[36px] flex max-w-[448px] flex-col text-center sm:max-w-[100%]">
             Please fill the fields so we can continue with your registration as
             affiliate

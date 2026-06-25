@@ -141,7 +141,7 @@ const Notification: FC<NotificationProps> = ({ productSlugs }) => {
             </div>
           </div>
           <div
-            className="absolute right-[16px] top-[16px] cursor-pointer [&_path]:hover:stroke-[#333333]"
+            className="absolute right-[16px] top-[16px] cursor-pointer [&_path]:hover:stroke-[#9A9A9F]"
             onClick={hideNotification}
           >
             <svg width="18" height="18" viewBox="0 0 18 18" fill="none">

@@ -45,7 +45,7 @@ const MainScroll: FC<MainScrollProps> = ({ children, className }) => {
   const thumbClassNames = (isHovering: boolean, isDragging: boolean) => {
     return classNames(
       "transition-colors duration-200",
-      isHovering || isDragging ? "bg-[#333333]" : "bg-[#f0f0f0]",
+      isHovering || isDragging ? "bg-[#9A9A9F]" : "bg-[#f0f0f0]",
       isDragging ? "cursor-grabbing" : "cursor-grab"
     );
   };

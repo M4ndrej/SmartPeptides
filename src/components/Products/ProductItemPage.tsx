@@ -19,6 +19,7 @@ type ProductItemPageProps = {
 
 const ProductItemPage: FC<ProductItemPageProps> = async ({ slug }) => {
   const product = await fetchProductBySlug(slug);
+  console.log("product:",product);
   if (!product) {
     return notFound();
   }
@@ -41,7 +42,7 @@ const ProductItemPage: FC<ProductItemPageProps> = async ({ slug }) => {
     description: product.short_description,
     offers: {
       "@type": "AggregateOffer",
-      url: `https://smartpeptides.com//${getComProductSlug(product)}`,
+      url: `https://smartpeptides.bio//${getComProductSlug(product)}`,
       lowPrice: product.price,
       priceCurrency: "USD",
       availability: "https://schema.org/InStock",
@@ -81,19 +82,24 @@ const ProductItemPage: FC<ProductItemPageProps> = async ({ slug }) => {
 
   const navigationData = await fetchProductNavigation(product.id);
 
-  return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <ProductPage
-        relatedProducts={relatedProducts}
-        mainProduct={product}
-        navigationData={navigationData}
-      />
-    </>
-  );
+  try {
+    return (
+      <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <ProductPage
+          relatedProducts={relatedProducts}
+          mainProduct={product}
+          navigationData={navigationData}
+        />
+      </>
+    );
+  } catch (e) {
+    console.error("RENDER ERROR:", e);
+    throw e;
+  }
 };
 
 export default ProductItemPage;

@@ -14,7 +14,7 @@ type CashAppNoticeProps = {
 const CashAppNotice: FC<CashAppNoticeProps> = ({ orderDetails }) => {
   const cashappLink = `https://cash.app/$PeptideShop/${orderDetails?.total}`;
   return (
-    <div className="font-D16px-M13px flex flex-col gap-4 rounded-[5px] border-2 border-dashed border-[#333333] bg-lightgray p-4 md:p-6 lg:p-6">
+    <div className="font-D16px-M13px flex flex-col gap-4 rounded-[5px] border-2 border-dashed border-[#9A9A9F] bg-lightgray p-4 md:p-6 lg:p-6">
       <div className="font-D24px-M18px font-bold">Cash App Notice</div>
 
       <div className="flex flex-col gap-6">
@@ -39,7 +39,7 @@ const CashAppNotice: FC<CashAppNoticeProps> = ({ orderDetails }) => {
           </div>
           <div>
             If you are having an issue, call. You can also email{" "}
-            <span className="underline">support@smartpeptides.com</span>
+            <span className="underline">support@smartpeptides.bio</span>
           </div>
         </div>
       </div>

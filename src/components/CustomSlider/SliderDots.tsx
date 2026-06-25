@@ -42,7 +42,7 @@ const SliderDots: FC<SliderDotsProps> = ({
           className={classNames(
             "h-[10px] w-[10px] cursor-pointer rounded-full",
             isDotActive(index, activeIndex, perView)
-              ? "bg-[#333333]"
+              ? "bg-[#9A9A9F]"
               : "bg-[#f0f0f0] dark:bg-transparent"
           )}
         />

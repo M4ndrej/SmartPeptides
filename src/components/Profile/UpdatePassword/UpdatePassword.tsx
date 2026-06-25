@@ -62,7 +62,7 @@ const UpdatePassword = () => {
             onClick={() => {
               setPassEditHeight(passEditHeight === 0 ? "auto" : 0);
             }}
-            className="font-13px-ALL cursor-pointer underline transition duration-300 hover:text-[#333333]"
+            className="font-13px-ALL cursor-pointer underline transition duration-300 hover:text-gray"
             aria-expanded={passEditHeight !== 0}
           >
             edit
@@ -137,7 +137,7 @@ const UpdatePassword = () => {
                     showSpiner
                   />
                 ) : (
-                  <div className="font-bold text-[#333333] sm:max-w-[236px] sm:text-center sm:text-[14px] sm:leading-[20px]">
+                  <div className="font-bold text-darkgray sm:max-w-[236px] sm:text-center sm:text-[14px] sm:leading-[20px]">
                     Profile password updated successfully!
                   </div>
                 )}

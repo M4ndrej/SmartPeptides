@@ -64,7 +64,7 @@ const MyInputLabel: FC<MyInputLabelProps> = ({
             isEmpty &&
             "font-D16px-M14px inset-[1px] px-[16px] py-[12px] text-gray2",
           (isFocused || !isEmpty) &&
-            "font-12px-ALL -top-2 left-5 px-1 text-[#333333]",
+            "font-12px-ALL -top-2 left-5 px-1 text-darkgray",
           !isFocused && !isEmpty && "!p-0",
           isError && "!text-red",
           className
@@ -77,7 +77,7 @@ const MyInputLabel: FC<MyInputLabelProps> = ({
         {label}
         {/*  If input is required show red (*) */}
         {required && (
-          <span className={classNames("text-[#333333]", asteriskClassName)}>
+          <span className={classNames("text-darkgray", asteriskClassName)}>
             {"*"}
           </span>
         )}

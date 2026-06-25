@@ -33,8 +33,8 @@ const SingleProfileTab: FC<SingleTabProps> = ({ tab, isActive }) => {
 
   const styles = classNames(
     "font-D16px-M13px w-full cursor-pointer rounded-[5px] p-4 text-left transition-all ease-in-out hover:bg-lightgray",
-    tab.id !== 7 ? "hover:text-[#333333]" : "text-red",
-    isActive && "bg-lightgray font-bold text-[#333333]"
+    tab.id !== 7 ? "hover:text-gray" : "text-red",
+    isActive && "bg-lightgray font-bold text-darkgray"
   );
 
   if (tab.id === 7) {

@@ -103,7 +103,7 @@ const ProductBanner: FC<ProductBannerProps> = ({
         >
           <Link href={`/${getComProductSlug(mainProduct)}`}>
             <div
-              className={`font-D32px-T24px-M18px cursor-pointer font-bold text-[#333333] transition duration-300 hover:text-[#333333] ${title === "Sterile Empty Vials 10ml (3 pcs)" ? "md:max-w-[430px]" : ""}`}
+              className={`font-D32px-T24px-M18px cursor-pointer font-bold text-darkgray transition duration-300 hover:text-gray ${title === "Sterile Empty Vials 10ml (3 pcs)" ? "md:max-w-[430px]" : ""}`}
               dangerouslySetInnerHTML={{ __html: title }}
             ></div>
           </Link>
@@ -180,9 +180,9 @@ const ProductBanner: FC<ProductBannerProps> = ({
                       className={classNames({
                         "flex cursor-pointer select-none items-center justify-center rounded-[4px] border-[1px] px-[8px] py-[4px] text-[14px] leading-[22px] transition duration-200 ":
                           true,
-                        "border-[#333333] bg-[#333333] text-white":
+                        "border-[#9A9A9F] bg-[#9A9A9F] text-white":
                           option == variation,
-                        "border-gray2 text-gray2 hover:border-[#333333] hover:text-[#333333]":
+                        "border-gray2 text-gray2 hover:border-[#9A9A9F] hover:text-gray":
                           option != variation,
                       })}
                       onClick={() => handleVariationChange(index, option)}
@@ -202,7 +202,7 @@ const ProductBanner: FC<ProductBannerProps> = ({
               </div>
             </div>
             <div className="pt-[10px]">
-              <div className="text-[#333333]">
+              <div className="text-darkgray">
                 {!variation && mainProduct!.variations.length > 1 ? (
                   <>
                     {+mainProduct!.variations[0].price ===

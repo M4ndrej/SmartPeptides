@@ -21,13 +21,13 @@ const CloseButton: FC<CloseButtonProps> = ({ closePopover }) => {
           d="M1 1.00195L16.9989 17.0008"
           strokeWidth="1.5"
           strokeLinecap="round"
-          className="transtion stroke-gray2 duration-300 group-hover:stroke-[#333333]"
+          className="transtion stroke-gray2 duration-300 group-hover:stroke-[#9A9A9F]"
         />
         <path
           d="M1 16.998L16.9989 0.999157"
           strokeWidth="1.5"
           strokeLinecap="round"
-          className="transtion stroke-gray2 duration-300 group-hover:stroke-[#333333]"
+          className="transtion stroke-gray2 duration-300 group-hover:stroke-[#9A9A9F]"
         />
       </svg>
     </div>

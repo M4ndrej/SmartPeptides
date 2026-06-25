@@ -36,6 +36,7 @@ const ProductCardImage: FC<ProductCardImageProps> = ({
     e.preventDefault();
     onNavigate(`/${getComProductSlug(mainProduct)}`);
   };
+  console.log("Image:",mainProductImages?.[0]?.src)
 
   if (isSpecialProduct) {
     return (

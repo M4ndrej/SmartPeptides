@@ -24,7 +24,7 @@ const ChangeEmailIcon: React.FC<ChangeEmailIconProps> = ({
           className={classNames(
             "flex cursor-pointer items-center rounded-[4px] border border-transparent bg-borderColor px-[6px] py-[5px] text-gray2 transition-colors duration-200 hover:bg-transparent",
             emailEditState === "edit" &&
-              "!bg-[#333333] !text-white hover:!bg-[#2B6DA3]"
+              "!bg-[#9A9A9F] !text-white hover:!bg-[#2B6DA3]"
           )}
         >
           <span className="ml-[6px] mr-[4px] text-[12px] ">

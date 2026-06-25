@@ -110,20 +110,20 @@ const MyTextArea: FC<MyTextAreaProps> = ({
         aria-invalid={isError}
         aria-errormessage={errorMessage}
         className={classNames(
-          "font-16px-ALL scrollbar h-[48px] w-full rounded-[5px] border border-borderColor bg-inputColor px-[16px] py-[12px] placeholder-gray2 outline-0 transition-colors duration-300 ease-linear dark:border-none dark:text-[#333333]",
-          isFocused && "!border-[#333333] dark:!border-none",
+          "font-16px-ALL scrollbar h-[48px] w-full rounded-[5px] border border-borderColor bg-inputColor px-[16px] py-[12px] placeholder-gray2 outline-0 transition-colors duration-300 ease-linear dark:border-none dark:text-darkgray",
+          isFocused && "!border-[#9A9A9F] dark:!border-none",
           isFocused && !reverseColors && "!bg-[#f0f0f0] dark:!bg-inputColor",
           isFocused && reverseColors && "!bg-inputColor",
           value &&
             !isFocused &&
             !reverseColors &&
             !disabled &&
-            "!border-light-blue2 !bg-[#f0f0f0] !text-[#333333] dark:!bg-inputColor",
+            "!border-light-blue2 !bg-[#f0f0f0] !text-darkgray dark:!bg-inputColor",
           value &&
             !isFocused &&
             reverseColors &&
             !disabled &&
-            "!border-white !bg-white !text-[#333333] dark:!bg-inputColor",
+            "!border-white !bg-white !text-darkgray dark:!bg-inputColor",
           isError && "!border-red !bg-lightred !text-red",
           disabled &&
             "!border-lightgray !bg-lightgray text-gray2 dark:!bg-inputColor",

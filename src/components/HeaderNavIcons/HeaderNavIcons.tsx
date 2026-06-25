@@ -165,7 +165,7 @@ const HeaderNavIcons: FC<HeaderNavIconsProps> = ({
         {wishlistItemIds.length > 0 && (
           <div
             className={classNames({
-              "font-D13px-M11px absolute right-[-5px] top-0 flex h-[20px] w-[20px] select-none items-center justify-center rounded-full bg-[#333333] text-white sm:right-[-3px] sm:top-[-3px] sm:h-[18px] sm:w-[18px] sm:pt-[1px]":
+              "font-D13px-M11px absolute right-[-5px] top-0 flex h-[20px] w-[20px] select-none items-center justify-center rounded-full bg-[#9A9A9F] text-white sm:right-[-3px] sm:top-[-3px] sm:h-[18px] sm:w-[18px] sm:pt-[1px]":
                 true,
               "font-D13px-M11px right-[-6px] !h-[23px] !w-[23px] pt-[1px] text-[12px] leading-[15px] sm:right-[-8px] sm:top-[-4px]  sm:!h-[24px] sm:!w-[24px] sm:pt-0":
                 wishlistItemIds.length > 9,

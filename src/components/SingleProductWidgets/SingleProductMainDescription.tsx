@@ -18,7 +18,7 @@ const SingleProductMainDescription: FC<SingleProductMainDescriptionProps> = ({
         <div className="flex items-start gap-x-[23px] sm:w-[100%] sm:flex-col md:flex-col">
           <div className="flex w-[229px] items-center justify-between sm:mb-[16px] md:mb-[16px]">
             <div className="font-D24px-M18px flex min-w-[229px] items-center gap-[16px] font-bold">
-              <div className="block h-[2px] w-[16px] rounded-[2px] bg-[#333333]"></div>{" "}
+              <div className="block h-[2px] w-[16px] rounded-[2px] bg-[#9A9A9F]"></div>{" "}
               <span>Description</span>
             </div>
           </div>

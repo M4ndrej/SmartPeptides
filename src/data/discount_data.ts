@@ -96,7 +96,7 @@ export const discount_data: DiscountSectionType[] = [
   // },
   // {
   //   headline: "QUANTITY",
-  //   customClass: "bg-[#333333]",
+  //   customClass: "bg-[#9A9A9F]",
   //   discounts: [
   //     {
   //       id: 1,
@@ -116,7 +116,7 @@ export const discount_data: DiscountSectionType[] = [
   // },
   // {
   //   headline: "FIRST ORDER",
-  //   customClass: "bg-[#333333]",
+  //   customClass: "bg-[#9A9A9F]",
   //   discounts: [
   //     {
   //       id: 1,
@@ -129,7 +129,7 @@ export const discount_data: DiscountSectionType[] = [
   // },
   {
     headline: "HOLIDAYS",
-    customClass: "bg-[#333333]",
+    customClass: "bg-[#9A9A9F]",
     discounts: [
       {
         id: 1,

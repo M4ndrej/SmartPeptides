@@ -15,7 +15,7 @@ const ShopMerchBanner = ({ className }: { className?: string }) => {
       )}
     >
       <div className="flex min-w-[330px] max-w-[740px] flex-col items-start p-10 sm:pl-6">
-        <h2 className="font-D32px-M24px mb-4 pb-[16px] text-center font-bold text-[#333333]">
+        <h2 className="font-D32px-M24px mb-4 pb-[16px] text-center font-bold text-darkgray">
           Merchandise
         </h2>
         <p className="mb-8">

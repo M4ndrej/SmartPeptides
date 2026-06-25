@@ -73,9 +73,9 @@ const TimeFilters: FC<TimeFiltersProps> = ({
             className={classNames(
               `inline-flex grow select-none items-center justify-center overflow-hidden text-ellipsis whitespace-nowrap rounded-[5px] border-none
             bg-lightgray px-8 py-2 font-normal text-gray2
-            !transition-all !duration-300 hover:bg-[#f0f0f0] hover:text-[#333333] sm:w-full dark:hover:bg-transparent`,
+            !transition-all !duration-300 hover:bg-[#f0f0f0] hover:text-gray sm:w-full dark:hover:bg-transparent`,
               activeFilter == filter.value &&
-                "!bg-[#f0f0f0] !text-[#333333] dark:!bg-transparent"
+                "!bg-[#f0f0f0] !text-darkgray dark:!bg-transparent"
             )}
             onClick={() => onFilterPress(filter.value)}
           >

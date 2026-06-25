@@ -53,7 +53,7 @@ const HeaderCartButton: FC = () => {
         {!!itemCount && (
           <div
             className={classNames(
-              "font-D13px-M11px absolute right-[-5px] top-0 flex h-[20px] w-[20px] cursor-pointer select-none items-center justify-center rounded-full bg-[#333333] text-textWhite sm:right-[-3px] sm:top-[-3px] sm:h-[14px] sm:w-[14px] sm:pt-[1px]",
+              "font-D13px-M11px absolute right-[-5px] top-0 flex h-[20px] w-[20px] cursor-pointer select-none items-center justify-center rounded-full bg-[#9A9A9F] text-textWhite sm:right-[-3px] sm:top-[-3px] sm:h-[14px] sm:w-[14px] sm:pt-[1px]",
               itemCount > 9 &&
                 "right-[-4px] !h-[23px] !w-[23px] pt-[1px] text-[12px] leading-[15px] sm:right-[-8px] sm:top-[-4px] sm:!h-[20px] sm:!w-[20px] sm:pt-0"
             )}
@@ -61,7 +61,7 @@ const HeaderCartButton: FC = () => {
             {itemCount}
           </div>
         )}
-        <BagIcon className="transition-colors duration-300 group-hover/cart:!fill-[#333333] sm:!h-6 sm:!w-6" />
+        <BagIcon className="transition-colors duration-300 group-hover/cart:!fill-[#9A9A9F] sm:!h-6 sm:!w-6" />
       </button>
     </div>
   );
